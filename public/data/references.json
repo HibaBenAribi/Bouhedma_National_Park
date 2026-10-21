@@ -1,0 +1,2501 @@
+{
+  "title": "References and copyright",
+  "updated": "2026-10-21",
+  "items": [
+    {
+      "id": "paper:dalhoumi-2016",
+      "kind": "paper",
+      "species": "",
+      "license_type": "As published — copyright stays with the authors and the journal",
+      "copyright_holder": "Dalhoumi, Aissa & Aulagnier / TÜBİTAK (Turkish Journal of Zoology)",
+      "label": "Dalhoumi et al. 2016 — Bat species richness and activity in Bou Hedma National Park — Turkish J. Zool. 40(6): 864–875"
+    },
+    {
+      "id": "paper:ouni-2024",
+      "kind": "paper",
+      "species": "",
+      "license_type": "As published — copyright stays with the authors and the journal",
+      "copyright_holder": "Ouni et al. / French Ornithological Society (Alauda)",
+      "label": "Ouni et al. 2024 — Tunisian bird records, 2015–2022 — Alauda 92(2)"
+    },
+    {
+      "id": "paper:rouissi-2024",
+      "kind": "paper",
+      "species": "",
+      "license_type": "Open access as published — copyright stays with the authors",
+      "copyright_holder": "Rouissi et al. / Universidad Nacional de Colombia (Caldasia)",
+      "label": "Rouissi et al. 2024 — Phytoecological study of a Biosphere Reserve in arid climate in Tunisia — Caldasia 46(1): 59–70"
+    },
+    {
+      "id": "paper:traba-2016",
+      "kind": "paper",
+      "species": "",
+      "license_type": "As published — copyright stays with the authors and the journal",
+      "copyright_holder": "Traba et al. / Elsevier (Journal of Arid Environments)",
+      "label": "Traba et al. 2016 — Coexistence and habitat partitioning at micro- and macro-scales of rodent species in a North African desert (Bou-Hedma) — J. Arid Environ. 131: 46–58"
+    },
+    {
+      "id": "image:abdims-stork",
+      "kind": "image",
+      "species": "abdims-stork",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Yathin S Krishnappa",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ciconia%20abdimii",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:acacia-raddiana",
+      "kind": "image",
+      "species": "acacia-raddiana",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Slim Alileche",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Vachellia%20raddiana",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:african-golden-wolf",
+      "kind": "image",
+      "species": "african-golden-wolf",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Slim Alileche",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Canis%20lupaster",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:african-golden-wolf:2",
+      "kind": "image",
+      "species": "african-golden-wolf",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Slim Alileche",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Canis%20lupaster",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:alfa-grass",
+      "kind": "image",
+      "species": "alfa-grass",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Krzysztof Ziarnek, Kenraiz",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Stipa%20tenacissima",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:atlas-pistachio",
+      "kind": "image",
+      "species": "atlas-pistachio",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "איתן פרמן",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Pistacia%20atlantica",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:atlas-wheatear",
+      "kind": "image",
+      "species": "atlas-wheatear",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Ron Knight",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Oenanthe%20seebohmi",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:audouins-gull",
+      "kind": "image",
+      "species": "audouins-gull",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Ken Billington",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Larus%20audouinii",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:balearic-shearwater",
+      "kind": "image",
+      "species": "balearic-shearwater",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Conselleria de Medi Ambient i Mobilitat, Govern des Illes Balears",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Puffinus%20mauretanicus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:baluchistan-gerbil",
+      "kind": "image",
+      "species": "baluchistan-gerbil",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Demian Hiß",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Gerbillus%20amoenus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:barbary-sheep",
+      "kind": "image",
+      "species": "barbary-sheep",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "The High Fin Sperm Whale",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ammotragus%20lervia",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:barbary-sheep:2",
+      "kind": "image",
+      "species": "barbary-sheep",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) Paolo Cazzaniga",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ammotragus%20lervia",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:black-redstart",
+      "kind": "image",
+      "species": "black-redstart",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Phoenicurus%20ochruros",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:black-stork",
+      "kind": "image",
+      "species": "black-stork",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Giles Laurent",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ciconia%20nigra",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:black-crowned-night-heron",
+      "kind": "image",
+      "species": "black-crowned-night-heron",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Nycticorax%20nycticorax",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:black-headed-gull",
+      "kind": "image",
+      "species": "black-headed-gull",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "ArildV",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Chroicocephalus%20ridibundus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:black-legged-kittiwake",
+      "kind": "image",
+      "species": "black-legged-kittiwake",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Rissa%20tridactyla",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:black-winged-kite",
+      "kind": "image",
+      "species": "black-winged-kite",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Elanus%20caeruleus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:black-winged-stilt",
+      "kind": "image",
+      "species": "black-winged-stilt",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Himantopus%20himantopus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:blue-cheeked-bee-eater",
+      "kind": "image",
+      "species": "blue-cheeked-bee-eater",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Skander zarrad",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Merops%20persicus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:fringed-finger-lizard",
+      "kind": "image",
+      "species": "fringed-finger-lizard",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Houssembo",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Acanthodactylus%20boskianus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:fringed-finger-lizard:2",
+      "kind": "image",
+      "species": "fringed-finger-lizard",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) lthibedore",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Acanthodactylus%20boskianus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:brambling",
+      "kind": "image",
+      "species": "brambling",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "TRinaud",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Fringilla%20montifringilla",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:broom-hammad",
+      "kind": "image",
+      "species": "broom-hammad",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Naouel hakim",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Hammada%20scoparia",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:buffel-grass",
+      "kind": "image",
+      "species": "buffel-grass",
+      "license_type": "Public domain",
+      "copyright_holder": "unknown",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Cenchrus%20ciliaris",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:cairo-rockrose",
+      "kind": "image",
+      "species": "cairo-rockrose",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Krzysztof Ziarnek, Kenraiz",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Helianthemum%20kahiricum",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:cattle-egret",
+      "kind": "image",
+      "species": "cattle-egret",
+      "license_type": "GFDL 1.2",
+      "copyright_holder": "Mifter (talk)",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Bubulcus%20ibis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:cinereous-vulture",
+      "kind": "image",
+      "species": "cinereous-vulture",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Artemy Voikhansky",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Aegypius%20monachus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:bent-wing-bat",
+      "kind": "image",
+      "species": "bent-wing-bat",
+      "license_type": "Public domain",
+      "copyright_holder": "Andrew Smith",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Miniopterus%20schreibersii",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:common-blackbird",
+      "kind": "image",
+      "species": "common-blackbird",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Turdus%20merula",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:common-crane",
+      "kind": "image",
+      "species": "common-crane",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Zeynel Cebeci",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Grus%20grus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:common-house-martin",
+      "kind": "image",
+      "species": "common-house-martin",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Ken Billington",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Delichon%20urbicum",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:common-pipistrelle",
+      "kind": "image",
+      "species": "common-pipistrelle",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "unknown",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Pipistrellus%20pipistrellus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:common-reed-bunting",
+      "kind": "image",
+      "species": "common-reed-bunting",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Emberiza%20schoeniclus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:common-wood-pigeon",
+      "kind": "image",
+      "species": "common-wood-pigeon",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Alexey V. Kurochkin",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Columba%20palumbus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:yellow-scorpion",
+      "kind": "image",
+      "species": "yellow-scorpion",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Álvaro Rodríguez Alberich",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Buthus%20occitanus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:convolvulus-hawk-moth",
+      "kind": "image",
+      "species": "convolvulus-hawk-moth",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Agrius%20convolvuli",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:cream-coloured-courser",
+      "kind": "image",
+      "species": "cream-coloured-courser",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Cursorius%20cursor",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:crowned-sandgrouse",
+      "kind": "image",
+      "species": "crowned-sandgrouse",
+      "license_type": "Public domain",
+      "copyright_holder": "Henrik Grønvold",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Pterocles%20coronatus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:dama-gazelle",
+      "kind": "image",
+      "species": "dama-gazelle",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Diego Delso",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Nanger%20dama",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:dark-chanting-goshawk",
+      "kind": "image",
+      "species": "dark-chanting-goshawk",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Melierax%20metabates",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:darkling-beetle",
+      "kind": "image",
+      "species": "darkling-beetle",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Kolforn (Kolforn) I'd appreciate if you could mail me …",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Pimelia%20ventosa",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:deathstalker",
+      "kind": "image",
+      "species": "deathstalker",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Danny S.",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Leiurus%20quinquestriatus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:desert-ant",
+      "kind": "image",
+      "species": "desert-ant",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Seidl T, Wehner R",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Cataglyphis%20fortis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:desert-horned-viper",
+      "kind": "image",
+      "species": "desert-horned-viper",
+      "license_type": "CC BY 3.0",
+      "copyright_holder": "Holger Krisp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Cerastes%20cerastes",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:desert-horned-viper:2",
+      "kind": "image",
+      "species": "desert-horned-viper",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Cerastes%20cerastes",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:desert-horned-viper:3",
+      "kind": "image",
+      "species": "desert-horned-viper",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Cerastes%20cerastes",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:desert-long-eared-bat",
+      "kind": "image",
+      "species": "desert-long-eared-bat",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Dan Riskin",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Otonycteris%20hemprichii",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:desert-pancratium",
+      "kind": "image",
+      "species": "desert-pancratium",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Marco Schmidt [1]",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Pancratium%20trianthum",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:desert-sparrow",
+      "kind": "image",
+      "species": "desert-sparrow",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Francesco Veronesi from Italy",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Passer%20simplex",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:dorcas-gazelle",
+      "kind": "image",
+      "species": "dorcas-gazelle",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Gazella%20dorcas",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:dorcas-gazelle:2",
+      "kind": "image",
+      "species": "dorcas-gazelle",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) Georges Olioso",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Gazella%20dorcas",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:duponts-lark",
+      "kind": "image",
+      "species": "duponts-lark",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Mike Prince from Bangalore, India",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Chersophilus%20duponti",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:eastern-imperial-eagle",
+      "kind": "image",
+      "species": "eastern-imperial-eagle",
+      "license_type": "CC BY-SA 2.5",
+      "copyright_holder": "user:AngMoKio",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Aquila%20heliaca",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:egyptian-mouse-tailed-bat",
+      "kind": "image",
+      "species": "egyptian-mouse-tailed-bat",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Julien Renoult",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Rhinopoma%20cystops",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:egyptian-vulture",
+      "kind": "image",
+      "species": "egyptian-vulture",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Carlos Delgado",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Neophron%20percnopterus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:eurasian-bittern",
+      "kind": "image",
+      "species": "eurasian-bittern",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Botaurus%20stellaris",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:eurasian-collared-dove",
+      "kind": "image",
+      "species": "eurasian-collared-dove",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Streptopelia%20decaocto",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:eurasian-golden-oriole",
+      "kind": "image",
+      "species": "eurasian-golden-oriole",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Paco Gómez from Castellón, Spain",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Oriolus%20oriolus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:eurasian-stone-curlew",
+      "kind": "image",
+      "species": "eurasian-stone-curlew",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Burhinus%20oedicnemus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:eurasian-tree-sparrow",
+      "kind": "image",
+      "species": "eurasian-tree-sparrow",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Peter P. Othagoer",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Passer%20montanus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:european-free-tailed-bat",
+      "kind": "image",
+      "species": "european-free-tailed-bat",
+      "license_type": "CC BY 3.0",
+      "copyright_holder": "Emanuel Yellin - עמנואל ילין",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Tadarida%20teniotis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:fat-tailed-scorpion",
+      "kind": "image",
+      "species": "fat-tailed-scorpion",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Faouz Kilani",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Androctonus%20australis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:fat-tailed-scorpion:2",
+      "kind": "image",
+      "species": "fat-tailed-scorpion",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) Daniel PAVON",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Androctonus%20australis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:punic-myotis",
+      "kind": "image",
+      "species": "punic-myotis",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Aissa Djamel Filali (iNaturalist user aissadjamelfilali)",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Myotis%20punicus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:fringed-two-awn",
+      "kind": "image",
+      "species": "fringed-two-awn",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Krzysztof Ziarnek, Kenraiz",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Stipagrostis%20ciliata",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:gaislers-long-eared-bat",
+      "kind": "image",
+      "species": "gaislers-long-eared-bat",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "tomas_kay",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Plecotus%20gaisleri",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:glossy-ibis",
+      "kind": "image",
+      "species": "glossy-ibis",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Plegadis%20falcinellus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:great-cormorant",
+      "kind": "image",
+      "species": "great-cormorant",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Phalacrocorax%20carbo",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:great-spotted-cuckoo",
+      "kind": "image",
+      "species": "great-spotted-cuckoo",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "opisska",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Clamator%20glandarius",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:great-spotted-woodpecker",
+      "kind": "image",
+      "species": "great-spotted-woodpecker",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Dendrocopos%20major",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:greater-flamingo",
+      "kind": "image",
+      "species": "greater-flamingo",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Phoenicopterus%20roseus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:greater-horseshoe-bat",
+      "kind": "image",
+      "species": "greater-horseshoe-bat",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Rhinolophus%20ferrumequinum",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:greater-spotted-eagle",
+      "kind": "image",
+      "species": "greater-spotted-eagle",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Tisha Mukherjee",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Aquila%20clanga",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:grey-heron",
+      "kind": "image",
+      "species": "grey-heron",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Basile Morin",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ardea%20cinerea",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:grey-wagtail",
+      "kind": "image",
+      "species": "grey-wagtail",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Nrik kiran",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Motacilla%20cinerea",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:grey-headed-gull",
+      "kind": "image",
+      "species": "grey-headed-gull",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Chroicocephalus%20cirrocephalus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:griffon-vulture",
+      "kind": "image",
+      "species": "griffon-vulture",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Alexis LOURS",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Gyps%20fulvus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:gull-billed-tern",
+      "kind": "image",
+      "species": "gull-billed-tern",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Gelochelidon%20nilotica",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:gundi",
+      "kind": "image",
+      "species": "gundi",
+      "license_type": "Public domain",
+      "copyright_holder": "unknown",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ctenodactylus%20gundi",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:harvester-ant",
+      "kind": "image",
+      "species": "harvester-ant",
+      "license_type": "CC0",
+      "copyright_holder": "Jebulon",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Messor%20barbarus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:honey-bee",
+      "kind": "image",
+      "species": "honey-bee",
+      "license_type": "GFDL 1.2",
+      "copyright_holder": "Muhammad Mahdi Karim",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Apis%20mellifera",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:hooded-crow",
+      "kind": "image",
+      "species": "hooded-crow",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Krigore",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Corvus%20cornix",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:house-bunting",
+      "kind": "image",
+      "species": "house-bunting",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "El Golli Mohamed",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Emberiza%20sahari",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:house-bunting:2",
+      "kind": "image",
+      "species": "house-bunting",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) roger_e_n_smith",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Emberiza%20sahari",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:kuhls-pipistrelle",
+      "kind": "image",
+      "species": "kuhls-pipistrelle",
+      "license_type": "CC BY 3.0",
+      "copyright_holder": "Leonardoancillotto86",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Pipistrellus%20kuhlii",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:large-north-african-gerbil",
+      "kind": "image",
+      "species": "large-north-african-gerbil",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Micktherocktapper",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Gerbillus%20campestris",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:lesser-egyptian-gerbil",
+      "kind": "image",
+      "species": "lesser-egyptian-gerbil",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Julien Renoult",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Gerbillus%20gerbillus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:lesser-egyptian-gerbil:2",
+      "kind": "image",
+      "species": "lesser-egyptian-gerbil",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) Royle Safaris",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Gerbillus%20gerbillus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:lesser-flamingo",
+      "kind": "image",
+      "species": "lesser-flamingo",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Phoenicopterus%20minor",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:lesser-horseshoe-bat",
+      "kind": "image",
+      "species": "lesser-horseshoe-bat",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Bouke ten Cate",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Rhinolophus%20hipposideros",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:lesser-kestrel",
+      "kind": "image",
+      "species": "lesser-kestrel",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Sumeet Moghe",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Falco%20naumanni",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:levaillants-woodpecker",
+      "kind": "image",
+      "species": "levaillants-woodpecker",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Ron Knight",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Picus%20vaillantii",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:little-bittern",
+      "kind": "image",
+      "species": "little-bittern",
+      "license_type": "CC BY 3.0",
+      "copyright_holder": "Biser Todorov",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ixobrychus%20minutus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:little-bustard",
+      "kind": "image",
+      "species": "little-bustard",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Francesco Veronesi",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Tetrax%20tetrax",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:little-egret",
+      "kind": "image",
+      "species": "little-egret",
+      "license_type": "CC0",
+      "copyright_holder": "Hobbyfotowiki",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Egretta%20garzetta",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:little-grebe",
+      "kind": "image",
+      "species": "little-grebe",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Tachybaptus%20ruficollis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:maghreb-magpie",
+      "kind": "image",
+      "species": "maghreb-magpie",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Pica%20mauritanica",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:mediterranean-horseshoe-bat",
+      "kind": "image",
+      "species": "mediterranean-horseshoe-bat",
+      "license_type": "Public domain",
+      "copyright_holder": "Македонская почта",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Rhinolophus%20euryale",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:mehelys-horseshoe-bat",
+      "kind": "image",
+      "species": "mehelys-horseshoe-bat",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "F. C. Robiller / naturlichter.de",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Rhinolophus%20mehelyi",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:meridional-serotine",
+      "kind": "image",
+      "species": "meridional-serotine",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Mourad",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Eptesicus%20isabellinus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:montpellier-snake",
+      "kind": "image",
+      "species": "montpellier-snake",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Bernard DUPONT",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Malpolon%20monspessulanus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:nodose-finger-grass",
+      "kind": "image",
+      "species": "nodose-finger-grass",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Christian Berg",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Digitaria%20nodosa",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:north-african-ostrich",
+      "kind": "image",
+      "species": "north-african-ostrich",
+      "license_type": "CC0",
+      "copyright_holder": "randomwild",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Struthio%20camelus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:north-african-ostrich:2",
+      "kind": "image",
+      "species": "north-african-ostrich",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Struthio%20camelus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:obtuse-two-awn",
+      "kind": "image",
+      "species": "obtuse-two-awn",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "JonRichfield",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Stipagrostis%20obtusa",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:ocellated-skink",
+      "kind": "image",
+      "species": "ocellated-skink",
+      "license_type": "CC0",
+      "copyright_holder": "Jebulon",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Chalcides%20ocellatus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:old-world-swallowtail",
+      "kind": "image",
+      "species": "old-world-swallowtail",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Papilio%20machaon",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:pacific-golden-plover",
+      "kind": "image",
+      "species": "pacific-golden-plover",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "JJ Harrison (https://tiny.jjharrison.com.au/t/3CuTyj5LtxrKUxYI)",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Pluvialis%20fulva",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:pale-crag-martin",
+      "kind": "image",
+      "species": "pale-crag-martin",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Lip Kee Yap from Singapore, Republic of Singapore",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ptyonoprogne%20obsoleta",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:pectoral-sandpiper",
+      "kind": "image",
+      "species": "pectoral-sandpiper",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "aissadjamelfilali",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Calidris%20melanotos",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:phoenician-juniper",
+      "kind": "image",
+      "species": "phoenician-juniper",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Sten",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Juniperus%20phoenicea",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:purple-heron",
+      "kind": "image",
+      "species": "purple-heron",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ardea%20purpurea",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:purple-sandpiper",
+      "kind": "image",
+      "species": "purple-sandpiper",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Gordon Leggett",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Calidris%20maritima",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:red-fox",
+      "kind": "image",
+      "species": "red-fox",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Gregory \"Slobirdr\" Smith",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Vulpes%20vulpes",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:red-phalarope",
+      "kind": "image",
+      "species": "red-phalarope",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Ron Knight",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Phalaropus%20fulicarius",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:red-billed-chough",
+      "kind": "image",
+      "species": "red-billed-chough",
+      "license_type": "CC0",
+      "copyright_holder": "Hobbyfotowiki",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Pyrrhocorax%20pyrrhocorax",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:red-breasted-flycatcher",
+      "kind": "image",
+      "species": "red-breasted-flycatcher",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Tisha Mukherjee",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ficedula%20parva",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:red-crested-pochard",
+      "kind": "image",
+      "species": "red-crested-pochard",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Diliff",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Netta%20rufina",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:red-necked-phalarope",
+      "kind": "image",
+      "species": "red-necked-phalarope",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Phalaropus%20lobatus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:red-rumped-swallow",
+      "kind": "image",
+      "species": "red-rumped-swallow",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Zeynel Cebeci",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Cecropis%20daurica",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:ring-ouzel",
+      "kind": "image",
+      "species": "ring-ouzel",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "MPF",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Turdus%20torquatus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:ruddy-shelduck",
+      "kind": "image",
+      "species": "ruddy-shelduck",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Diego Delso",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Tadorna%20ferruginea",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:sacred-scarab",
+      "kind": "image",
+      "species": "sacred-scarab",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Sarefo",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Scarabaeus%20sacer",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:salt-gymnocarpos",
+      "kind": "image",
+      "species": "salt-gymnocarpos",
+      "license_type": "CC BY 2.5",
+      "copyright_holder": "עוזי פז",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Gymnocarpos%20decander",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:sand-viper",
+      "kind": "image",
+      "species": "sand-viper",
+      "license_type": "CC BY-SA 2.5",
+      "copyright_holder": "unknown",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Cerastes%20vipera",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:sandfish-skink",
+      "kind": "image",
+      "species": "sandfish-skink",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Bikerhiker75",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Scincus%20scincus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:savis-warbler",
+      "kind": "image",
+      "species": "savis-warbler",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Ron Knight from Seaford, East Sussex, United Kingdom",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Locustella%20luscinioides",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:scimitar-oryx",
+      "kind": "image",
+      "species": "scimitar-oryx",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Chrumps",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Oryx%20dammah",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:scimitar-oryx:2",
+      "kind": "image",
+      "species": "scimitar-oryx",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) roger_e_n_smith",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Oryx%20dammah",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:scopolis-shearwater",
+      "kind": "image",
+      "species": "scopolis-shearwater",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "000izquierdoguillem",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Calonectris%20diomedea",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:semicollared-flycatcher",
+      "kind": "image",
+      "species": "semicollared-flycatcher",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Paul Asman and Jill Lenoble",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ficedula%20semitorquata",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:shaws-jird",
+      "kind": "image",
+      "species": "shaws-jird",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Mourad Hazallah",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Meriones%20shawii",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:silk-vine",
+      "kind": "image",
+      "species": "silk-vine",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Balles2601 (iNaturalist profile: Balles2601)",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Periploca%20angustifolia",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:silk-vine:2",
+      "kind": "image",
+      "species": "silk-vine",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) glenngg",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Periploca%20angustifolia",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:slender-billed-gull",
+      "kind": "image",
+      "species": "slender-billed-gull",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Chroicocephalus%20genei",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:spurge-hawk-moth",
+      "kind": "image",
+      "species": "spurge-hawk-moth",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Zeynel Cebeci",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Hyles%20euphorbiae",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:squacco-heron",
+      "kind": "image",
+      "species": "squacco-heron",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ardeola%20ralloides",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:steppe-eagle",
+      "kind": "image",
+      "species": "steppe-eagle",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Imran Shah from Islamabad, Pakistan",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Aquila%20nipalensis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:striped-hyena",
+      "kind": "image",
+      "species": "striped-hyena",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Rushikesh Deshmukh DOP",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Hyaena%20hyaena",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:sundevalls-jird",
+      "kind": "image",
+      "species": "sundevalls-jird",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Jaroslav Vogeltanz",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Meriones%20crassus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:terek-sandpiper",
+      "kind": "image",
+      "species": "terek-sandpiper",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Vedant Raju Kasambe",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Xenus%20cinereus",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:wahlbergs-eagle",
+      "kind": "image",
+      "species": "wahlbergs-eagle",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Bernard DUPONT from FRANCE",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Hieraaetus%20wahlbergi",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:western-reef-heron",
+      "kind": "image",
+      "species": "western-reef-heron",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Egretta%20gularis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:white-broom",
+      "kind": "image",
+      "species": "white-broom",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Original: Ariel Palmon Derived: Peter Coxhead",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Retama%20raetam",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:white-broom:2",
+      "kind": "image",
+      "species": "white-broom",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "(c) roger_e_n_smith",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Retama%20raetam",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:white-stork",
+      "kind": "image",
+      "species": "white-stork",
+      "license_type": "CC BY-SA 2.5",
+      "copyright_holder": "Andreas Trepte",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Ciconia%20ciconia",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:white-wormwood",
+      "kind": "image",
+      "species": "white-wormwood",
+      "license_type": "CC BY 3.0",
+      "copyright_holder": "GYassineMrabetTalk✉",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Artemisia%20herba%20alba",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:white-spotted-beetle",
+      "kind": "image",
+      "species": "white-spotted-beetle",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Hans Hillewaert",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Oxythyrea%20cinctella",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:white-winged-snowfinch",
+      "kind": "image",
+      "species": "white-winged-snowfinch",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Pierre Dalous",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Montifringilla%20nivalis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:wild-olive",
+      "kind": "image",
+      "species": "wild-olive",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Christian Ferrer",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Olea%20europaea%20oleaster",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:yelkouan-shearwater",
+      "kind": "image",
+      "species": "yelkouan-shearwater",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Zsolyomi",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Puffinus%20yelkouan",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "image:yellow-legged-gull",
+      "kind": "image",
+      "species": "yellow-legged-gull",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Krzysztof Golik",
+      "reference": "https://www.inaturalist.org/taxa/search?q=Larus%20michahellis",
+      "reference_title": "iNaturalist"
+    },
+    {
+      "id": "audio:black-redstart",
+      "kind": "audio",
+      "species": "black-redstart",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Marie-Lan Taÿ Pamart"
+    },
+    {
+      "id": "audio:black-stork",
+      "kind": "audio",
+      "species": "black-stork",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:black-crowned-night-heron",
+      "kind": "audio",
+      "species": "black-crowned-night-heron",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Jan Cibulka"
+    },
+    {
+      "id": "audio:black-headed-gull",
+      "kind": "audio",
+      "species": "black-headed-gull",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Dan Stowell"
+    },
+    {
+      "id": "audio:black-legged-kittiwake",
+      "kind": "audio",
+      "species": "black-legged-kittiwake",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "unknown"
+    },
+    {
+      "id": "audio:black-winged-kite",
+      "kind": "audio",
+      "species": "black-winged-kite",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Sharadapte"
+    },
+    {
+      "id": "audio:black-winged-stilt",
+      "kind": "audio",
+      "species": "black-winged-stilt",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "عثمان"
+    },
+    {
+      "id": "audio:brambling",
+      "kind": "audio",
+      "species": "brambling",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:cattle-egret",
+      "kind": "audio",
+      "species": "cattle-egret",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Speaker: PopularOutcast Authors of the article"
+    },
+    {
+      "id": "audio:cinereous-vulture",
+      "kind": "audio",
+      "species": "cinereous-vulture",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:common-blackbird",
+      "kind": "audio",
+      "species": "common-blackbird",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "James Ray"
+    },
+    {
+      "id": "audio:common-crane",
+      "kind": "audio",
+      "species": "common-crane",
+      "license_type": "CC0",
+      "copyright_holder": "Hugo.arg"
+    },
+    {
+      "id": "audio:common-house-martin",
+      "kind": "audio",
+      "species": "common-house-martin",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "unknown"
+    },
+    {
+      "id": "audio:common-reed-bunting",
+      "kind": "audio",
+      "species": "common-reed-bunting",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:common-wood-pigeon",
+      "kind": "audio",
+      "species": "common-wood-pigeon",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:cream-coloured-courser",
+      "kind": "audio",
+      "species": "cream-coloured-courser",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:eastern-imperial-eagle",
+      "kind": "audio",
+      "species": "eastern-imperial-eagle",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:eurasian-bittern",
+      "kind": "audio",
+      "species": "eurasian-bittern",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Miro Demko"
+    },
+    {
+      "id": "audio:eurasian-collared-dove",
+      "kind": "audio",
+      "species": "eurasian-collared-dove",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Opsylac"
+    },
+    {
+      "id": "audio:eurasian-golden-oriole",
+      "kind": "audio",
+      "species": "eurasian-golden-oriole",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Alexander Kurthy"
+    },
+    {
+      "id": "audio:eurasian-stone-curlew",
+      "kind": "audio",
+      "species": "eurasian-stone-curlew",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:eurasian-tree-sparrow",
+      "kind": "audio",
+      "species": "eurasian-tree-sparrow",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Derek Paulo"
+    },
+    {
+      "id": "audio:glossy-ibis",
+      "kind": "audio",
+      "species": "glossy-ibis",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:great-cormorant",
+      "kind": "audio",
+      "species": "great-cormorant",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:great-spotted-cuckoo",
+      "kind": "audio",
+      "species": "great-spotted-cuckoo",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "JMK"
+    },
+    {
+      "id": "audio:great-spotted-woodpecker",
+      "kind": "audio",
+      "species": "great-spotted-woodpecker",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "T.Voekler"
+    },
+    {
+      "id": "audio:greater-flamingo",
+      "kind": "audio",
+      "species": "greater-flamingo",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Joost van Bruggen"
+    },
+    {
+      "id": "audio:grey-heron",
+      "kind": "audio",
+      "species": "grey-heron",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Joost van Bruggen"
+    },
+    {
+      "id": "audio:grey-wagtail",
+      "kind": "audio",
+      "species": "grey-wagtail",
+      "license_type": "CC BY 3.0",
+      "copyright_holder": "luc de bruijn"
+    },
+    {
+      "id": "audio:griffon-vulture",
+      "kind": "audio",
+      "species": "griffon-vulture",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:gull-billed-tern",
+      "kind": "audio",
+      "species": "gull-billed-tern",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Joost van Bruggen"
+    },
+    {
+      "id": "audio:hooded-crow",
+      "kind": "audio",
+      "species": "hooded-crow",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "T.Voekler"
+    },
+    {
+      "id": "audio:lesser-kestrel",
+      "kind": "audio",
+      "species": "lesser-kestrel",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:little-bittern",
+      "kind": "audio",
+      "species": "little-bittern",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:little-bustard",
+      "kind": "audio",
+      "species": "little-bustard",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Benoît Van Hecke"
+    },
+    {
+      "id": "audio:little-egret",
+      "kind": "audio",
+      "species": "little-egret",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Sternanita3"
+    },
+    {
+      "id": "audio:little-grebe",
+      "kind": "audio",
+      "species": "little-grebe",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:north-african-ostrich",
+      "kind": "audio",
+      "species": "north-african-ostrich",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:pectoral-sandpiper",
+      "kind": "audio",
+      "species": "pectoral-sandpiper",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:purple-heron",
+      "kind": "audio",
+      "species": "purple-heron",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Ganesh Mohan T"
+    },
+    {
+      "id": "audio:red-billed-chough",
+      "kind": "audio",
+      "species": "red-billed-chough",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:red-breasted-flycatcher",
+      "kind": "audio",
+      "species": "red-breasted-flycatcher",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:red-crested-pochard",
+      "kind": "audio",
+      "species": "red-crested-pochard",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:red-necked-phalarope",
+      "kind": "audio",
+      "species": "red-necked-phalarope",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Jonathon Jongsma"
+    },
+    {
+      "id": "audio:red-rumped-swallow",
+      "kind": "audio",
+      "species": "red-rumped-swallow",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Qin Huang"
+    },
+    {
+      "id": "audio:ring-ouzel",
+      "kind": "audio",
+      "species": "ring-ouzel",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:ruddy-shelduck",
+      "kind": "audio",
+      "species": "ruddy-shelduck",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:savis-warbler",
+      "kind": "audio",
+      "species": "savis-warbler",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "MVmath20"
+    },
+    {
+      "id": "audio:scopolis-shearwater",
+      "kind": "audio",
+      "species": "scopolis-shearwater",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Cedric Mroczko"
+    },
+    {
+      "id": "audio:white-stork",
+      "kind": "audio",
+      "species": "white-stork",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Jeuwre"
+    },
+    {
+      "id": "audio:yellow-legged-gull",
+      "kind": "audio",
+      "species": "yellow-legged-gull",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Cedric MROCZKO"
+    },
+    {
+      "id": "image:umbrella-thorn",
+      "kind": "image",
+      "species": "umbrella-thorn",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294947",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:rhanterium",
+      "kind": "image",
+      "species": "rhanterium",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294944",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:sea-lavender",
+      "kind": "image",
+      "species": "sea-lavender",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294922",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:maidenhair-fern",
+      "kind": "image",
+      "species": "maidenhair-fern",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294919",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:broomrape",
+      "kind": "image",
+      "species": "broomrape",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294938",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:algerian-rat-snake",
+      "kind": "image",
+      "species": "algerian-rat-snake",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294866",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:moorish-gecko",
+      "kind": "image",
+      "species": "moorish-gecko",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294863",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:tunisian-scorpion",
+      "kind": "image",
+      "species": "tunisian-scorpion",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294953",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:saharan-frog",
+      "kind": "image",
+      "species": "saharan-frog",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294917",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:gnamptonyx-innexa",
+      "kind": "image",
+      "species": "gnamptonyx-innexa",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294899",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:gnamptonyx-innexa:2",
+      "kind": "image",
+      "species": "gnamptonyx-innexa",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294897",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:grammodes-stolida",
+      "kind": "image",
+      "species": "grammodes-stolida",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294884",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:beet-armyworm",
+      "kind": "image",
+      "species": "beet-armyworm",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294878",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:european-mantis",
+      "kind": "image",
+      "species": "european-mantis",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294898",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:desert-ground-mantis",
+      "kind": "image",
+      "species": "desert-ground-mantis",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294868",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:caddisflies",
+      "kind": "image",
+      "species": "caddisflies",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294908",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:saharan-bluet",
+      "kind": "image",
+      "species": "saharan-bluet",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294906",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:epaulet-skimmer",
+      "kind": "image",
+      "species": "epaulet-skimmer",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294958",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:epaulet-skimmer:2",
+      "kind": "image",
+      "species": "epaulet-skimmer",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294954",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:violet-dropwing",
+      "kind": "image",
+      "species": "violet-dropwing",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294867",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:long-headed-grasshopper",
+      "kind": "image",
+      "species": "long-headed-grasshopper",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "waelbenaba",
+      "reference": "https://www.inaturalist.org/observations/337693450",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:ochrilidia-grasshopper",
+      "kind": "image",
+      "species": "ochrilidia-grasshopper",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294877",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:geotomini-grasshoppers",
+      "kind": "image",
+      "species": "geotomini-grasshoppers",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294885",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:eugaster-bush-cricket",
+      "kind": "image",
+      "species": "eugaster-bush-cricket",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294923",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:barbary-bush-cricket",
+      "kind": "image",
+      "species": "barbary-bush-cricket",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294937",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:antlions",
+      "kind": "image",
+      "species": "antlions",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294888",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:pimelia-beetle",
+      "kind": "image",
+      "species": "pimelia-beetle",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294889",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:phyllognathus-scarab",
+      "kind": "image",
+      "species": "phyllognathus-scarab",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294890",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:banded-orb-weaver",
+      "kind": "image",
+      "species": "banded-orb-weaver",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "waelbenaba",
+      "reference": "https://www.inaturalist.org/observations/402267880",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:leeches",
+      "kind": "image",
+      "species": "leeches",
+      "license_type": "CC BY-NC 4.0",
+      "copyright_holder": "Mahdi Haj Dahmen",
+      "reference": "https://www.inaturalist.org/observations/402294918",
+      "reference_title": "iNaturalist observation"
+    },
+    {
+      "id": "image:addax",
+      "kind": "image",
+      "species": "addax",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "HaytemBouchri93",
+      "reference": "https://commons.wikimedia.org/wiki/File:A_big_male_Addax_showing_as_the_power_of_his_horns.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:caracal",
+      "kind": "image",
+      "species": "caracal",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Derek Keats",
+      "reference": "https://commons.wikimedia.org/wiki/File:Caracal_on_the_road%2C_early_morning_in_Kgalagadi_%2836173878220%29_%28cropped%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:rueppells-fox",
+      "kind": "image",
+      "species": "rueppells-fox",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "HelmutBoehm",
+      "reference": "https://commons.wikimedia.org/wiki/File:R%C3%BCppell%27s_fox.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:common-genet",
+      "kind": "image",
+      "species": "common-genet",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Guérin Nicolas ( messages )",
+      "reference": "https://commons.wikimedia.org/wiki/File:Genetta_genetta_felina_%28Wroclaw_zoo%29.JPG",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:cape-hare",
+      "kind": "image",
+      "species": "cape-hare",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Haplochromis",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lepus_capensis_%28cropped%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:lesser-egyptian-jerboa",
+      "kind": "image",
+      "species": "lesser-egyptian-jerboa",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Elias Neideck",
+      "reference": "https://commons.wikimedia.org/wiki/File:Jaculus_jaculus.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:fat-sand-rat",
+      "kind": "image",
+      "species": "fat-sand-rat",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Gary L. Clark",
+      "reference": "https://commons.wikimedia.org/wiki/File:Fat_sand_rat.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:trident-bat",
+      "kind": "image",
+      "species": "trident-bat",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Jorge Láscar from Melbourne, Australia",
+      "reference": "https://commons.wikimedia.org/wiki/File:Trident_leaf-nosed_bat_%28Asellia_tridens%29_-_Temple_of_Isis_%2814467430991a%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:naked-rumped-tomb-bat",
+      "kind": "image",
+      "species": "naked-rumped-tomb-bat",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Rajesh Puttaswamaiah",
+      "reference": "https://commons.wikimedia.org/wiki/File:Naked-Rumped_Tomb_Bat_%28Taphozous_nudiventris%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:rueppells-pipistrelle",
+      "kind": "image",
+      "species": "rueppells-pipistrelle",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Biodiversity Heritage Library",
+      "reference": "https://commons.wikimedia.org/wiki/File:Pipistrellus_rueppellii.png",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:savis-pipistrelle",
+      "kind": "image",
+      "species": "savis-pipistrelle",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "Kristof Zyskowski",
+      "reference": "https://commons.wikimedia.org/wiki/File:Savi%27s_Pipistrelle_%28Hypsugo_savii%29_in_Spain.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:bonellis-eagle",
+      "kind": "image",
+      "species": "bonellis-eagle",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Francesco Veronesi from Italy",
+      "reference": "https://commons.wikimedia.org/wiki/File:Bonelli%27s_Eagle_-_Montsonis_-_Spain_S4E8373_%2824849913309%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:common-kestrel",
+      "kind": "image",
+      "species": "common-kestrel",
+      "license_type": "CC BY-SA 2.5",
+      "copyright_holder": "Andreas Trepte",
+      "reference": "https://commons.wikimedia.org/wiki/File:Common_kestrel_falco_tinnunculus.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:pharaoh-eagle-owl",
+      "kind": "image",
+      "species": "pharaoh-eagle-owl",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "jujurenoult",
+      "reference": "https://commons.wikimedia.org/wiki/File:Bubo_ascalaphus%2C_Abu_Simbel%2C_Aswan%2C_Egypt_1.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:barbary-partridge",
+      "kind": "image",
+      "species": "barbary-partridge",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Frits van der Meer from Utrecht, Nederland",
+      "reference": "https://commons.wikimedia.org/wiki/File:Alectoris_barbara_Tenerife.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:pin-tailed-sandgrouse",
+      "kind": "image",
+      "species": "pin-tailed-sandgrouse",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "https://www.flickr.com/photos/francesco_veronesi/",
+      "reference": "https://commons.wikimedia.org/wiki/File:Pin-tailed_sandgrouse_%28Pterocles_alchata%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:brown-necked-raven",
+      "kind": "image",
+      "species": "brown-necked-raven",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "El Golli Mohamed",
+      "reference": "https://commons.wikimedia.org/wiki/File:Corbeau_brun_Jbil_%28cropped%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:desert-lark",
+      "kind": "image",
+      "species": "desert-lark",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "MPF",
+      "reference": "https://commons.wikimedia.org/wiki/File:Steinlerche.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:black-wheatear",
+      "kind": "image",
+      "species": "black-wheatear",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "El Golli Mohamed",
+      "reference": "https://commons.wikimedia.org/wiki/File:Traquet_rieur_Gabes.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:desert-wheatear",
+      "kind": "image",
+      "species": "desert-wheatear",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Shantanu Kuveskar",
+      "reference": "https://commons.wikimedia.org/wiki/File:Desert_Wheatear_%28Oenanthe_deserti%29_Photograph_by_Shantanu_Kuveskar.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:iberian-grey-shrike",
+      "kind": "image",
+      "species": "iberian-grey-shrike",
+      "license_type": "CC BY 2.0",
+      "copyright_holder": "Luiz Lapa from Oeiras, Portugal",
+      "reference": "https://commons.wikimedia.org/wiki/File:Pican%C3%A7o-real%2C_Southern_Grey_Shrike_%2853118436233%29_%28cropped%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:rock-dove",
+      "kind": "image",
+      "species": "rock-dove",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "william_stephens",
+      "reference": "https://commons.wikimedia.org/wiki/File:Columba_livia_%28Rock_Dove%2C_wild%29%2C_Duncansby_Head%2C_Caithness%2C_Scotland_1.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:desert-monitor",
+      "kind": "image",
+      "species": "desert-monitor",
+      "license_type": "CC0",
+      "copyright_holder": "Marius Burger",
+      "reference": "https://commons.wikimedia.org/wiki/File:Varanus_griseus_griseus_349843922.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:common-chameleon",
+      "kind": "image",
+      "species": "common-chameleon",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://commons.wikimedia.org/wiki/File:Mediterranean_chameleon_%28Chamaeleo_chamaeleon_recticrista%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:moorish-viper",
+      "kind": "image",
+      "species": "moorish-viper",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Bjoertvedt",
+      "reference": "https://commons.wikimedia.org/wiki/File:Macrovipera_mauritanica_IMG_5083.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:schokari-sand-racer",
+      "kind": "image",
+      "species": "schokari-sand-racer",
+      "license_type": "CC BY-SA 2.5",
+      "copyright_holder": "Václav Gvoždík",
+      "reference": "https://commons.wikimedia.org/wiki/File:Psammophis_schokari01.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:lotus-jujube",
+      "kind": "image",
+      "species": "lotus-jujube",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Nanosanchez",
+      "reference": "https://commons.wikimedia.org/wiki/File:Ziziphus_lotus_20200928_191923.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:lygeum",
+      "kind": "image",
+      "species": "lygeum",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Nanosanchez",
+      "reference": "https://commons.wikimedia.org/wiki/File:Lygeum_spartum-1.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:thymelaea-hirsuta",
+      "kind": "image",
+      "species": "thymelaea-hirsuta",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Krzysztof Ziarnek, Kenraiz",
+      "reference": "https://commons.wikimedia.org/wiki/File:Thymelaea_hirsuta_kz2.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:caper",
+      "kind": "image",
+      "species": "caper",
+      "license_type": "Public domain",
+      "copyright_holder": "Otto Wilhelm Thomé (1840-1925)",
+      "reference": "https://commons.wikimedia.org/wiki/File:Illustration_Capparis_spinosa0.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:golden-jackal",
+      "kind": "image",
+      "species": "golden-jackal",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Giles Laurent",
+      "reference": "https://commons.wikimedia.org/wiki/File:033_Golden_jackal_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:african-wildcat",
+      "kind": "image",
+      "species": "african-wildcat",
+      "license_type": "CC BY-SA 2.0",
+      "copyright_holder": "Bernard DUPONT from FRANCE",
+      "reference": "https://commons.wikimedia.org/wiki/File:Southern_African_Wildcat_%28Felis_sylvestris_cafra%29_female_..._%28captive_specimen%29_%2839789072173%29.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:egyptian-mongoose",
+      "kind": "image",
+      "species": "egyptian-mongoose",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Anna Liflyand",
+      "reference": "https://commons.wikimedia.org/wiki/File:Herpestes_ichneumon_%D0%95%D0%B3%D0%B8%D0%BF%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B0%D0%BD%D0%B3%D1%83%D1%81%D1%82%2C_%D0%B8%D0%BB%D0%B8_%D1%84%D0%B0%D1%80%D0%B0%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0_%D0%BA%D1%80%D1%8B%D1%81%D0%B0%2C_%D0%B8%D0%BB%D0%B8_%D0%B8%D1%85%D0%BD%D0%B5%D0%B2%D0%BC%D0%BE%CC%81%D0%BD.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:crested-porcupine",
+      "kind": "image",
+      "species": "crested-porcupine",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Quartl",
+      "reference": "https://commons.wikimedia.org/wiki/File:Hystrix_cristata_qtl1.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:algerian-hedgehog",
+      "kind": "image",
+      "species": "algerian-hedgehog",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Conselleria de Medi Ambient i Mobilitat, Govern des Illes Balears",
+      "reference": "https://commons.wikimedia.org/wiki/File:Atelerix_algirus.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:desert-hedgehog",
+      "kind": "image",
+      "species": "desert-hedgehog",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Chen Ein-Dor",
+      "reference": "https://commons.wikimedia.org/wiki/File:Desert_Hedgehog.png",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:egyptian-slit-faced-bat",
+      "kind": "image",
+      "species": "egyptian-slit-faced-bat",
+      "license_type": "CC BY 3.0 us",
+      "copyright_holder": "Susan Ellis, Bugwood.org",
+      "reference": "https://commons.wikimedia.org/wiki/File:Nycteris_thebaica.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:little-owl",
+      "kind": "image",
+      "species": "little-owl",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Максат79",
+      "reference": "https://commons.wikimedia.org/wiki/File:%D0%94%D0%BE%D0%BC%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D1%8B%D1%87._%D0%A1%D0%BE%D0%B2%D0%B0_%D0%B2_%D0%BA%D0%B0%D0%BD%D1%8C%D0%BE%D0%BD%D0%B5_%D1%83%D1%80%D0%BE%D1%87%D0%B8%D1%89%D0%B0_%D0%91%D0%BE%D0%B7%D0%B6%D1%8B%D1%80%D0%B0._01.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:crested-lark",
+      "kind": "image",
+      "species": "crested-lark",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "El Golli Mohamed",
+      "reference": "https://commons.wikimedia.org/wiki/File:Cochevis_hupp%C3%A9_Gbollat.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:theklas-lark",
+      "kind": "image",
+      "species": "theklas-lark",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "El Golli Mohamed",
+      "reference": "https://commons.wikimedia.org/wiki/File:Cochevis_de_Th%C3%A9kla_Ichkeul.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:spiny-tailed-lizard",
+      "kind": "image",
+      "species": "spiny-tailed-lizard",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Aissa Djamel Filali",
+      "reference": "https://commons.wikimedia.org/wiki/File:Uromastyx_acanthinura_24351116.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:spur-thighed-tortoise",
+      "kind": "image",
+      "species": "spur-thighed-tortoise",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Charles J. Sharp",
+      "reference": "https://commons.wikimedia.org/wiki/File:Tunisian_tortoise_%28Testudo_graeca_nabeulensis%29_male_Cap_Bon.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:bibrons-agama",
+      "kind": "image",
+      "species": "bibrons-agama",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Blackmysterieux",
+      "reference": "https://commons.wikimedia.org/wiki/File:Agama_bibronii%2C_Batna_Province.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:atriplex-halimus",
+      "kind": "image",
+      "species": "atriplex-halimus",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Krzysztof Ziarnek, Kenraiz",
+      "reference": "https://commons.wikimedia.org/wiki/File:Atriplex_halimus_kz2.JPG",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:salsola-vermiculata",
+      "kind": "image",
+      "species": "salsola-vermiculata",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Isidre blanc",
+      "reference": "https://commons.wikimedia.org/wiki/File:SALSOLA_VERMICULATA_-_AGUDA_-_IB-722_%28Siscall%29.JPG",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:limoniastrum-guyonianum",
+      "kind": "image",
+      "species": "limoniastrum-guyonianum",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "MurielBendel",
+      "reference": "https://commons.wikimedia.org/wiki/File:Limoniastrum_guyonianum2_Tunisia.JPG",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:nitraria-retusa",
+      "kind": "image",
+      "species": "nitraria-retusa",
+      "license_type": "Public domain",
+      "copyright_holder": "Adolf Engler",
+      "reference": "https://commons.wikimedia.org/wiki/File:Nitrariaceae_Nitraria_retusa.png",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:deverra-tortuosa",
+      "kind": "image",
+      "species": "deverra-tortuosa",
+      "license_type": "CC BY-SA 3.0",
+      "copyright_holder": "Naouel hakim",
+      "reference": "https://commons.wikimedia.org/wiki/File:Pituranthos_tortuosa_famille_des_Omb%C3%A9lif%C3%A8res.JPG",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:rhus-tripartita",
+      "kind": "image",
+      "species": "rhus-tripartita",
+      "license_type": "CC BY 4.0",
+      "copyright_holder": "oleg_kosterin",
+      "reference": "https://commons.wikimedia.org/wiki/File:Searsia_tripartita%2C_Essaouira%2C_Morocco_07.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:stipagrostis-pungens",
+      "kind": "image",
+      "species": "stipagrostis-pungens",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Claude Lemmel &amp; Zahora Attioui",
+      "reference": "https://commons.wikimedia.org/wiki/File:Drinn_-_Erg_Chebbi_-_Sahara_marocain_oriental_2.jpg",
+      "reference_title": "Wikimedia Commons"
+    },
+    {
+      "id": "image:artemisia-campestris",
+      "kind": "image",
+      "species": "artemisia-campestris",
+      "license_type": "CC BY-SA 4.0",
+      "copyright_holder": "Krzysztof Ziarnek, Kenraiz",
+      "reference": "https://commons.wikimedia.org/wiki/File:Artemisia_campestris_kz08.jpg",
+      "reference_title": "Wikimedia Commons"
+    }
+  ]
+}
