@@ -1,0 +1,278 @@
+/* Research sub-pages — long-form field protocol documents (flora_r, carnivors,
+   bats, antelope, birds, rodent, insects).  Same tokens as the rest of the
+   site: cream paper, deep-green serif headings, clay accents. */
+
+.doc-page {
+  color: var(--ink);
+}
+
+/* ---------------------------------------------------------------- layout --- */
+
+.doc-main {
+  width: min(100% - 3rem, 62rem);
+  margin-inline: auto;
+  padding-block: 2.2rem 3rem;
+  display: grid;
+  gap: 2.6rem;
+}
+
+.doc-stack {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.doc-stack-tight {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.doc-section {
+  display: grid;
+  gap: 1.1rem;
+}
+
+/* ------------------------------------------------------------------ hero --- */
+
+.doc-hero {
+  display: grid;
+  gap: 1.1rem;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.doc-hero-copy {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.doc-h1 {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.9rem, 3.6vw, 2.75rem);
+  line-height: 1.12;
+  color: var(--green);
+}
+
+.doc-h2 {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.2rem, 2vw, 1.55rem);
+  line-height: 1.25;
+  color: var(--green);
+}
+
+.doc-title-sm {
+  margin: 0;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.05rem;
+  color: var(--green);
+}
+
+/* a heading with the small uppercase line under it, ruled on the left */
+.doc-callout {
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--clay);
+  display: grid;
+  gap: 0.3rem;
+}
+
+.doc-meta,
+.doc-kicker {
+  margin: 0;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.doc-kicker {
+  color: var(--green-soft);
+  margin-bottom: 0.5rem;
+}
+
+.doc-kicker-lg {
+  margin-bottom: 0.85rem;
+}
+
+/* ------------------------------------------------------------------ text --- */
+
+.doc-body,
+.doc-body-sm {
+  display: grid;
+  gap: 1rem;
+}
+
+.doc-body {
+  font-size: 1.02rem;
+}
+
+.doc-p {
+  margin: 0;
+  line-height: 1.78;
+}
+
+.doc-body-sm {
+  font-size: 0.95rem;
+  line-height: 1.72;
+}
+
+.doc-small {
+  margin: 0;
+  font-size: 0.86rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.doc-caption {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.doc-center-text {
+  text-align: center;
+}
+
+.doc-italic {
+  font-style: italic;
+}
+
+.doc-lead {
+  font-weight: 700;
+}
+
+.doc-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.45rem;
+  list-style: square;
+}
+
+.doc-list li::marker {
+  color: var(--clay);
+}
+
+.doc-list-num {
+  list-style: decimal;
+}
+
+.doc-list-sm li {
+  font-size: 0.86rem;
+}
+
+.doc-gap {
+  margin-block: 1rem;
+}
+
+/* ----------------------------------------------------------------- panels --- */
+
+.doc-card,
+.doc-panel,
+.doc-note {
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: var(--panel);
+  box-shadow: 0 1px 0 rgba(31, 64, 48, 0.04);
+}
+
+.doc-card {
+  padding: 1.05rem 1.2rem;
+}
+
+.doc-card-meta p {
+  margin: 0;
+}
+
+.doc-panel {
+  padding: 1.5rem 1.6rem;
+  text-align: center;
+}
+
+.doc-note {
+  padding: 1rem 1.15rem;
+  background: var(--paper-tint);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.doc-warning {
+  margin-block: 1rem;
+  padding: 0.95rem 1.15rem;
+  border-left: 3px solid var(--clay);
+  border-radius: 0 0.5rem 0.5rem 0;
+  background: rgba(169, 116, 79, 0.1);
+  font-size: 0.93rem;
+  line-height: 1.7;
+}
+
+/* ------------------------------------------------------------------ media --- */
+
+.doc-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.doc-figure {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: #fff;
+  box-shadow: 0 1px 0 rgba(31, 64, 48, 0.04);
+}
+
+.doc-figure-band {
+  max-height: 22rem;
+  object-fit: cover;
+}
+
+.doc-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----------------------------------------------------------------- links --- */
+
+.doc-link,
+.doc-footer .doc-link {
+  color: var(--green);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+.doc-link:hover {
+  color: var(--clay);
+}
+
+.doc-footer {
+  padding-block: 1.7rem;
+  border-top: 1px solid var(--line);
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.doc-footer p {
+  margin: 0;
+}
+
+/* -------------------------------------------------------------- responsive --- */
+
+@media (min-width: 40rem) {
+  .doc-grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 56rem) {
+  .doc-grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}

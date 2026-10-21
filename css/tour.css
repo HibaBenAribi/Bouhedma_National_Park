@@ -1,0 +1,366 @@
+/* Discover Park (tour.html): a full-screen, step-by-step tour of the park. */
+
+.tour-page {
+  background: var(--ink);
+}
+
+.tour-stage {
+  position: relative;
+  min-height: 100svh;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at 25% 15%, rgba(201, 164, 92, 0.16), transparent 55%),
+    linear-gradient(160deg, #3a2a1c 0%, #1c1712 45%, #24362a 100%);
+}
+
+/* --- photograph layers ------------------------------------------------- */
+
+.tour-photos {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.tour-photo {
+  position: absolute;
+  inset: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transform: scale(1.03);
+  transition: opacity 0.6s ease, transform 3.4s ease, filter 0.5s ease;
+  will-change: opacity, transform;
+}
+
+.tour-photo.is-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* colour of the light: day, dusk, night, infrared camera trap */
+.tour-grade {
+  position: absolute;
+  inset: 0;
+  transition: background 0.6s ease;
+  background: linear-gradient(
+    180deg,
+    rgba(28, 23, 18, 0.55) 0%,
+    rgba(28, 23, 18, 0) 32%,
+    rgba(28, 23, 18, 0.72) 100%
+  );
+}
+
+.is-dusk .tour-grade {
+  background: linear-gradient(
+    180deg,
+    rgba(58, 28, 10, 0.5) 0%,
+    rgba(140, 74, 30, 0.24) 45%,
+    rgba(24, 15, 10, 0.88) 100%
+  );
+}
+
+.is-night .tour-grade {
+  background: linear-gradient(
+    180deg,
+    rgba(6, 10, 22, 0.76) 0%,
+    rgba(8, 12, 26, 0.5) 40%,
+    rgba(3, 5, 12, 0.92) 100%
+  );
+}
+
+.is-ir .tour-grade {
+  background:
+    radial-gradient(ellipse at center, rgba(18, 52, 26, 0.15) 0%, rgba(2, 6, 3, 0.86) 100%),
+    linear-gradient(180deg, rgba(4, 10, 6, 0.5), rgba(4, 10, 6, 0.7));
+}
+
+.is-ir .tour-photo {
+  filter: grayscale(1) contrast(1.3) brightness(0.78) sepia(0.35) hue-rotate(60deg);
+}
+
+/* very light shade: the photograph stays clear */
+.tour-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 8, 6, 0.18) 0%, rgba(10, 8, 6, 0) 30%);
+  pointer-events: none;
+}
+
+/* --- illustrated layers (gate, buildings, water, birds) ---------------- */
+
+.tour-art {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.tour-art svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* --- camera-trap frame -------------------------------------------------- */
+
+.tour-frame {
+  position: absolute;
+  inset: 1.5rem;
+  border: 1px solid rgba(158, 232, 168, 0.35);
+  pointer-events: none;
+}
+
+.tour-frame::after {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgba(158, 232, 168, 0.55);
+  font-size: 1.4rem;
+  font-family: ui-monospace, "Consolas", monospace;
+}
+
+.tour-frame span {
+  position: absolute;
+  color: #9fe8a8;
+  font-family: ui-monospace, "Consolas", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.9);
+}
+
+.tour-frame .frame-tl { top: 0.6rem; left: 0.8rem; }
+.tour-frame .frame-tr { top: 0.6rem; right: 0.8rem; }
+.tour-frame .frame-bl { bottom: 0.6rem; left: 0.8rem; }
+.tour-frame .frame-br { bottom: 0.6rem; right: 0.8rem; }
+
+/* --- progress ----------------------------------------------------------- */
+
+.tour-progress {
+  position: absolute;
+  top: 5.4rem;
+  right: 6vw;
+  z-index: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.55rem;
+  max-width: 46vw;
+}
+
+.tour-progress-meta {
+  display: flex;
+  gap: 0.9rem;
+  align-items: baseline;
+  color: var(--sand);
+  font-size: 0.74rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.tour-progress-meta strong {
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.tour-ticks {
+  display: flex;
+  gap: 3px;
+}
+
+.tour-ticks i {
+  display: block;
+  width: 13px;
+  height: 3px;
+  background: rgba(244, 236, 223, 0.24);
+  transition: background 0.3s ease;
+}
+
+.tour-ticks i.is-done {
+  background: rgba(201, 164, 92, 0.7);
+}
+
+.tour-ticks i.is-now {
+  background: var(--gold);
+}
+
+/* --- caption card ------------------------------------------------------- */
+
+.tour-card {
+  position: absolute;
+  left: 6vw;
+  top: 5.6rem;
+  z-index: 6;
+  width: min(30rem, 88vw);
+  padding: 1.3rem 1.5rem 1.2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 14px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(10px) saturate(1.2);
+  -webkit-backdrop-filter: blur(10px) saturate(1.2);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.tour-card.is-entering {
+  animation: tourCardIn 0.5s ease both;
+}
+
+@keyframes tourCardIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+.tour-kicker {
+  margin: 0 0 0.55rem;
+  color: #ffe08a;
+  font-weight: 700;
+  font-size: 0.74rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.tour-card h1 {
+  font-family: "Lora", Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(1.9rem, 3.2vw, 2.7rem);
+  line-height: 1.03;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9), 0 0 14px rgba(0, 0, 0, 0.55);
+}
+
+.tour-text {
+  margin: 0.85rem 0 0;
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.95), 0 0 10px rgba(0, 0, 0, 0.65);
+  font-size: 1rem;
+  line-height: 1.62;
+}
+
+.tour-text strong {
+  color: #ffffff;
+}
+
+.tour-text + .tour-text {
+  margin-top: 0.6rem;
+}
+
+.tour-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  align-items: center;
+  margin-top: 1.15rem;
+}
+
+.tour-next,
+.tour-back,
+.tour-link {
+  display: inline-block;
+  padding: 0.78rem 1.4rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.tour-next {
+  background: var(--gold);
+  color: var(--ink);
+}
+
+.tour-next:hover {
+  background: #e0c07a;
+}
+
+.tour-back {
+  background: rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  border: 1px solid rgba(244, 236, 223, 0.34);
+}
+
+.tour-back:hover {
+  background: rgba(244, 236, 223, 0.12);
+  border-color: var(--gold);
+}
+
+.tour-link {
+  background: rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  border: 1px solid rgba(244, 236, 223, 0.22);
+}
+
+.tour-link:hover {
+  color: var(--paper);
+  border-color: var(--gold);
+}
+
+.tour-next:focus-visible,
+.tour-back:focus-visible,
+.tour-link:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.tour-credit {
+  position: absolute;
+  right: 1.2rem;
+  bottom: 0.9rem;
+  z-index: 6;
+  max-width: 70vw;
+  margin: 0;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.73rem;
+  line-height: 1.5;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+.tour-credit a {
+  color: inherit;
+  text-decoration-color: rgba(244, 236, 223, 0.35);
+}
+
+/* --- footer of the page -------------------------------------------------- */
+
+.tour-foot {
+  position: relative;
+  z-index: 5;
+  background: var(--ink);
+}
+
+@media (max-width: 800px) {
+  .tour-progress {
+    top: auto;
+    right: auto;
+    left: 6vw;
+    bottom: 2.6rem;
+    align-items: flex-start;
+    max-width: 88vw;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+  }
+
+  .tour-card {
+    left: 3vw;
+    right: 3vw;
+    top: 5.2rem;
+    width: auto;
+    max-height: 62svh;
+    overflow-y: auto;
+  }
+
+  .tour-credit {
+    right: 0.8rem;
+    bottom: 0.6rem;
+  }
+
+  .tour-frame {
+    inset: 0.8rem;
+  }
+}

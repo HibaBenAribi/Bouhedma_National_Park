@@ -1,0 +1,232 @@
+/* Research page — resources from the WWF NA Camp on wildlife–human coexistence 2026. */
+
+.research-page {
+  color: var(--ink);
+}
+
+/* ---------------------------------------------------------------- hero --- */
+
+.research-hero {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: min(50vh, 24rem);
+  padding: 3.5rem 6vw 4rem;
+  background-color: var(--paper);
+  border-bottom: 1px solid var(--line);
+}
+
+.research-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: url("../public/assets/ui/banner_reserahc_page.png") center / cover no-repeat;
+}
+
+.research-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.research-hero h1 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(2.4rem, 5vw, 3.7rem);
+  line-height: 1.05;
+  margin: 0 0 1.2rem;
+  color: var(--green);
+  text-align: center;
+}
+
+.research-intro {
+  max-width: 40rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #4b4a3c;
+  font-size: clamp(1.02rem, 1.8vw, 1.2rem);
+  line-height: 1.65;
+}
+
+/* ------------------------------------- technology · boot camp ------------ */
+.research-tech,
+.research-camp {
+  padding: 3rem 6vw 0;
+  max-width: 76rem;
+}
+
+.research-tech h2,
+.research-camp h2 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: clamp(1.7rem, 3vw, 2.2rem);
+  color: var(--green);
+  margin-bottom: 0.8rem;
+}
+
+.research-tech > p,
+.research-camp p {
+  max-width: 52rem;
+  color: #4b4a3c;
+  line-height: 1.65;
+}
+
+.research-tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  margin-top: 1.4rem;
+}
+
+.research-tech-grid article {
+  padding: 1.15rem 1.2rem 1.25rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--green-soft);
+}
+
+.research-tech-grid h3 {
+  margin: 0 0 0.45rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--green);
+}
+
+.research-tech-grid p {
+  margin: 0 0 0.9rem;
+  color: #4b4a3c;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.research-tech-grid .research-open {
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+@media (max-width: 900px) {
+  .research-tech-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------------------------------------------------------------- list --- */
+
+.research-list {
+  padding: 3rem 6vw 4rem;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 1.4rem;
+}
+
+.research-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  padding: 1.5rem;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.research-card:hover {
+  border-color: rgba(31, 64, 48, 0.45);
+  transform: translateY(-3px);
+}
+
+.research-card h2 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin: 0;
+  color: var(--green);
+}
+
+.research-card-summary {
+  margin: 0;
+  color: #4b4a3c;
+  font-size: 0.96rem;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.research-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 0.4rem;
+}
+
+.research-open,
+.research-pdf {
+  display: inline-block;
+  padding: 0.55rem 1.1rem;
+  border: 1px solid var(--green);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.research-open {
+  background: var(--green);
+  color: var(--paper);
+}
+
+.research-open:hover {
+  background: var(--green-soft);
+}
+
+.research-pdf {
+  background: transparent;
+  color: var(--green);
+  border-color: rgba(31, 64, 48, 0.45);
+}
+
+.research-pdf:hover {
+  background: rgba(31, 64, 48, 0.08);
+}
+
+/* --------------------------------------------------------------- print --- */
+
+@media print {
+  .site-nav,
+  footer,
+  .research-card-actions {
+    display: none !important;
+  }
+
+  body,
+  .research-page {
+    background: #fff;
+    color: #000;
+  }
+
+  .research-card h2 {
+    color: #000;
+  }
+}
+
+/* ------------------------------------------------------------ responsive - */
+
+@media (max-width: 720px) {
+  .research-hero {
+    padding-top: 7.5rem;
+  }
+
+  .research-list {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
