@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flora </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lora:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/biodiversity.css" />
+  </head>
+  <body class="biodiversity-page" data-bio-group="flora">
+      <nav class="site-nav">
+    <a class="brand" href="index.html">
+      <img class="brand-mark" src="public/assets/ui/logo.png" alt="" />
+      <span class="brand-text">
+        <span class="brand-ar" lang="ar" dir="rtl">المتنزه الوطني بوهدمة</span>
+        <span class="brand-en">Parc National<br />de Bouhedma</span>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Welcome</a>
+      <a href="coexistence.html">Coexistence</a>
+      <a class="active" href="biodiversity.html">Biodiversity</a>
+      <a href="conservation.html">Conservation</a>
+      <a href="research.html">Research</a>
+      <span class="nav-sep" aria-hidden="true"></span>
+      <span class="nav-lang">
+        <a class="active" href="index.html">EN</a>
+        <a href="#" title="Coming soon">FR</a>
+        <a href="#" lang="ar" title="Coming soon">العربية</a>
+      </span>
+    </div>
+  </nav>
+
+    <header class="bio-hero">
+      <div class="bio-hero-copy">
+        <h1>Flora</h1>
+
+      </div>
+    </header>
+
+    <section class="bio-layout">
+      <aside class="bio-sidebar">
+        <h2>Categories</h2>
+        <nav id="category-tree" aria-label="Plant categories"></nav>
+        <div class="bio-note" id="bio-note">Loading the species list…</div>
+      </aside>
+
+      <div class="bio-content">
+        <div class="bio-toolbar">
+          <div>
+            <p class="bio-breadcrumb" id="bio-breadcrumb"></p>
+            <h2 id="filter-title">All species</h2>
+          </div>
+          <p class="bio-count" id="result-count"></p>
+         
+          
+        </div>
+
+
+        <div class="bio-grid" id="species-grid"></div>
+        <p class="bio-empty" id="empty-state" hidden>No species in this group yet.</p>
+      </div>
+    </section>
+
+    <footer>
+      Bouhedma National Park.
+      <a class="footer-cta" href="references.html">References &amp; copyright data</a> ·
+
+    </footer>
+
+    <div class="bio-modal" id="species-modal" hidden>
+      <div class="bio-modal-backdrop" data-close></div>
+      <article
+        class="bio-modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-name"
+        tabindex="-1"
+      >
+        <button class="bio-close" type="button" data-close aria-label="Close species detail">×</button>
+
+        <div class="bio-modal-grid">
+          <div class="bio-modal-media">
+            <figure class="bio-figure" id="bio-figure">
+              <img id="modal-image" alt="" />
+              <figcaption id="figure-caption"><span id="figure-hint"></span></figcaption>
+            </figure>
+            <div class="bio-thumbs" id="modal-thumbs" role="tablist" aria-label="Photographs of this species" hidden></div>
+            <div class="bio-players" id="modal-players"></div>
+          </div>
+
+          <div class="bio-modal-text">
+            <p class="bio-cat" id="modal-cat"></p>
+            <h2 id="modal-name"></h2>
+            <p class="bio-latin" id="modal-latin"></p>
+            <p class="bio-french" id="modal-french" hidden></p>
+            <p class="bio-arabic" id="modal-arabic" lang="ar" dir="rtl"></p>
+            <p class="bio-status" id="modal-status" hidden>
+              <span class="bio-badge" id="modal-status-badge"></span>
+              <span class="bio-status-iucn" id="modal-status-iucn"></span>
+            </p>
+            <p class="bio-desc" id="modal-desc"></p>
+
+            <h3>Morphological characteristics</h3>
+            <dl class="bio-traits" id="modal-traits"></dl>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <script type="module" src="js/biodiversity.js"></script>
+
+    <div class="bio-ref-pop" id="ref-pop" role="dialog" aria-label="Reference and copyright" hidden></div>
+  </body>
+</html>
