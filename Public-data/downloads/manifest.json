@@ -1,0 +1,86 @@
+{
+  "files": [
+    {
+      "id": "geopackage",
+      "path": "downloads/bouhedma_database.gpkg",
+      "format": "GPKG",
+      "bytes": 1290240
+    },
+    {
+      "id": "geojson-layers",
+      "path": "downloads/bouhedma-geojson-layers.zip",
+      "format": "GeoJSON (ZIP)",
+      "bytes": 39772
+    },
+    {
+      "id": "qgis-styles",
+      "path": "downloads/qgis-styles.zip",
+      "format": "QML (ZIP)",
+      "bytes": 128174
+    },
+    {
+      "id": "metadata-en-pdf",
+      "kind": "metadata",
+      "lang": "en",
+      "path": "downloads/docs/Bouhedma_National_Park_Metadata.pdf",
+      "format": "PDF",
+      "bytes": 8636
+    },
+    {
+      "id": "attributes-en-pdf",
+      "kind": "attributes",
+      "lang": "en",
+      "path": "downloads/docs/Summary_table_Bouhedma_National_Park_attributes.pdf",
+      "format": "PDF",
+      "bytes": 16180
+    },
+    {
+      "id": "attributes-en-xlsx",
+      "kind": "attributes",
+      "lang": "en",
+      "path": "downloads/docs/Summary_table_Bouhedma_National_Park_attributes.xlsx",
+      "format": "XLSX",
+      "bytes": 11343
+    },
+    {
+      "id": "metadata-fr-pdf",
+      "kind": "metadata",
+      "lang": "fr",
+      "path": "downloads/docs/Les_metadonnees_du_Parc_National_Bouhedma.pdf",
+      "format": "PDF",
+      "bytes": 9281
+    },
+    {
+      "id": "attributes-fr-pdf",
+      "kind": "attributes",
+      "lang": "fr",
+      "path": "downloads/docs/Table_des_attributs_Parc_National_Bouhedma.pdf",
+      "format": "PDF",
+      "bytes": 16302
+    },
+    {
+      "id": "attributes-fr-xlsx",
+      "kind": "attributes",
+      "lang": "fr",
+      "path": "downloads/docs/Table_des_attributs_Parc_National_Bouhedma.xlsx",
+      "format": "XLSX",
+      "bytes": 11520
+    },
+    {
+      "id": "dictionary-fr-md",
+      "kind": "dictionary",
+      "lang": "fr",
+      "path": "downloads/docs/BHD26_data_dictionary.md",
+      "format": "MD",
+      "bytes": 19317
+    },
+    {
+      "id": "dictionary-fr-docx",
+      "kind": "dictionary",
+      "lang": "fr",
+      "path": "downloads/docs/BHD26_data_dictionary.docx",
+      "format": "DOCX",
+      "bytes": 22766
+    }
+  ]
+}

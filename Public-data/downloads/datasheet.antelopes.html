@@ -1,0 +1,40 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Field sheet definitions: antelopes</title><style>body{font:16px/1.6 system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;color:#252820}section{margin-block:2rem}h2,h3{color:#31551f}li{margin-block:.35rem}</style></head><body><section data-section="datasheet">
+  <div lang="en" dir="ltr">
+    <h2>Datasheet (BHD26)</h2>
+    <p>Event table, one row per sampling unit (for example a route surveyed): eventID, eventDate (YYYY-MM-DD), eventTime (HH:MM, UTC+1), samplingProtocol, sampleSizeValue, sampleSizeUnit, decimalLatitude, decimalLongitude (WGS 84, 5 decimals), coordinateUncertaintyInMeters, geodeticDatum, locality, habitat, recordedBy, equipe.</p>
+    <p>Occurrence table, one row per observation: occurrenceID, eventID, scientificName, vernacularName, codeEspece, individualCount, sex, lifeStage, basisOfRecord, identificationQualifier, identifiedBy, associatedMedia, occurrenceRemarks.</p>
+    <ul>
+      <li>Species codes: ORDA <em>Oryx dammah</em>, NADA <em>Nanger dama mhorr</em>, GADO <em>Gazella dorcas</em>. One species per line, never "3 gazelles + 1 oryx" in one cell.</li>
+      <li>Evidence type (V3): VIS seen, EMP footprint, FEC droppings, LAT latrine.</li>
+      <li>Sex and age (V4): M / F / I; AD, SA, JU, JA, IND. Reliability (V5): 1 certain, 2 probable, 3 possible.</li>
+      <li>Habitat (V1), for example SAV, GLA, ENC, PTE. Observer: three unique initials. Team: A, B, C or D.</li>
+      <li>Rules: never leave a cell empty (NA or ND); no unit in the cell; decimal point, not comma; 0 means searched and not found.</li>
+    </ul>
+  </div>
+  <div lang="fr" dir="ltr">
+    <h2>Fiche de données (BHD26)</h2>
+    <p>Table Événement, une ligne par unité d'échantillonnage (par exemple un parcours effectué) : eventID, eventDate (AAAA-MM-JJ), eventTime (HH:MM, UTC+1), samplingProtocol, sampleSizeValue, sampleSizeUnit, decimalLatitude, decimalLongitude (WGS 84, 5 décimales), coordinateUncertaintyInMeters, geodeticDatum, locality, habitat, recordedBy, equipe.</p>
+    <p>Table Occurrence, une ligne par observation : occurrenceID, eventID, scientificName, vernacularName, codeEspece, individualCount, sex, lifeStage, basisOfRecord, identificationQualifier, identifiedBy, associatedMedia, occurrenceRemarks.</p>
+    <ul>
+      <li>Codes espèces : ORDA <em>Oryx dammah</em>, NADA <em>Nanger dama mhorr</em>, GADO <em>Gazella dorcas</em>. Une espèce par ligne, jamais « 3 gazelles + 1 oryx » dans une case.</li>
+      <li>Type d'indice (V3) : VIS animal vu, EMP empreinte, FEC crotte, LAT latrine.</li>
+      <li>Sexe et âge (V4) : M / F / I ; AD, SA, JU, JA, IND. Fiabilité (V5) : 1 certaine, 2 probable, 3 possible.</li>
+      <li>Habitat (V1), par exemple SAV, GLA, ENC, PTE. Observateur : initiales sur 3 lettres, uniques. Équipe : A, B, C ou D.</li>
+      <li>Règles : jamais de case vide (NA ou ND) ; pas d'unité dans la cellule ; décimale = point ; 0 signifie recherché et non trouvé.</li>
+    </ul>
+  </div>
+  <div lang="ar" dir="rtl">
+    <h2>استمارة البيانات (BHD26)</h2>
+    <p dir="ltr">Event: eventID, eventDate (YYYY-MM-DD), eventTime (HH:MM, UTC+1), samplingProtocol, sampleSizeValue, sampleSizeUnit, decimalLatitude, decimalLongitude, coordinateUncertaintyInMeters, geodeticDatum, locality, habitat, recordedBy, equipe</p>
+    <p>جدول الحدث: صف واحد لكل وحدة أخذ عينات (مثل مسار مُسِح). أسماء الحقول بالإنجليزية كما في القاموس. التاريخ بصيغة AAAA-MM-JJ، والتوقيت HH:MM بتوقيت UTC+1، والإحداثيات WGS 84 بخمس خانات عشرية.</p>
+    <p dir="ltr">Occurrence: occurrenceID, eventID, scientificName, vernacularName, codeEspece, individualCount, sex, lifeStage, basisOfRecord, identificationQualifier, identifiedBy, associatedMedia, occurrenceRemarks</p>
+    <p>جدول المشاهدة: صف واحد لكل مشاهدة، مرتبط بمعرّف الحدث eventID.</p>
+    <ul>
+      <li>رموز الأنواع: ORDA <em>Oryx dammah</em>، NADA <em>Nanger dama mhorr</em>، GADO <em>Gazella dorcas</em>. نوع واحد في كل سطر، ولا يُكتب أبدًا «3 غزلان + 1 مها» في خانة واحدة.</li>
+      <li>نوع الدليل (V3): VIS حيوان مرئي، EMP أثر قدم، FEC فضلات، LAT مرحاض.</li>
+      <li>الجنس والعمر (V4): M / F / I؛ AD وSA وJU وJA وIND. الموثوقية (V5): 1 مؤكدة، 2 محتملة، 3 ممكنة.</li>
+      <li>الموطن (V1)، مثل SAV وGLA وENC وPTE. المراقب: ثلاثة أحرف أولى فريدة. الفريق: A أو B أو C أو D.</li>
+      <li>القواعد: لا خانة فارغة أبدًا (NA أو ND)؛ لا وحدة قياس داخل الخانة؛ الفاصلة العشرية نقطة لا فاصلة؛ الصفر يعني بحثنا ولم نجد.</li>
+    </ul>
+  </div>
+</section></body></html>
