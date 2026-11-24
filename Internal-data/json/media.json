@@ -1,0 +1,162 @@
+{
+  "images": {
+    "ui/banner-flora": {
+      "src": "Internal-data/ui-assets/banner-flora.png",
+      "sm": "Internal-data/ui-assets/banner-flora.png",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2172,
+      "h": 724
+    },
+    "ui/banner-birds": {
+      "src": "Internal-data/ui-assets/birds.png",
+      "sm": "Internal-data/ui-assets/birds.png",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2172,
+      "h": 724
+    },
+    "ui/banner-antelope": {
+      "src": "Internal-data/ui-assets/antelope.png",
+      "sm": "Internal-data/ui-assets/antelope.png",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2172,
+      "h": 724
+    },
+    "ui/banner-rodent": {
+      "src": "Internal-data/ui-assets/rodents.png",
+      "sm": "Internal-data/ui-assets/rodents.png",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2172,
+      "h": 724
+    },
+   "ui/banner-bats": {
+      "src": "Internal-data/ui-assets/bats.png",
+      "sm": "Internal-data/ui-assets/bats.png",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2172,
+      "h": 724
+    },
+    "ui/banner-insects": {
+      "src": "Internal-data/ui-assets/insects.png",
+      "sm": "Internal-data/ui-assets/insects.png",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2172,
+      "h": 724
+    },
+    "ui/banner-carnivors": {
+      "src": "Internal-data/ui-assets/carnivors.png",
+      "sm": "Internal-data/ui-assets/carnivors.png",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2172,
+      "h": 724
+    },
+    "ui/banner-summary": {
+      "src": "Internal-data/ui-assets/end.jpg",
+      "sm": "Internal-data/ui-assets/end.jpg",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2172,
+      "h": 724
+    },
+    "ui/banner-biodiversity-page": {
+      "src": "Internal-data/ui-assets/banner.webp",
+      "sm": "Internal-data/ui-assets/banner.webp",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2079,
+      "h": 756
+    },
+    "ui/banner-coexistance-page": {
+      "src": "Internal-data/ui-assets/banner-coexistance-page.webp",
+      "sm": "Internal-data/ui-assets/banner-coexistance-page.webp",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2079,
+      "h": 756
+    },
+    "ui/banner-conservation-page": {
+      "src": "Internal-data/ui-assets/conserve.png",
+    "sm": "Internal-data/ui-assets/conserve.png",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 1308,
+      "h": 378
+    },
+    "ui/banner-reserahc-page": {
+      "src": "Internal-data/ui-assets/banner-reserahc-page.webp",
+      "sm": "Internal-data/ui-assets/banner-reserahc-page.webp",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 2078,
+      "h": 757
+    },
+    "ui/conserve-bg": {
+      "src": "Internal-data/ui-assets/conserve.png",
+      "sm": "Internal-data/ui-assets/conserve.png",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 1301,
+      "h": 316
+    },
+    "ui/logo": {
+      "src": "Internal-data/ui-assets/logo.webp",
+      "sm": "Internal-data/ui-assets/logo.webp",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#080808",
+      "w": 1254,
+      "h": 1254
+    },
+    "ui/park-bg": {
+      "src": "Internal-data/ui-assets/park-bg.webp",
+      "sm": "Internal-data/ui-assets/park-bg.webp",
+      "xs": null,
+      "md": null,
+      "mdW": null,
+      "color": "#f8f8e8",
+      "w": 1306,
+      "h": 341
+    }
+  },
+  "credits": {},
+  "photos": {
+    "ui/conserve-bg": {
+      "en": " ",
+      "fr": " ",
+      "ar": ""
+    }
+  }
+}

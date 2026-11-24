@@ -1,0 +1,676 @@
+{
+  "metadata": {
+    "id": "bouhedma-last-savanna",
+    "title": {
+      "en": "The last North African Savana",
+      "fr": "La dernière savane nord-africaine",
+      "ar": "آخر سافانا في شمال إفريقيا"
+    },
+    "version": "1.0.0",
+    "defaultLanguage": "en",
+    "supportedLanguages": [
+      "en",
+      "fr",
+      "ar"
+    ],
+    "bbox": [
+      9.57263,
+      34.43722,
+      9.70295,
+      34.54742
+    ]
+  },
+  "chapters": [
+    {
+      "id": "Human-Wildlife-Coexistance",
+      "theme": "saharan-day",
+      "title": {
+        "en": "Human–Wildlife Coexistence",
+        "fr": "Coexistence entre l’Homme et la faune sauvage",
+        "ar": "التعايش بين الإنسان والحياة البرية"
+      },
+      "narrative": {
+        "en": "Located in central-southern Tunisia at the transitional boundary between the Mediterranean and Saharan bioclimatic zones (spanning the governorates of Sidi Bouzid and Gafsa), Bouhedma National Park was established in December 1980 to halt desertification and restore one of North Africa’s last intact pre-Saharan *Acacia raddiana* savanna ecosystems. Shaped by an arid to semi-arid climate characterized by scarce, irregular rainfall and hot summers, the park was created to rehabilitate degraded steppe lands and reintroduce extirpated Saharan-Sahelian wildlife—such as the scimitar-horned oryx, ostrich, and Barbary sheep—while integrating the socio-economic needs of surrounding rural populations.\n\nRecognized as a UNESCO Biosphere Reserve (designated in 1977), Bouhedma National Park manages human–wildlife coexistence through a structured spatial zoning system. At its core lie the integral protection zones of Bouhedma, Hadej, and Belkhir, strictly dedicated to ecosystem preservation and endangered species recovery. Surrounding buffer zones absorb anthropogenic pressures while permitting non-invasive scientific monitoring, ecological research, and regulated access. Beyond the core boundaries, transition areas allow local agro-pastoral communities to graze livestock and harvest resources under seasonal agreements that prevent competition at critical water points and grazing grounds. Ecological corridors maintain habitat connectivity across the landscape.",
+        "fr": "Situé dans le centre-sud de la Tunisie, à la frontière transitionnelle entre les zones bioclimatiques méditerranéenne et saharienne (à cheval sur les gouvernorats de Sidi Bouzid et de Gafsa), le Parc National de Bouhedma a été créé en décembre 1980 pour freiner la désertification et restaurer l’un des derniers écosystèmes intacts de savane présaharienne à *Acacia raddiana* d’Afrique du Nord. Façonné par un climat aride à semi-aride caractérisé par des précipitations rares et irrégulières ainsi que des étés chauds, le parc a été fondé afin de réhabiliter les terres steppiques dégradées et de réintroduire la faune saharo-sahélienne disparue — telle que l’oryx algazelle, l’autruche et le mouflon à manchettes — tout en intégrant les besoins socio-économiques des populations rurales environnantes.\n\nReconnu comme Réserve de biosphère de l’UNESCO (désignée en 1977), le Parc National de Bouhedma gère la coexistence entre l’Homme et la faune sauvage grâce à un système structuré de zonage spatial. En son cœur se trouvent les zones de protection intégrale de Bouhedma, Hadej et Belkhir, strictement dédiées à la préservation des écosystèmes et au rétablissement des espèces menacées. Les zones tampons environnantes absorbent les pressions anthropiques tout en autorisant le suivi scientifique non invasif, la recherche écologique et un accès réglementé. Au-delà des limites centrales, les aires de transition permettent aux communautés agro-pastorales locales de faire paître leur bétail et de prélever des ressources dans le cadre d’accords saisonniers qui préviennent toute compétition autour des points d’eau et des pâturages critiques. Des corridors écologiques maintiennent la connectivité des habitats à travers l’ensemble du paysage.",
+        "ar": "يقع المتنزه الوطني ببوهدمة في الوسط الجنوبي للبلاد التونسية عند الحدّ الانتقالي بين النطاقين المناخيين المتوسطي والصحراوي (ممتدًا على ولايتي سيدي بوزيد وقفصة)، وقد أُنشئ في ديسمبر 1980 لوقف زحف التصحر واستعادة أحد آخر النظم البيئية السليمة لسافانا الطلح (*Acacia raddiana*) ما قبل الصحراوية في شمال أفريقيا. ويتّسم المتنزه بمناخ جاف إلى شبه جاف يطبعه شحّ الأمطار وعدم انتظامها وارتفاع درجات الحرارة صيفًا، وقد تأسّس لإعادة تأهيل الأراضي السهبية المتدهورة وإعادة توطين الحيوانات البرية الصحراوية-الساحلية المنقرضة محليًا — مثل مها أبو حراب والنعام والأروية المغاربية — مع مراعاة الاحتياجات الاجتماعية والاقتصادية للسكان الريفيين المجاورين.\n\nوبصفته محمية للمحيط الحيوي معترفًا بها من قِبل اليونسكو (أُعلنت عام 1977)، يدير المتنزه الوطني ببوهدمة التعايش بين الإنسان والحياة البرية من خلال نظام منظم للتقسيم المكاني (التنطيق). ففي قلبه تقع مناطق الحماية المتكاملة في بوهدمة وهداج وبلخير، المخصّصة حصريًا لصون النظم البيئية واستعادة الأنواع المهددة بالانقراض. وتعمل المناطق العازلة المحيطة على امتصاص الضغوط البشرية مع السماح بالرصد العلمي غير الجائر والبحث البيئي والوصول المنظَّم. وخارج الحدود المركزية، تتيح المناطق الانتقالية للمجتمعات الرعوية والزراعية المحلية رعي مواشيها واستغلال الموارد وفق اتفاقيات موسمية تمنع التنافس على نقاط المياه والمراعي الحيوية، فيما تحافظ الممرات البيئية على ترابط الموائل عبر المشهد الطبيعي بأكمله."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.63779,
+          34.49232
+        ],
+        "zoom": 11.9,
+        "pitch": 20,
+        "bearing": 0,
+        "duration": 2000,
+        "transition": "easeTo",
+        "bounds": [
+          9.57263,
+          34.43722,
+          9.70295,
+          34.54742
+        ]
+      },
+      "activeLayers": [
+        "park-boundary/park_boundary",
+        "park-boundary/aoi_2km",
+        "park-boundary/zone_integral",
+        "park-boundary/zone_buffer",
+        "park-boundary/zone_exploit"
+      ],
+      "buttons": [],
+      "gallery": []
+    },
+    {
+      "id": "Reintroduction and Conservation",
+      "theme": "saharan-day",
+      "title": {
+        "en": "Conservation and Reintroduction",
+        "fr": "Conservation et de réintroduction",
+        "ar": "جهود الصون وإعادة التوطين"
+      },
+      "narrative": {
+        "en": "Bouhedma National Park serves two main purposes: conservation and reintroduction. Its conservation mission focuses on protecting and actively safeguarding the park's surviving native biodiversity within strictly protected core zones. By curbing overgrazing, illegal wood cutting, and habitat fragmentation, conservation teams maintain healthy seed banks, natural regeneration, and native ecological interactions that preserve the park's remaining natural heritage.\n\nAlongside conservation, its reintroduction mission focuses on restoring extirpated pre-Saharan megafauna lost to decades of unregulated hunting and severe droughts through phased recovery programs. Starting in 1985, captive-bred scimitar-horned oryx (Oryx dammah) were acclimatized in fenced enclosures before being released into semi-wild and open ranges, followed by North African ostriches (Struthio camelus camelus) on the plains and dama gazelles (Nanger dama) in the 1990s. On the rocky escarpments of Djebel Bouhedma, a dedicated breeding enclosure reinforces wild populations of Barbary sheep (Ammotragus lervia), alongside free-ranging dorcas gazelles (Gazella dorcas). This entire trophic web is sustained by the relic Acacia tortilis subsp. raddiana woodland, whose nutrient-rich pods provide vital dry-season forage. Use the map to locate the ostrich and Barbary sheep conservation enclosures.",
+        "fr": "Le Parc National de Bouhedma poursuit deux objectifs principaux : la conservation et la réintroduction. Sa mission de conservation se concentre sur la protection et la sauvegarde active de la biodiversité indigène survivante du parc au sein de zones centrales strictement protégées. En limitant le surpâturage, la coupe illégale de bois et la fragmentation des habitats, les équipes de conservation maintiennent des banques de graines saines, une régénération naturelle et des interactions écologiques natives qui préservent le patrimoine naturel subsistant du parc.\n\nParallèlement à la conservation, sa mission de réintroduction se concentre sur la restauration de la mégafaune présaharienne disparue à la suite de décennies de chasse non réglementée et de sécheresses sévères, à travers des programmes de rétablissement par étapes. À partir de 1985, des oryx algazelles (Oryx dammah) nés en captivité ont été acclimatés dans des enclos grillagés avant d'être relâchés dans des espaces semi-libres puis ouverts, suivis par les autruches d'Afrique du Nord (Struthio camelus camelus) dans les plaines et les gazelles dama (Nanger dama) dans les années 1990. Sur les escarpements rocheux du Djebel Bouhedma, un enclos d'élevage dédié renforce les populations sauvages de mouflons à manchettes (Ammotragus lervia), aux côtés des gazelles dorcas (Gazella dorcas) évoluant en liberté. L'ensemble de ce réseau trophique est soutenu par le boisement relique d'Acacia tortilis subsp. raddiana, dont les gousses riches en nutriments fournissent un fourrage essentiel en saison sèche. Utilisez la carte pour localiser les enclos de conservation de l'autruche et du mouflon à manchettes.",
+        "ar": "يخدم المتنزه الوطني ببوهدمة هدفين رئيسيين هما الصون وإعادة التوطين. وتركّز مهمة الصون على حماية التنوع البيولوجي الأصلي المتبقي في المتنزه وصونه بفاعلية داخل مناطق حماية مركزية صارمة. ومن خلال الحدّ من الرعي الجائر والاحتطاب غير القانوني وتجزئة الموائل، تحافظ فرق الصون على بنوك بذور سليمة وتجدّد طبيعي وتفاعلات بيئية أصلية تصون الإرث الطبيعي المتبقي في المتنزه.\n\nوبالتوازي مع الصون، تركّز مهمة إعادة التوطين على استعادة الحيوانات البرية الكبرى المميزة لمنطقة ما قبل الصحراء التي انقرضت محليًا بفعل عقود من الصيد غير المنظّم وموجات الجفاف الحاد، وذلك عبر برامج استعادة مرحلية. فابتداءً من عام 1985، تمّت أقلمة أفراد مها أبو حراب (Oryx dammah) المولودة في الأسر داخل مسيجات مغلقة قبل إطلاقها في نطاقات شبه برية ثم مفتوحة، وتبع ذلك إطلاق النعام شمال الأفريقي (Struthio camelus camelus) في السهول وغزلان الداما (Nanger dama) في التسعينيات. وعلى المنحدرات الصخرية لجبل بوهدمة، يعزّز مسيج مخصص للإكثار التجمعات البرية للأروية المغاربية (Ammotragus lervia)، إلى جانب غزلان الدوركاس (Gazella dorcas) التي تجوب المنطقة بحرية. وتدعم هذه الشبكة الغذائية بأكملها غابة الطلح المتبقية (Acacia tortilis subsp. raddiana)، التي توفّر قرونها الغنية بالعناصر الغذائية علفًا حيويًا خلال موسم الجفاف. استخدم الخريطة لتحديد موقع مسيجي صون النعام والأروية المغاربية."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.64744,
+          34.47555
+        ],
+        "zoom": 15.7,
+        "pitch": 45,
+        "bearing": 30,
+        "duration": 2500,
+        "transition": "flyTo",
+        "bounds": [
+          9.64344,
+          34.47155,
+          9.65144,
+          34.47955
+        ]
+      },
+      "activeLayers": [
+        "park-boundary/park_boundary",
+        "day1-infrastructures/enclos_autriche",
+        "day1-infrastructures/enclos_mouflon"
+      ],
+      "media": {
+        "type": "image",
+        "id": "ui/conserve-bg"
+      },
+      "buttons": [
+        {
+          "type": "species-modal",
+          "target": "ORDA,NADA,GADO,AMLE,STCA",
+          "label": {
+            "en": "Reintroduced Species List",
+            "fr": "Voir ces espèces",
+            "ar": "اعرض هذه الأنواع"
+          }
+        }
+      ],
+      "gallery": []
+    },
+    {
+      "id": "WWF NA Bootcamp",
+      "theme": "saharan-day",
+      "title": {
+        "en": "WWF North Africa Talent Academy Bootcamp",
+        "fr": "Bootcamp de la Talent Academy du WWF Afrique du Nord",
+        "ar": "معسكر أكاديمية المواهب للصندوق العالمي للطبيعة – شمال أفريقيا"
+      },
+      "narrative": {
+        "en": "Active across North Africa since 1994, WWF North Africa works to halt environmental degradation across terrestrial, marine, and freshwater ecosystems through field conservation, restoration, policy engagement, and community partnerships. Through its Talent Academy immersion programs, the organization equips young conservationists and practitioners with hands-on skills in biodiversity monitoring and species protection inside protected areas.\n\nFrom 14 to 19 September 2026, WWF North Africa convened thirty field practitioners and researchers at the Bouhedma base camp for this Talent Academy bootcamp. Guided by experts, participants trained on monitoring flora, birds, antelopes, rodents, bats, insects, and carnivores using both traditional protocols and modern tools—including camera traps, acoustic recorders, and GPS. Deploying across savannas, mountain slopes, and wadi corridors on foot and via 4x4 transects, teams applied unified taxonomic coding and georeferenced data sheets. The spatial tracks displayed here cover the first five days; use the day filters to explore each route and review the protocols in the following chapters.",
+        "fr": "Présent en Afrique du Nord depuis 1994, le WWF Afrique du Nord agit pour stopper la dégradation des écosystèmes terrestres, marins et d'eau douce à travers la conservation de terrain, la restauration, le plaidoyer et les partenariats locaux. À travers ses programmes immersifs Talent Academy, l'organisation forme les jeunes acteurs de la conservation et praticiens aux techniques de suivi de la biodiversité et de protection des espèces au sein d'aires protégées.\n\nDu 14 au 19 septembre 2026, le WWF Afrique du Nord a réuni trente praticiens et chercheurs au camp de base de Bouhedma pour ce bootcamp. Encadrés par des experts, les participants se sont formés au suivi de la flore, des oiseaux, des antilopes, des rongeurs, des chauves-souris, des insectes et des carnivores, combinant protocoles classiques et outils modernes tels que les pièges photographiques, les enregistreurs acoustiques et le GPS. Déployées à pied et en 4x4 à travers les savanes, versants montagneux et oueds, les équipes ont appliqué un codage taxonomique unifié et des fiches géoréférencées. Les traces affichées couvrent les cinq premiers jours ; utilisez les filtres par jour pour explorer chaque itinéraire et consulter les protocoles dans les chapitres suivants.",
+        "ar": "يعمل الصندوق العالمي للطبيعة في شمال أفريقيا منذ عام 1994 لوقف تدهور النظم البيئية البرية والبحرية والمياه العذبة عبر الصون الميداني، والاستعادة البيئية، والسياسات، والشراكات المجتمعية. ومن خلال برامج «أكاديمية المواهب» (Talent Academy)، يزوّد الصندوق الشباب والممارسين بمهارات تطبيقية في رصد التنوع البيولوجي وحماية الأنواع داخل المحميات الطبيعية.\n\nفي الفترة من 14 إلى 19 سبتمبر 2026، جمع الصندوق ثلاثين ممارسًا وباحثًا في مخيم قاعدة بوهدمة ضمن هذا المعسكر التدريبي. وبإشراف خبراء، تدرّب المشاركون على رصد النباتات والطيور والظباء والقوارض والخفافيش والحشرات والآكلات اللحوم باستخدام البروتوكولات التقليدية والتقنيات الحديثة مثل الفخاخ الكاميرية والمسجلات الصوتية وأجهزة GPS. وانتشرت الفرق سيرًا على الأقدام وبمركبات الدفع الرباعي عبر السافانا والمنحدرات الجبلية والأودية معتمدةً ترميزًا تصنيفيًا موحّدًا واستمارات مرجعية جغرافيًا. تمثّل المسارات المعروضة هنا الأيام الخمسة الأولى؛ استخدم مرشّحات الأيام لاستكشاف كل مسار والاطلاع على البروتوكولات في الفصول التالية."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.63967,
+          34.48571
+        ],
+        "zoom": 13,
+        "pitch": 30,
+        "bearing": 10,
+        "duration": 1800,
+        "transition": "easeTo",
+        "bounds": [
+          9.62106,
+          34.4603,
+          9.65828,
+          34.51113
+        ]
+      },
+      "activeLayers": [
+        "day1-infrastructures/camp",
+        "day2-herbivores-bats/gps4_trail",
+        "day3-carnivores/gps6_trail",
+        "day3-carnivores/itinerary_camera_trap",
+        "day4-rodents/bio_index_transect",
+        "day5-phytoecology/itinerary_ain_charchara"
+      ],
+      "buttons": [],
+      "media": {},
+      "gallery": [
+        "field/day-2/gps-configuration"
+      ],
+      "data": []
+    },
+    {
+      "id": "Flora",
+      "theme": "saharan-day",
+      "dayChip": {},
+      "title": {
+        "en": "Flora Monitoring",
+        "fr": "Suivi de la flore",
+        "ar": "رصد النباتات"
+      },
+      "narrative": {
+        "en": "Vegetation structure and floristic composition form the ecological baseline for wildlife monitoring and habitat assessment in conservation parks. Plants drive primary production, stabilize soils against erosion and desertification, regulate local microclimates and water retention, and provide essential food, shelter, and breeding cover for wildlife across trophic levels.\n\nMonitoring flora over time allows conservationists to track habitat quality, detect early signs of environmental stress, invasive species spread, or overgrazing, and evaluate the effectiveness of restoration and management actions across diverse habitats and seasons. In Bouhedma, field teams combined species inventorying with structural measurements to understand plant community dynamics and resilience under arid conditions.\n\nClick the Protocol button for more details.",
+        "fr": "La structure de la végétation et la composition floristique constituent le socle écologique du suivi de la faune et de l'évaluation des habitats dans les parcs de conservation. Les plantes assurent la production primaire, stabilisent les sols face à l'érosion et à la désertification, régulent les microclimats et la rétention d'eau, et fournissent nourriture, abri et zones de reproduction à la faune à travers les réseaux trophiques.\n\nLe suivi de la flore dans le temps permet de mesurer la qualité des habitats, de détecter précocement les signes de stress environnemental, d'espèces envahissantes ou de surpâturage, et d'évaluer l'efficacité des actions de restauration et de gestion selon les habitats et les saisons. À Bouhedma, les équipes de terrain ont combiné l'inventaire des espèces et des mesures structurelles afin de comprendre la dynamique des communautés végétales et leur résilience face à l'aridité.\n\nCliquez sur le bouton Protocole pour plus de détails.",
+        "ar": "تشكّل بنية الغطاء النباتي وتركيبته النوعية الأساس البيئي لرصد الحياة البرية وتقييم الموائل في متنزهات الصون. فالنباتات تقود الإنتاج الأولي، وتثبّت التربة ضد الانجراف والتصحر، وتنظّم المناخات المحلية واحتباس المياه، وتوفّر الغذاء والمأوى ومناطق التكاثر للحياة البرية عبر المستويات الغذائية المختلفة.\n\nكما يتيح رصد النباتات بمرور الوقت تتبّع جودة الموائل، واكتشاف المؤشرات المبكرة للإجهاد البيئي أو انتشار الأنواع الغازية أو الرعي الجائر، وتقييم فاعلية جهود الاستعادة والإدارة عبر مختلف الموائل والفصول. وفي بوهدمة، جمعت الفرق الميدانية بين حصر الأنواع والقياسات البنيوية لفهم ديناميكية المجتمعات النباتية وقدرتها على الصمود في ظل الظروف الجافة.\n\nاضغط على زر البروتوكول لمزيد من التفاصيل."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.64871,
+          34.48597
+        ],
+        "zoom": 13,
+        "pitch": 50,
+        "bearing": 40,
+        "duration": 2400,
+        "transition": "flyTo",
+        "bounds": [
+          9.63914,
+          34.46082,
+          9.65828,
+          34.51113
+        ]
+      },
+      "activeLayers": [
+        "day5-phytoecology"
+      ],
+      "media": {
+        "type": "image",
+        "id": "ui/banner-flora"
+      },
+      "buttons": [
+        {
+          "type": "protocol-drawer",
+          "target": "flora-protocol",
+          "label": {
+            "en": "flora monitoring protocol",
+            "fr": "protocole de suivi de la flore",
+            "ar": "بروتوكول رصد النباتات"
+          }
+        },
+        {
+          "type": "species-modal",
+          "target": "group:flora",
+          "label": {
+            "en": "Species List",
+            "fr": "Voir les espèces végétales",
+            "ar": "اعرض الأنواع النباتية"
+          }
+        }
+      ],
+      "gallery": [],
+      "data": []
+    },
+    {
+      "id": "Avifaune",
+      "theme": "saharan-day",
+      "title": {
+        "en": "Avifaune monitoring",
+        "fr": "Suivi de l'avifaune",
+        "ar": "رصد الطيور"
+      },
+      "narrative": {
+        "en": "Bouhedma National Park supports a diverse bird community spanning resident species, arid-steppe specialists, wadi birds, and migrants. Monitoring birds helps conservationists track ecosystem health, habitat connectivity, and seasonal biodiversity shifts without disturbing wildlife. \n\nPassive acoustic recorders and computational analysis are used to detect and classify bird vocalizations, supported by geospatial tools to place listening stations in optimal habitats away from noise. During the camp, participants practiced audio recording and computational analysis, and explored how geospatial placement improves station siting.\n\nClick the Protocol button for more details.",
+        "fr": "Le Parc National de Bouhedma abrite une communauté d'oiseaux variée comprenant des espèces résidentes, des spécialistes des steppes arides, des oiseaux d'oueds et des migrateurs. \n\nLe suivi des oiseaux aide à évaluer la santé des écosystèmes, la connectivité des habitats et les variations saisonnières de la biodiversité sans déranger la faune. Des enregistreurs acoustiques passifs et une analyse informatique sont utilisés pour détecter et classifier les vocalisations, avec l'appui d'outils géospatiaux afin de placer les stations d'écoute dans les meilleurs habitats tout en limitant le bruit. Lors du camp, les participants se sont exercés à l'enregistrement audio et à l'analyse informatique, et ont vu comment l'approche géospatiale améliore le placement des stations. \n\nCliquez sur le bouton Protocole pour plus de détails.",
+        "ar": "يحتضن المتنزه الوطني ببوهدمة مجتمعًا متنوعًا من الطيور يضم أنواعًا مقيمة، ومتخصصي السهوب الجافة، وطيور الأودية، والطيور المهاجرة. ويساعد رصد الطيور على تتبّع صحة النظم البيئية، وترابط الموائل، والتغيرات الموسمية للتنوع البيولوجي دون إزعاج الحياة البرية.تُستخدم المسجلات الصوتية المنفعلة والتحليل الحاسوبي لرصد الأصوات وتصنيفها، إلى جانب أدوات جغرافية مكانية لاختيار أفضل مواقع لمحطات الاستماع بعيدًا عن الضوضاء. وخلال المعسكر، تدرّب المشاركون على التسجيل الصوتي والتحليل الحاسوبي، وتعرّفوا على كيفية تحسين اختيار مواقع المحطات باستخدام التقنيات الجغرافية المكانية. اضغط على زر البروتوكول لمزيد من التفاصيل."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.63723,
+          34.48586
+        ],
+        "zoom": 13,
+        "pitch": 45,
+        "bearing": 15,
+        "duration": 2600,
+        "transition": "flyTo",
+        "bounds": [
+          9.61301,
+          34.45974,
+          9.66145,
+          34.51199
+        ]
+      },
+      "activeLayers": [
+        "pam-acoustic-network/pam_sites",
+        "pam-acoustic-network/water_sources",
+        "pam-acoustic-network/road_exclusion"
+      ],
+      "media": {
+        "type": "image",
+        "id": "ui/banner-birds"
+      },
+      "buttons": [
+        {
+          "type": "protocol-drawer",
+          "target": "birds-bioacoustics",
+          "label": {
+            "en": "Recording protocol",
+            "fr": "Approfondir : protocole et sites d’écoute",
+            "ar": "تعمّق: البروتوكول ومواقع التسجيل"
+          }
+        },
+        {
+          "type": "species-modal",
+          "target": "group:birds",
+          "label": {
+            "en": "Species List",
+            "fr": "Oiseaux et leurs chants",
+            "ar": "الطيور وأصواتها"
+          }
+        }
+      ],
+      "gallery": [],
+      "data": [],
+      "timeOfDay": "dawn"
+    },
+    {
+      "id": "Antelopes",
+      "theme": "saharan-day",
+      "dayChip": {},
+      "title": {
+        "en": "Antelopes Monitoring",
+        "fr": "Suivi des antilopes",
+        "ar": "رصد الظباء"
+      },
+      "narrative": {
+        "en": "In savanna ecosystems, antelopes act as key large herbivores that shape vegetation structure through grazing and browsing, disperse seeds, and support ecological balance across the landscape. \n\nAfter reintroduction into Bouhedma National Park, monitoring these reintroduced and highly protected ungulate populations—such as scimitar-horned oryx and gazelles—is essential to track herd establishment, habitat use, and recovery without causing disturbance. Observers use visual surveys and indirect signs to study movement and presence, and during the camp participants practiced these monitoring techniques in the field. \n\nClick the Protocol button for more details.",
+        "fr": "Dans les écosystèmes de savane, les antilopes jouent un rôle clé en tant que grands herbivores qui façonnent la structure de la végétation par le pâturage et le broutage, dispersent les graines et soutiennent l'équilibre écologique du paysage. \n\nAprès leur réintroduction dans le Parc National de Bouhedma, le suivi de ces populations d'ongulés réintroduites et hautement protégées — telles que l'oryx algazelle et les gazelles — est essentiel pour évaluer l'installation des hardes, l'utilisation des habitats et leur rétablissement sans les déranger. Les observateurs combinent observations visuelles et indices indirects pour étudier leurs déplacements et leur présence, et lors du camp les participants se sont exercés à ces méthodes sur le terrain. \n\nCliquez sur le bouton Protocole pour plus de détails.",
+        "ar": "في النظم البيئية للسافانا، تؤدي الظباء دورًا محوريًا كعواشب كبيرة تشكّل بنية الغطاء النباتي عبر الرعي والتصفح، وتنشر البذور، وتدعم التوازن البيئي في المشهد الطبيعي. وبعد إعادة توطينها في المتنزه الوطني ببوهدمة، يُعدّ رصد تجمعات ذوات الحوافر المعاد توطينها والمحمية بشدة — مثل المها أبو حراب والغزلان — أمرًا ضروريًا لتتبّع استقرار القطعان واستخدام الموائل وتعافيها دون إزعاجها. ويعتمد المراقبون على الرصد البصري والآثار غير المباشرة لدراسة التحركات والتواجد، وخلال المعسكر تدرّب المشاركون على هذه الأساليب الميدانية. اضغط على زر البروتوكول لمزيد من التفاصيل."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.64052,
+          34.46967
+        ],
+        "zoom": 13.7,
+        "pitch": 50,
+        "bearing": 10,
+        "duration": 2500,
+        "transition": "flyTo",
+        "bounds": [
+          9.62183,
+          34.46051,
+          9.6592,
+          34.47884
+        ]
+      },
+      "activeLayers": [
+        "day2-herbivores-bats/gps1_species",
+        "day2-herbivores-bats/gps5_species",
+        "day3-carnivores/camera_traps"
+      ],
+      "media": {
+        "type": "image",
+        "id": "ui/banner-antelope"
+      },
+      "buttons": [
+        {
+          "type": "protocol-drawer",
+          "target": "antelopes-protocol",
+          "label": {
+            "en": "Monitoring protocol",
+            "fr": "Approfondir : protocole antilopes complet",
+            "ar": "تعمّق: بروتوكول الظباء كاملًا"
+          }
+        },
+        {
+          "type": "species-modal",
+          "target": "group:antelopes",
+          "label": {
+            "en": "Species List",
+            "fr": "Voir les espèces d’antilopes",
+            "ar": "اعرض أنواع الظباء"
+          }
+        }
+      ],
+      "gallery": [],
+      "data": [],
+      "timeOfDay": "morning"
+    },
+    {
+      "id": "Rodents",
+      "theme": "saharan-day",
+      "dayChip": {},
+      "title": {
+        "en": "Rodents Monitoring",
+        "fr": "Suivi des rongeurs",
+        "ar": "رصد القوارض"
+      },
+      "narrative": {
+        "en": "Rodents play a vital ecological role as primary consumers, seed dispersers and predators, soil aerators, and key prey for raptors, reptiles, and carnivores across Bouhedma's arid habitats. \n\nMonitoring them helps conservationists assess habitat health, food-web stability, and environmental changes without causing harm. Field teams use transect signs and live trapping to study presence and distribution, and during the camp participants practiced these monitoring techniques in the field. \n\nClick the Protocol button for more details.",
+        "fr": "Les rongeurs jouent un rôle écologique essentiel en tant que consommateurs primaires, disséminateurs de graines et prédateurs, agents d'aération des sols et proies clés pour les rapaces, reptiles et carnivores dans les habitats arides de Bouhedma. \n\nLeur suivi aide les acteurs de la conservation à évaluer la santé des habitats, la stabilité des réseaux trophiques et les changements environnementaux sans leur nuire. Les équipes de terrain utilisent les indices sur transects et le piégeage vivant pour étudier leur présence et leur répartition, et lors du camp les participants se sont exercés à ces méthodes sur le terrain. \n\nCliquez sur le bouton Protocole pour plus de détails.",
+        "ar": "تؤدي القوارض دورًا بيئيًا حيويًا بوصفها مستهلكات أولية، وموزّعة للبذور ومفترسة لها، ومهوّية للتربة، وفرائس رئيسية للجوارح والزواحف والآكلات اللحوم في موائل بوهدمة الجافة. ويساعد رصدها على تقييم صحة الموائل واستقرار الشبكات الغذائية والتغيرات البيئية دون إلحاق الأذى بها. وتعتمد فرق الرصد على تقصي الآثار في المقاطع والمصائد الحية لدراسة التواجد والتوزيع، وخلال المعسكر تدرّب المشاركون على هذه الأساليب الميدانية. اضغط على زر البروتوكول لمزيد من التفاصيل."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.65141,
+          34.47477
+        ],
+        "zoom": 15.7,
+        "pitch": 35,
+        "bearing": 5,
+        "duration": 2200,
+        "transition": "flyTo",
+        "bounds": [
+          9.64741,
+          34.47077,
+          9.65541,
+          34.47877
+        ]
+      },
+      "activeLayers": [
+        "day4-rodents"
+      ],
+      "media": {
+        "type": "image",
+        "id": "ui/banner-rodent"
+      },
+      "buttons": [
+        {
+          "type": "protocol-drawer",
+          "target": "rodents-protocol",
+          "label": {
+            "en": "Monitoring protocol",
+            "fr": "Approfondir : protocole rongeurs complet",
+            "ar": "تعمّق: بروتوكول القوارض كاملًا"
+          }
+        },
+        {
+          "type": "species-modal",
+          "target": "group:rodents",
+          "label": {
+            "en": "Species List",
+            "fr": "Voir les espèces de rongeurs",
+            "ar": "اعرض أنواع القوارض"
+          }
+        }
+      ],
+      "gallery": [],
+      "data": [],
+      "timeOfDay": "afternoon"
+    },
+    {
+      "id": "Bats",
+      "theme": "nocturnal-night",
+      "dayChip": {},
+      "title": {
+        "en": "Bats Monitoring",
+        "fr": "Suivi des chauves-souris",
+        "ar": "رصد الخفافيش"
+      },
+      "narrative": {
+        "en": "Bats play a vital ecological role as nocturnal insect controllers, pollinators, and bio-indicators of ecosystem health across Bouhedma's arid habitats. \n\nMonitoring them helps conservationists track habitat quality, insect dynamics, and environmental changes without causing harm. Field teams combine capture surveys and acoustic listening to study bat presence and activity, and during the camp participants practiced these monitoring techniques in the field. \n\nClick the Protocol button for more details.",
+        "fr": "Les chauves-souris jouent un rôle écologique essentiel comme régulatrices nocturnes des insectes, pollinisatrices et bio-indicatrices de la santé des écosystèmes arides de Bouhedma. \n\nLeur suivi aide les acteurs de la conservation à évaluer la qualité des habitats, la dynamique des insectes et les changements environnementaux sans leur nuire. Les équipes de terrain combinent captures et écoute acoustique pour étudier leur présence et leur activité, et lors du camp les participants se sont exercés à ces méthodes sur le terrain. \n\nCliquez sur le bouton Protocole pour plus de détails.",
+        "ar": "تؤدي الخفافيش دورًا بيئيًا حيويًا بوصفها منظّمة ليلية لأعداد الحشرات، وملقّحة، ومؤشرات حيوية لصحة النظم البيئية في موائل بوهدمة الجافة. ويساعد رصدها على تقييم جودة الموائل وديناميكية الحشرات والتغيرات البيئية دون إلحاق الأذى بها. وتجمع فرق الرصد بين المسوحات بالمصائد والرصد الصوتي لدراسة التواجد والنشاط، وخلال المعسكر تدرّب المشاركون على هذه الأساليب الميدانية. اضغط على زر البروتوكول لمزيد من التفاصيل."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.6551,
+          34.47427
+        ],
+        "zoom": 15.7,
+        "pitch": 40,
+        "bearing": -30,
+        "duration": 2000,
+        "transition": "flyTo",
+        "bounds": [
+          9.6511,
+          34.47027,
+          9.6591,
+          34.47827
+        ]
+      },
+      "activeLayers": [
+        "day2-herbivores-bats/bat_net"
+      ],
+      "media": {
+        "type": "image",
+        "id": "ui/banner-bats"
+      },
+      "buttons": [
+        {
+          "type": "protocol-drawer",
+          "target": "bats-protocol",
+          "label": {
+            "en": "Monitoring protocol",
+            "fr": "Approfondir : protocole chiroptères complet",
+            "ar": "تعمّق: بروتوكول الخفافيش كاملًا"
+          }
+        },
+        {
+          "type": "species-modal",
+          "target": "group:bats",
+          "label": {
+            "en": "Species List",
+            "fr": "Voir les espèces de chauves-souris",
+            "ar": "اعرض أنواع الخفافيش"
+          }
+        }
+      ],
+      "gallery": [],
+      "data": [],
+      "timeOfDay": "dusk"
+    },
+    {
+      "id": "Insects",
+      "theme": "nocturnal-night",
+      "title": {
+        "en": "Insects Study",
+        "fr": "Étude des insectes",
+        "ar": "دراسة الحشرات"
+      },
+      "narrative": {
+        "en": "Insects play a vital ecological role in Bouhedma's savanna and arid habitats as pollinators, decomposers and nutrient cyclers, soil conditioners, and a primary food source for birds, bats, reptiles, and small mammals. \n\nMonitoring them helps conservationists assess habitat health, seasonal dynamics, and ecological balance across the park. Field teams use sampling and observation methods to study insect diversity and activity, and during the camp participants practiced these monitoring techniques in the field. \n\nClick the Protocol button for more details.",
+        "fr": "Les insectes jouent un rôle écologique essentiel dans les habitats de savane et arides de Bouhedma en tant que pollinisateurs, décomposeurs et recycleurs de nutriments, agents d'amélioration des sols et source de nourriture majeure pour les oiseaux, chauves-souris, reptiles et petits mammifères. \n\nLeur suivi aide les acteurs de la conservation à évaluer la santé des habitats, les dynamiques saisonnières et l'équilibre écologique du parc. Les équipes de terrain utilisent des méthodes d'échantillonnage et d'observation pour étudier la diversité et l'activité des insectes, et lors du camp les participants se sont exercés à ces techniques sur le terrain. \n\nCliquez sur le bouton Protocole pour plus de détails.",
+        "ar": "تؤدي الحشرات دورًا بيئيًا حيويًا في موائل السافانا والمناطق الجافة ببوهدمة بوصفها ملقّحة، ومحلّلة ومُعيدة لتدوير المغذيات، ومحسّنة للتربة، ومصدرًا غذائيًا رئيسيًا للطيور والخفافيش والزواحف والثدييات الصغيرة. ويساعد رصدها على تقييم صحة الموائل والديناميكيات الموسمية والتوازن البيئي في المتنزه. وتعتمد فرق الرصد على أساليب المعاينة والملاحظة لدراسة تنوع الحشرات ونشاطها، وخلال المعسكر تدرّب المشاركون على هذه التقنيات الميدانية. اضغط على زر البروتوكول لمزيد من التفاصيل."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.65044,
+          34.47445
+        ],
+        "zoom": 15.7,
+        "pitch": 25,
+        "bearing": -15,
+        "duration": 2000,
+        "transition": "flyTo",
+        "bounds": [
+          9.64644,
+          34.47045,
+          9.65444,
+          34.47845
+        ]
+      },
+      "activeLayers": [
+        "day3-insects"
+      ],
+      "media": {
+        "type": "image",
+        "id": "ui/banner-insects"
+      },
+      "buttons": [
+        {
+          "type": "protocol-drawer",
+          "target": "insects-protocol",
+          "label": {
+            "en": "Study protocol",
+            "fr": "Approfondir : protocole insectes complet",
+            "ar": "تعمّق: بروتوكول الحشرات كاملًا"
+          }
+        },
+        {
+          "type": "species-modal",
+          "target": "group:insects",
+          "label": {
+            "en": "Species List",
+            "fr": "Voir les espèces d’insectes",
+            "ar": "اعرض أنواع الحشرات"
+          }
+        }
+      ],
+      "gallery": [],
+      "data": [],
+      "timeOfDay": "evening"
+    },
+    {
+      "id": "Carnivores",
+      "theme": "nocturnal-night",
+      "dayChip": {},
+      "title": {
+        "en": "Carnivores Monitoring",
+        "fr": "Suivi des carnivores",
+        "ar": "رصد اللواحم"
+      },
+      "narrative": {
+        "en": "Carnivores play a vital ecological role in Bouhedma's arid habitats as predators and scavengers that regulate prey populations, clear carrion, and support food-web balance. \n\nMonitoring them helps conservationists assess ecosystem health, wildlife movement, and coexistence without causing disturbance. Field teams use sign tracking and camera traps to study carnivore presence and activity, and during the camp participants practiced these monitoring techniques in the field. \n\nClick the Protocol button for more details.",
+        "fr": "Les carnivores jouent un rôle écologique essentiel dans les habitats arides de Bouhedma en tant que prédateurs et charognards qui régulent les populations de proies, éliminent les carcasses et soutiennent l'équilibre des réseaux trophiques. \n\nLeur suivi aide les acteurs de la conservation à évaluer la santé des écosystèmes, les déplacements de la faune et la coexistence sans les déranger. Les équipes de terrain utilisent le relevé d'indices et les pièges photographiques pour étudier leur présence et leur activité, et lors du camp les participants se sont exercés à ces méthodes sur le terrain. \n\nCliquez sur le bouton Protocole pour plus de détails.",
+        "ar": "تؤدي آكلات اللحوم دورًا بيئيًا حيويًا في موائل بوهدمة الجافة بوصفها مفترسات وكانسة تنظّم أعداد الفرائس، وتزيل الجيف، وتدعم توازن الشبكات الغذائية. ويساعد رصدها على تقييم صحة النظم البيئية وتحركات الحياة البرية والتعايش دون إزعاجها. وتعتمد فرق الرصد على تتبّع الآثار والمصائد الكاميرية لدراسة تواجدها ونشاطها، وخلال المعسكر تدرّب المشاركون على هذه الأساليب الميدانية. اضغط على زر البروتوكول لمزيد من التفاصيل."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.64785,
+          34.4682
+        ],
+        "zoom": 14.7,
+        "pitch": 40,
+        "bearing": 20,
+        "duration": 2400,
+        "transition": "flyTo",
+        "bounds": [
+          9.643,
+          34.46058,
+          9.65271,
+          34.47583
+        ]
+      },
+      "activeLayers": [
+        "day3-carnivores/camera_traps",
+        "day3-carnivores/itinerary_camera_trap"
+      ],
+      "media": {
+        "type": "image",
+        "id": "ui/banner-carnivors"
+      },
+      "buttons": [
+        {
+          "type": "protocol-drawer",
+          "target": "carnivores-protocol",
+          "label": {
+            "en": "Monitoring protocol",
+            "fr": "Approfondir : protocole carnivores complet",
+            "ar": "تعمّق: بروتوكول اللواحم كاملًا"
+          }
+        },
+        {
+          "type": "species-modal",
+          "target": "group:carnivores",
+          "label": {
+            "en": "Species List",
+            "fr": "Voir les espèces de carnivores",
+            "ar": "اعرض أنواع اللواحم"
+          }
+        }
+      ],
+      "gallery": [],
+      "data": [],
+      "timeOfDay": "night"
+    },
+    {
+      "id": "Summary",
+      "theme": "saharan-day",
+      "title": {
+        "en": "Summary",
+        "fr": "Résumé",
+        "ar": "ملخص"
+      },
+      "narrative": {
+        "en": "The Bouhedma National Park Talent Academy camp has been successfully completed, bringing together participants, trainers, and partners for hands-on learning, knowledge exchange, and field data collection across the park. \n\nThis training helped prepare a new generation of conservation practitioners with practical skills in biodiversity monitoring and ecosystem protection, with heartfelt thanks to Bouhedma National Park, all contributing partners for their support and collaboration, and the experts for generously sharing their time. \n\nAll data gathered during the camp is available as open source, click the button below to access the database.",
+        "fr": "Le camp de la Talent Academy au Parc National de Bouhedma s'est achevé avec succès, réunissant participants, formateurs et partenaires autour de l'apprentissage pratique, de l'échange de connaissances et de la collecte de données de terrain dans le parc. \n\nCette formation a contribué à préparer une nouvelle génération d'acteurs de la conservation aux compétences concrètes en suivi de la biodiversité et protection des écosystèmes, avec nos sincères remerciements au Parc National de Bouhedma, à tous les partenaires impliqués pour leur soutien et leur collaboration, ainsi qu'aux experts pour le temps qu'ils ont consacré. \n\nToutes les données recueillies durant le camp sont disponibles en open source, cliquez sur le bouton ci-dessous pour accéder à la base de données.",
+        "ar": "اكتمل معسكر أكاديمية المواهب في المتنزه الوطني ببوهدمة بنجاح، جامعًا المشاركين والمدربين والشركاء حول التعلّم التطبيقي وتبادل المعارف وجمع البيانات الميدانية داخل المتنزه. وقد أسهم هذا التدريب في إعداد جيل جديد من ممارسي الصون يمتلك مهارات عملية في رصد التنوع البيولوجي وحماية النظم البيئية، مع خالص الشكر للمتنزه الوطني ببوهدمة، ولجميع الشركاء المشاركين على دعمهم وتعاونهم، وللخبراء على تخصيص وقتهم ومشاركتهم. جميع البيانات التي جُمعت خلال المعسكر متاحة كمصدر مفتوح — اضغط على الزر أدناه للوصول إلى قاعدة البيانات."
+      },
+      "strikingFact": {},
+      "mapView": {
+        "center": [
+          9.6378,
+          34.49258
+        ],
+        "zoom": 12.4,
+        "pitch": 0,
+        "bearing": 0,
+        "duration": 1800,
+        "transition": "easeTo",
+        "bounds": [
+          9.59441,
+          34.45513,
+          9.68118,
+          34.53002
+        ]
+      },
+      "activeLayers": [
+        "park-boundary/park_boundary",
+        "day2-herbivores-bats/gps1_species",
+        "day2-herbivores-bats/gps5_species",
+        "day2-herbivores-bats/bat_net",
+        "day3-carnivores/camera_traps",
+        "day3-insects/insect_station",
+        "day4-rodents/rodent_cage",
+        "day5-phytoecology/ain_charchara",
+        "pam-acoustic-network/pam_sites"
+      ],
+      "buttons": [
+        {
+          "type": "protocol-drawer",
+          "target": "Open Source Database",
+          "label": {
+            "en": "Access Open Source Database",
+            "fr": "Accéder à la base de données ouverte",
+            "ar": "الوصول إلى قاعدة البيانات المفتوحة"
+          }
+        },
+        {
+          "type": "species-modal",
+          "target": "group:all",
+          "label": {
+            "en": "Complete Species List",
+            "fr": "Liste complète des espèces",
+            "ar": "القائمة الكاملة للأنواع"
+          }
+        }
+      ],
+      "media": {
+        "type": "image",
+        "id": "ui/banner-summary"
+      },
+      "gallery": []
+    }
+  ]
+}

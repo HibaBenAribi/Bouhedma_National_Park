@@ -1,0 +1,1655 @@
+﻿{
+  "featured": [
+    "north-african-ostrich",
+    "cream-coloured-courser",
+    "little-bustard",
+    "red-rumped-swallow",
+    "black-redstart",
+    "great-spotted-cuckoo"
+  ],
+  "dawn": "black-redstart",
+  "sounds": [
+    {
+      "id": "north-african-ostrich",
+      "group": "steppe",
+      "code": "STCA",
+      "scientificName": "Struthio camelus",
+      "name": {
+        "en": "North African ostrich",
+        "fr": "Autruche d’Afrique du Nord",
+        "ar": "نعامة شمال أفريقيا"
+      },
+      "audio": "Public-data/media/audio/north-african-ostrich.mp3",
+      "duration": 1.9,
+      "image": null,
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "gamebirds"
+    },
+    {
+      "id": "cream-coloured-courser",
+      "group": "steppe",
+      "code": "CUCU",
+      "scientificName": "Cursorius cursor",
+      "name": {
+        "en": "Cream-coloured courser",
+        "fr": "Courvite isabelle",
+        "ar": "العدّاء الكريمي"
+      },
+      "audio": "Public-data/media/audio/cream-coloured-courser.mp3",
+      "duration": 2,
+      "image": null,
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waders"
+    },
+    {
+      "id": "little-bustard",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Tetrax tetrax",
+      "name": {
+        "en": "Little bustard",
+        "fr": "Outarde canepetière",
+        "ar": "الحبارى الصغيرة"
+      },
+      "audio": "Public-data/media/audio/little-bustard.mp3",
+      "duration": 40,
+      "image": {
+        "src": "Public-data/media/inat/tetrax-tetrax-sm.webp",
+        "w": 900,
+        "h": 675,
+        "credit": {
+          "author": "Daniel Raposo",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/5149978"
+        }
+      },
+      "source": {
+        "xc": "XC573450",
+        "url": "https://xeno-canto.org/573450",
+        "recordist": "Benoît Van Hecke",
+        "country": "France",
+        "date": "2020-07-04"
+      },
+      "iucn": "NT",
+      "subgroup": "gamebirds"
+    },
+    {
+      "id": "eurasian-stone-curlew",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Burhinus oedicnemus",
+      "name": {
+        "en": "Eurasian stone-curlew",
+        "fr": "Œdicnème criard",
+        "ar": "الكروان الأوراسي"
+      },
+      "audio": "Public-data/media/audio/eurasian-stone-curlew.mp3",
+      "duration": 1.6,
+      "image": {
+        "src": "Public-data/media/inat/burhinus-oedicnemus-sm.webp",
+        "w": 900,
+        "h": 601,
+        "credit": {
+          "author": "Kudaibergen Amirekul",
+          "licence": "CC BY-SA 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/208423163"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waders"
+    },
+    {
+      "id": "red-rumped-swallow",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Cecropis daurica",
+      "name": {
+        "en": "Red-rumped swallow",
+        "fr": "Hirondelle rousseline",
+        "ar": "السنونو أحمر العجز"
+      },
+      "audio": "Public-data/media/audio/red-rumped-swallow.mp3",
+      "duration": 31.3,
+      "image": {
+        "src": "Public-data/media/inat/cecropis-daurica-sm.webp",
+        "w": 820,
+        "h": 1024,
+        "credit": {
+          "author": "Parth Kansara",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/237607388"
+        }
+      },
+      "source": {
+        "xc": "XC307163",
+        "url": "https://xeno-canto.org/307163",
+        "recordist": "Qin Huang",
+        "country": "China",
+        "date": "2016-02-27"
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "common-house-martin",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Delichon urbicum",
+      "name": {
+        "en": "Common house martin",
+        "fr": "Hirondelle de fenêtre",
+        "ar": "خطّاف البيوت"
+      },
+      "audio": "Public-data/media/audio/common-house-martin.mp3",
+      "duration": 32.4,
+      "image": {
+        "src": "Public-data/media/inat/delichon-urbicum-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Erik Eckstein",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/323621902"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "black-redstart",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Phoenicurus ochruros",
+      "name": {
+        "en": "Black redstart",
+        "fr": "Rougequeue noir",
+        "ar": "الحميراء السوداء"
+      },
+      "audio": "Public-data/media/audio/black-redstart.mp3",
+      "duration": 40,
+      "image": {
+        "src": "Public-data/media/inat/phoenicurus-ochruros-sm.webp",
+        "w": 900,
+        "h": 533,
+        "credit": {
+          "author": "Paul Cools",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/3322603"
+        }
+      },
+      "source": {
+        "xc": "XC473243",
+        "url": "https://xeno-canto.org/473243",
+        "recordist": "Marie-Lan Taÿ Pamart",
+        "country": "France",
+        "date": "2019-05-10"
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "hooded-crow",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Corvus cornix",
+      "name": {
+        "en": "Hooded crow",
+        "fr": "Corneille mantelée",
+        "ar": "الغراب الأبقع"
+      },
+      "audio": "Public-data/media/audio/hooded-crow.mp3",
+      "duration": 1,
+      "image": {
+        "src": "Public-data/media/inat/corvus-cornix-sm.webp",
+        "w": 900,
+        "h": 563,
+        "credit": {
+          "author": "hedera.baltica",
+          "licence": "CC BY-SA 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/114176979"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "red-billed-chough",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Pyrrhocorax pyrrhocorax",
+      "name": {
+        "en": "Red-billed chough",
+        "fr": "Crave à bec rouge",
+        "ar": "الزاغ أحمر المنقار"
+      },
+      "audio": "Public-data/media/audio/red-billed-chough.mp3",
+      "duration": 2,
+      "image": {
+        "src": "Public-data/media/inat/pyrrhocorax-pyrrhocorax-sm.webp",
+        "w": 900,
+        "h": 616,
+        "credit": {
+          "author": "Pavel Shukov",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/167222978"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "great-spotted-cuckoo",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Clamator glandarius",
+      "name": {
+        "en": "Great spotted cuckoo",
+        "fr": "Coucou geai",
+        "ar": "الوقواق المرقّط الكبير"
+      },
+      "audio": "Public-data/media/audio/great-spotted-cuckoo.mp3",
+      "duration": 12.4,
+      "image": {
+        "src": "Public-data/media/inat/clamator-glandarius-sm.webp",
+        "w": 900,
+        "h": 635,
+        "credit": {
+          "author": "Frank Vassen",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/182820083"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "eurasian-collared-dove",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Streptopelia decaocto",
+      "name": {
+        "en": "Eurasian collared dove",
+        "fr": "Tourterelle turque",
+        "ar": "اليمامة المطوّقة"
+      },
+      "audio": "Public-data/media/audio/eurasian-collared-dove.mp3",
+      "duration": 5.5,
+      "image": {
+        "src": "Public-data/media/inat/streptopelia-decaocto-sm.webp",
+        "w": 900,
+        "h": 506,
+        "credit": {
+          "author": "mattecasti",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/100117501"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "gamebirds"
+    },
+    {
+      "id": "common-wood-pigeon",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Columba palumbus",
+      "name": {
+        "en": "Common wood pigeon",
+        "fr": "Pigeon ramier",
+        "ar": "حمام الغابة"
+      },
+      "audio": "Public-data/media/audio/common-wood-pigeon.mp3",
+      "duration": 2.2,
+      "image": {
+        "src": "Public-data/media/inat/columba-palumbus-sm.webp",
+        "w": 900,
+        "h": 628,
+        "credit": {
+          "author": "hedera.baltica",
+          "licence": "CC BY-SA 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/108521205"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "gamebirds"
+    },
+    {
+      "id": "eurasian-tree-sparrow",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Passer montanus",
+      "name": {
+        "en": "Eurasian tree sparrow",
+        "fr": "Moineau friquet",
+        "ar": "عصفور الشجر"
+      },
+      "audio": "Public-data/media/audio/eurasian-tree-sparrow.mp3",
+      "duration": 16.1,
+      "image": {
+        "src": "Public-data/media/inat/passer-montanus-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Дмитрий Осипов",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/165351252"
+        }
+      },
+      "source": {
+        "xc": "XC347806",
+        "url": "https://xeno-canto.org/347806",
+        "recordist": "Derek Paulo",
+        "country": "Philippines",
+        "date": "2016-12-13"
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "common-blackbird",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Turdus merula",
+      "name": {
+        "en": "Common blackbird",
+        "fr": "Merle noir",
+        "ar": "الشحرور"
+      },
+      "audio": "Public-data/media/audio/common-blackbird.mp3",
+      "duration": 40,
+      "image": {
+        "src": "Public-data/media/inat/turdus-merula-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Luiz Lapa",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/356885346"
+        }
+      },
+      "source": {
+        "xc": "XC442903",
+        "url": "https://xeno-canto.org/442903",
+        "recordist": "James Ray",
+        "country": "Australia",
+        "date": "2018-11-11"
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "eurasian-golden-oriole",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Oriolus oriolus",
+      "name": {
+        "en": "Eurasian golden oriole",
+        "fr": "Loriot d’Europe",
+        "ar": "الصفارية الذهبية"
+      },
+      "audio": "Public-data/media/audio/eurasian-golden-oriole.mp3",
+      "duration": 40,
+      "image": {
+        "src": "Public-data/media/inat/oriolus-oriolus-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Edwin Arrigui Torres",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/418521674"
+        }
+      },
+      "source": {
+        "xc": "XC269069",
+        "url": "https://xeno-canto.org/269069",
+        "recordist": "Alexander Kurthy",
+        "country": "Slovakia",
+        "date": "2015-06-05"
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "great-spotted-woodpecker",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Dendrocopos major",
+      "name": {
+        "en": "Great spotted woodpecker",
+        "fr": "Pic épeiche",
+        "ar": "نقّار الخشب الكبير المرقّط"
+      },
+      "audio": "Public-data/media/audio/great-spotted-woodpecker.mp3",
+      "duration": 5.7,
+      "image": {
+        "src": "Public-data/media/inat/dendrocopos-major-sm.webp",
+        "w": 886,
+        "h": 1024,
+        "credit": {
+          "author": "Elio Giacone",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/259132621"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "ring-ouzel",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Turdus torquatus",
+      "name": {
+        "en": "Ring ouzel",
+        "fr": "Merle à plastron",
+        "ar": "الشحرور المطوّق"
+      },
+      "audio": "Public-data/media/audio/ring-ouzel.mp3",
+      "duration": 2,
+      "image": null,
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "brambling",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Fringilla montifringilla",
+      "name": {
+        "en": "Brambling",
+        "fr": "Pinson du Nord",
+        "ar": "شرشور الجبل"
+      },
+      "audio": "Public-data/media/audio/brambling.mp3",
+      "duration": 1.8,
+      "image": {
+        "src": "Public-data/media/inat/fringilla-montifringilla-sm.webp",
+        "w": 900,
+        "h": 684,
+        "credit": {
+          "author": "Геннадий",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/43710488"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "red-breasted-flycatcher",
+      "group": "steppe",
+      "code": null,
+      "scientificName": "Ficedula parva",
+      "name": {
+        "en": "Red-breasted flycatcher",
+        "fr": "Gobemouche nain",
+        "ar": "خاطف الذباب أحمر الصدر"
+      },
+      "audio": "Public-data/media/audio/red-breasted-flycatcher.mp3",
+      "duration": 1.9,
+      "image": {
+        "src": "Public-data/media/inat/ficedula-parva-sm.webp",
+        "w": 900,
+        "h": 578,
+        "credit": {
+          "author": "Paul Cools",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/1853510"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "black-winged-kite",
+      "group": "raptors",
+      "code": null,
+      "scientificName": "Elanus caeruleus",
+      "name": {
+        "en": "Black-winged kite",
+        "fr": "Élanion blanc",
+        "ar": "الحدأة سوداء الكتفين"
+      },
+      "audio": "Public-data/media/audio/black-winged-kite.mp3",
+      "duration": 7.5,
+      "image": {
+        "src": "Public-data/media/inat/elanus-caeruleus-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Daniel Liepack",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/183749378"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "raptors"
+    },
+    {
+      "id": "lesser-kestrel",
+      "group": "raptors",
+      "code": null,
+      "scientificName": "Falco naumanni",
+      "name": {
+        "en": "Lesser kestrel",
+        "fr": "Faucon crécerellette",
+        "ar": "العويسق"
+      },
+      "audio": "Public-data/media/audio/lesser-kestrel.mp3",
+      "duration": 2.1,
+      "image": {
+        "src": "Public-data/media/inat/falco-naumanni-sm.webp",
+        "w": 800,
+        "h": 533,
+        "credit": {
+          "author": "Геннадий Дякин",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/294564709"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "raptors"
+    },
+    {
+      "id": "griffon-vulture",
+      "group": "raptors",
+      "code": null,
+      "scientificName": "Gyps fulvus",
+      "name": {
+        "en": "Griffon vulture",
+        "fr": "Vautour fauve",
+        "ar": "النسر الأسمر"
+      },
+      "audio": "Public-data/media/audio/griffon-vulture.mp3",
+      "duration": 2,
+      "image": {
+        "src": "Public-data/media/inat/gyps-fulvus-sm.webp",
+        "w": 819,
+        "h": 1024,
+        "credit": {
+          "author": "Gökçe Coşkun",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/202775885"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "raptors"
+    },
+    {
+      "id": "cinereous-vulture",
+      "group": "raptors",
+      "code": null,
+      "scientificName": "Aegypius monachus",
+      "name": {
+        "en": "Cinereous vulture",
+        "fr": "Vautour moine",
+        "ar": "النسر الأسود"
+      },
+      "audio": "Public-data/media/audio/cinereous-vulture.mp3",
+      "duration": 2,
+      "image": {
+        "src": "Public-data/media/inat/aegypius-monachus-sm.webp",
+        "w": 900,
+        "h": 824,
+        "credit": {
+          "author": "rociomar",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/192396793"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "NT",
+      "subgroup": "raptors"
+    },
+    {
+      "id": "eastern-imperial-eagle",
+      "group": "raptors",
+      "code": null,
+      "scientificName": "Aquila heliaca",
+      "name": {
+        "en": "Eastern imperial eagle",
+        "fr": "Aigle impérial",
+        "ar": "العقاب الملكي الشرقي"
+      },
+      "audio": "Public-data/media/audio/eastern-imperial-eagle.mp3",
+      "duration": 2,
+      "image": {
+        "src": "Public-data/media/inat/aquila-heliaca-sm.webp",
+        "w": 900,
+        "h": 675,
+        "credit": {
+          "author": "Andrew Bazdyrev",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/129874502"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "VU",
+      "subgroup": "raptors"
+    },
+    {
+      "id": "grey-heron",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Ardea cinerea",
+      "name": {
+        "en": "Grey heron",
+        "fr": "Héron cendré",
+        "ar": "البلشون الرمادي"
+      },
+      "audio": "Public-data/media/audio/grey-heron.mp3",
+      "duration": 13.5,
+      "image": {
+        "src": "Public-data/media/inat/ardea-cinerea-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Frank Sengpiel",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/73516715"
+        }
+      },
+      "source": {
+        "xc": "XC432231",
+        "url": "https://xeno-canto.org/432231",
+        "recordist": "Joost van Bruggen",
+        "country": "Spain",
+        "date": "2018-08-04"
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "purple-heron",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Ardea purpurea",
+      "name": {
+        "en": "Purple heron",
+        "fr": "Héron pourpré",
+        "ar": "البلشون الأرجواني"
+      },
+      "audio": "Public-data/media/audio/purple-heron.mp3",
+      "duration": 3.3,
+      "image": {
+        "src": "Public-data/media/inat/ardea-purpurea-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Uday Agashe",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/278940859"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "little-egret",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Egretta garzetta",
+      "name": {
+        "en": "Little egret",
+        "fr": "Aigrette garzette",
+        "ar": "البلشون الأبيض الصغير"
+      },
+      "audio": "Public-data/media/audio/little-egret.mp3",
+      "duration": 10.2,
+      "image": {
+        "src": "Public-data/media/inat/egretta-garzetta-sm.webp",
+        "w": 900,
+        "h": 675,
+        "credit": {
+          "author": "Bengt Nyman",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/205293169"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "cattle-egret",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Bubulcus ibis",
+      "name": {
+        "en": "Cattle egret",
+        "fr": "Héron garde-bœufs",
+        "ar": "بلشون الماشية"
+      },
+      "audio": "Public-data/media/audio/cattle-egret.mp3",
+      "duration": 25.1,
+      "image": null,
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "black-crowned-night-heron",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Nycticorax nycticorax",
+      "name": {
+        "en": "Black-crowned night heron",
+        "fr": "Bihoreau gris",
+        "ar": "بلشون الليل"
+      },
+      "audio": "Public-data/media/audio/black-crowned-night-heron.mp3",
+      "duration": 40,
+      "image": {
+        "src": "Public-data/media/inat/nycticorax-nycticorax-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Kyle Nessen",
+          "licence": "CC0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/49357930"
+        }
+      },
+      "source": {
+        "xc": "XC383999",
+        "url": "https://xeno-canto.org/383999",
+        "recordist": "Jan Cibulka",
+        "country": "Czech Republic",
+        "date": "2017-08-23"
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "little-bittern",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Ixobrychus minutus",
+      "name": {
+        "en": "Little bittern",
+        "fr": "Blongios nain",
+        "ar": "الواق الصغير"
+      },
+      "audio": "Public-data/media/audio/little-bittern.mp3",
+      "duration": 2.2,
+      "image": {
+        "src": "Public-data/media/inat/ixobrychus-minutus-sm.webp",
+        "w": 900,
+        "h": 596,
+        "credit": {
+          "author": "Oleg",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/523072440"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "eurasian-bittern",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Botaurus stellaris",
+      "name": {
+        "en": "Eurasian bittern",
+        "fr": "Butor étoilé",
+        "ar": "الواق الأوراسي"
+      },
+      "audio": "Public-data/media/audio/eurasian-bittern.mp3",
+      "duration": 14.3,
+      "image": {
+        "src": "Public-data/media/inat/botaurus-stellaris-sm.webp",
+        "w": 900,
+        "h": 599,
+        "credit": {
+          "author": "Tatyana Zarubo",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/60579218"
+        }
+      },
+      "source": {
+        "xc": "XC362697",
+        "url": "https://xeno-canto.org/362697",
+        "recordist": "Miro Demko",
+        "country": "Slovakia",
+        "date": "2017-03-31"
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "white-stork",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Ciconia ciconia",
+      "name": {
+        "en": "White stork",
+        "fr": "Cigogne blanche",
+        "ar": "اللقلق الأبيض"
+      },
+      "audio": "Public-data/media/audio/white-stork.mp3",
+      "duration": 2.1,
+      "image": {
+        "src": "Public-data/media/inat/ciconia-ciconia-sm.webp",
+        "w": 900,
+        "h": 675,
+        "credit": {
+          "author": "xulescu_g",
+          "licence": "CC BY-SA 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/269104502"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "black-stork",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Ciconia nigra",
+      "name": {
+        "en": "Black stork",
+        "fr": "Cigogne noire",
+        "ar": "اللقلق الأسود"
+      },
+      "audio": "Public-data/media/audio/black-stork.mp3",
+      "duration": 2.4,
+      "image": {
+        "src": "Public-data/media/inat/ciconia-nigra-sm.webp",
+        "w": 900,
+        "h": 563,
+        "credit": {
+          "author": "Zinogre",
+          "licence": "CC BY-SA 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/464130708"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "glossy-ibis",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Plegadis falcinellus",
+      "name": {
+        "en": "Glossy ibis",
+        "fr": "Ibis falcinelle",
+        "ar": "أبو منجل اللامع"
+      },
+      "audio": "Public-data/media/audio/glossy-ibis.mp3",
+      "duration": 1.7,
+      "image": {
+        "src": "Public-data/media/inat/plegadis-falcinellus-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Marc Henrion",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/247976267"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "greater-flamingo",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Phoenicopterus roseus",
+      "name": {
+        "en": "Greater flamingo",
+        "fr": "Flamant rose",
+        "ar": "النحام الكبير"
+      },
+      "audio": "Public-data/media/audio/greater-flamingo.mp3",
+      "duration": 9.3,
+      "image": {
+        "src": "Public-data/media/inat/phoenicopterus-roseus-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "cog2022",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/187242272"
+        }
+      },
+      "source": {
+        "xc": "XC432217",
+        "url": "https://xeno-canto.org/432217",
+        "recordist": "Joost van Bruggen",
+        "country": "Spain",
+        "date": "2018-08-07"
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "black-winged-stilt",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Himantopus himantopus",
+      "name": {
+        "en": "Black-winged stilt",
+        "fr": "Échasse blanche",
+        "ar": "أبو المغازل"
+      },
+      "audio": "Public-data/media/audio/black-winged-stilt.mp3",
+      "duration": 11.7,
+      "image": {
+        "src": "Public-data/media/inat/himantopus-himantopus-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Paolo Zucca",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/20455456"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waders"
+    },
+    {
+      "id": "little-grebe",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Tachybaptus ruficollis",
+      "name": {
+        "en": "Little grebe",
+        "fr": "Grèbe castagneux",
+        "ar": "الغطّاس الصغير"
+      },
+      "audio": "Public-data/media/audio/little-grebe.mp3",
+      "duration": 2.4,
+      "image": {
+        "src": "Public-data/media/inat/tachybaptus-ruficollis-sm.webp",
+        "w": 900,
+        "h": 649,
+        "credit": {
+          "author": "jjulio2000",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/194462197"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "common-crane",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Grus grus",
+      "name": {
+        "en": "Common crane",
+        "fr": "Grue cendrée",
+        "ar": "الكركي"
+      },
+      "audio": "Public-data/media/audio/common-crane.mp3",
+      "duration": 35.8,
+      "image": {
+        "src": "Public-data/media/inat/grus-grus-sm.webp",
+        "w": 900,
+        "h": 675,
+        "credit": {
+          "author": "Tarique Sani",
+          "licence": "CC BY-NC-SA 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/13745"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "ruddy-shelduck",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Tadorna ferruginea",
+      "name": {
+        "en": "Ruddy shelduck",
+        "fr": "Tadorne casarca",
+        "ar": "الشهرمان"
+      },
+      "audio": "Public-data/media/audio/ruddy-shelduck.mp3",
+      "duration": 1.7,
+      "image": {
+        "src": "Public-data/media/inat/tadorna-ferruginea-sm.webp",
+        "w": 900,
+        "h": 599,
+        "credit": {
+          "author": "egorbirder",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/118676181"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "red-crested-pochard",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Netta rufina",
+      "name": {
+        "en": "Red-crested pochard",
+        "fr": "Nette rousse",
+        "ar": "البطّ أحمر العرف"
+      },
+      "audio": "Public-data/media/audio/red-crested-pochard.mp3",
+      "duration": 2,
+      "image": {
+        "src": "Public-data/media/inat/netta-rufina-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Diego González Dopico",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/458515851"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "grey-wagtail",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Motacilla cinerea",
+      "name": {
+        "en": "Grey wagtail",
+        "fr": "Bergeronnette des ruisseaux",
+        "ar": "الذعرة الرمادية"
+      },
+      "audio": "Public-data/media/audio/grey-wagtail.mp3",
+      "duration": 25.1,
+      "image": {
+        "src": "Public-data/media/inat/motacilla-cinerea-sm.webp",
+        "w": 900,
+        "h": 616,
+        "credit": {
+          "author": "kellyr115",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/849468"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "savis-warbler",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Locustella luscinioides",
+      "name": {
+        "en": "Savi’s warbler",
+        "fr": "Locustelle luscinioïde",
+        "ar": "هازجة سافي"
+      },
+      "audio": "Public-data/media/audio/savis-warbler.mp3",
+      "duration": 4.5,
+      "image": {
+        "src": "Public-data/media/inat/locustella-luscinioides-sm.webp",
+        "w": 900,
+        "h": 675,
+        "credit": {
+          "author": "Михаил Анурьев",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/123410763"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "common-reed-bunting",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Emberiza schoeniclus",
+      "name": {
+        "en": "Common reed bunting",
+        "fr": "Bruant des roseaux",
+        "ar": "درسة القصب"
+      },
+      "audio": "Public-data/media/audio/common-reed-bunting.mp3",
+      "duration": 1.8,
+      "image": {
+        "src": "Public-data/media/inat/emberiza-schoeniclus-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "raz1940 et Charlotte",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/6119774"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "songbirds"
+    },
+    {
+      "id": "great-cormorant",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Phalacrocorax carbo",
+      "name": {
+        "en": "Great cormorant",
+        "fr": "Grand Cormoran",
+        "ar": "الغاق الكبير"
+      },
+      "audio": "Public-data/media/audio/great-cormorant.mp3",
+      "duration": 2.1,
+      "image": {
+        "src": "Public-data/media/inat/phalacrocorax-carbo-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Дмитрий Осипов",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/141367445"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waterbirds"
+    },
+    {
+      "id": "pectoral-sandpiper",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Calidris melanotos",
+      "name": {
+        "en": "Pectoral sandpiper",
+        "fr": "Bécasseau tacheté",
+        "ar": "الطيطوى الصدري"
+      },
+      "audio": "Public-data/media/audio/pectoral-sandpiper.mp3",
+      "duration": 2.8,
+      "image": {
+        "src": "Public-data/media/inat/calidris-melanotos-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Andrew Cannizzaro",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/166627642"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "waders"
+    },
+    {
+      "id": "red-necked-phalarope",
+      "group": "wetland",
+      "code": null,
+      "scientificName": "Phalaropus lobatus",
+      "name": {
+        "en": "Red-necked phalarope",
+        "fr": "Phalarope à bec étroit",
+        "ar": "الفلروب أحمر العنق"
+      },
+      "audio": "Public-data/media/audio/red-necked-phalarope.mp3",
+      "duration": 5.7,
+      "image": {
+        "src": "Public-data/media/inat/phalaropus-lobatus-sm.webp",
+        "w": 900,
+        "h": 675,
+        "credit": {
+          "author": "Yinan Li",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/438438392"
+        }
+      },
+      "source": {
+        "xc": "XC109657",
+        "url": "https://xeno-canto.org/109657",
+        "recordist": "Jonathon Jongsma",
+        "country": "United States",
+        "date": "2012-09-03"
+      },
+      "iucn": "LC",
+      "subgroup": "waders"
+    },
+    {
+      "id": "black-headed-gull",
+      "group": "coast",
+      "code": null,
+      "scientificName": "Chroicocephalus ridibundus",
+      "name": {
+        "en": "Black-headed gull",
+        "fr": "Mouette rieuse",
+        "ar": "النورس أسود الرأس"
+      },
+      "audio": "Public-data/media/audio/black-headed-gull.mp3",
+      "duration": 40,
+      "image": {
+        "src": "Public-data/media/inat/chroicocephalus-ridibundus-sm.webp",
+        "w": 900,
+        "h": 599,
+        "credit": {
+          "author": "Dmitry Dubikovskiy",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/198109587"
+        }
+      },
+      "source": {
+        "xc": "XC143894",
+        "url": "https://xeno-canto.org/143894",
+        "recordist": "Dan Stowell",
+        "country": "United Kingdom",
+        "date": "2013-07-23"
+      },
+      "iucn": "LC",
+      "subgroup": "seabirds"
+    },
+    {
+      "id": "yellow-legged-gull",
+      "group": "coast",
+      "code": null,
+      "scientificName": "Larus michahellis",
+      "name": {
+        "en": "Yellow-legged gull",
+        "fr": "Goéland leucophée",
+        "ar": "النورس أصفر الساقين"
+      },
+      "audio": "Public-data/media/audio/yellow-legged-gull.mp3",
+      "duration": 37.6,
+      "image": {
+        "src": "Public-data/media/inat/larus-michahellis-sm.webp",
+        "w": 900,
+        "h": 682,
+        "credit": {
+          "author": "Jörg Hempel",
+          "licence": "CC BY-SA 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/12831"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "seabirds"
+    },
+    {
+      "id": "gull-billed-tern",
+      "group": "coast",
+      "code": null,
+      "scientificName": "Gelochelidon nilotica",
+      "name": {
+        "en": "Gull-billed tern",
+        "fr": "Sterne hansel",
+        "ar": "الخرشنة غليظة المنقار"
+      },
+      "audio": "Public-data/media/audio/gull-billed-tern.mp3",
+      "duration": 18.8,
+      "image": {
+        "src": "Public-data/media/inat/gelochelidon-nilotica-sm.webp",
+        "w": 900,
+        "h": 633,
+        "credit": {
+          "author": "Paul Cools",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/1927698"
+        }
+      },
+      "source": {
+        "xc": "XC431990",
+        "url": "https://xeno-canto.org/431990",
+        "recordist": "Joost van Bruggen",
+        "country": "Spain",
+        "date": "2018-08-02"
+      },
+      "iucn": "LC",
+      "subgroup": "seabirds"
+    },
+    {
+      "id": "black-legged-kittiwake",
+      "group": "coast",
+      "code": null,
+      "scientificName": "Rissa tridactyla",
+      "name": {
+        "en": "Black-legged kittiwake",
+        "fr": "Mouette tridactyle",
+        "ar": "النورس ثلاثي الأصابع"
+      },
+      "audio": "Public-data/media/audio/black-legged-kittiwake.mp3",
+      "duration": 40,
+      "image": {
+        "src": "Public-data/media/inat/rissa-tridactyla-sm.webp",
+        "w": 900,
+        "h": 600,
+        "credit": {
+          "author": "Marion Goascoz",
+          "licence": "CC BY-NC 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/419912377"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "VU",
+      "subgroup": "seabirds"
+    },
+    {
+      "id": "scopolis-shearwater",
+      "group": "coast",
+      "code": null,
+      "scientificName": "Calonectris diomedea",
+      "name": {
+        "en": "Scopoli’s shearwater",
+        "fr": "Puffin de Scopoli",
+        "ar": "جلم الماء لسكوبولي"
+      },
+      "audio": "Public-data/media/audio/scopolis-shearwater.mp3",
+      "duration": 17,
+      "image": {
+        "src": "Public-data/media/inat/calonectris-diomedea-sm.webp",
+        "w": 718,
+        "h": 540,
+        "credit": {
+          "author": "Jan Ebr &amp; Ivana Ebrová",
+          "licence": "CC BY 4.0",
+          "source": "iNaturalist",
+          "url": "https://www.inaturalist.org/photos/121566757"
+        }
+      },
+      "source": {
+        "xc": null,
+        "url": null,
+        "recordist": null,
+        "country": null,
+        "date": null
+      },
+      "iucn": "LC",
+      "subgroup": "seabirds"
+    }
+  ]
+}
