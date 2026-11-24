@@ -1718,7 +1718,7 @@ function pa() {
     sa?.resize();
 }
 const ma = Object.assign({
-    "/html/tutorials/antelopes-protocol.html": () => A(() => import("./antelopes-protocol-B_9hPLX8.js?v=live-server-fragments-20261123"), []).then(t => t.default), "/html/tutorials/bats-protocol.html": () => A(() => import("./bats-protocol-DoukPBO4.js?v=live-server-fragments-20261123"), []).then(t => t.default), "/html/tutorials/birds-bioacoustics.html": () => A(() => import("./birds-bioacoustics-DeKe1pf7.js?v=live-server-fragments-20261123"), []).then(t => t.default), "/html/tutorials/carnivores-protocol.html": () => A(() => import("./carnivores-protocol-D78OBEDu.js?v=live-server-fragments-20261123"), []).then(t => t.default), "/html/tutorials/flora-protocol.html": () => A(() => import("./flora-protocol-CSxK6GH9.js?v=live-server-fragments-20261123"), []).then(t => t.default), "/html/tutorials/insects-protocol.html": () => A(() => import("./insects-protocol-DhRnFSNr.js?v=live-server-fragments-20261123"), []).then(t => t.default), "/html/tutorials/rodents-protocol.html": () => A(() => import("./rodents-protocol-et9g4NhU.js?v=live-server-fragments-20261123"), []).then(t => t.default)
+    "/html/tutorials/antelopes-protocol.html": () => A(() => import("./antelopes-protocol-B_9hPLX8.js"), []).then(t => t.default), "/html/tutorials/bats-protocol.html": () => A(() => import("./bats-protocol-DoukPBO4.js"), []).then(t => t.default), "/html/tutorials/birds-bioacoustics.html": () => A(() => import("./birds-bioacoustics-DeKe1pf7.js"), []).then(t => t.default), "/html/tutorials/carnivores-protocol.html": () => A(() => import("./carnivores-protocol-D78OBEDu.js"), []).then(t => t.default), "/html/tutorials/flora-protocol.html": () => A(() => import("./flora-protocol-CSxK6GH9.js"), []).then(t => t.default), "/html/tutorials/insects-protocol.html": () => A(() => import("./insects-protocol-DhRnFSNr.js"), []).then(t => t.default), "/html/tutorials/rodents-protocol.html": () => A(() => import("./rodents-protocol-et9g4NhU.js"), []).then(t => t.default)
 });
 let ha = null, ga = null, fa = null, ya = null;
 function _a() {
@@ -1843,11 +1843,11 @@ function Fa({ button: t, chapter: e, trigger: n }) {
         try {
             const e = { "Camera Trap": "camera-trap", "Open Source Database": "opensource-database" }[t] ?? t;
             const [n, o] = await Promise.all([
-                fetch(`/protocols/${e}.html?v=live-server-fragments-20261123`).then(t => {
+                fetch(`/protocols/${e}.html`).then(t => {
                     if (!t.ok) throw new Error(`Protocol content unavailable: ${t.status}`);
                     return t.text();
                 }),
-                A(() => import("./reveal-runner-DAXpZE11.js?v=live-server-fragments-20261123"), [])
+                A(() => import("./reveal-runner-DAXpZE11.js"), [])
             ]);
             if (fa !== t) return;
             ga = o;
@@ -2005,3 +2005,4 @@ function ja(t, e, n) {
     }));
 });
 export { A as _, d, O as e, s as g, yt as s, _ as t };
+
