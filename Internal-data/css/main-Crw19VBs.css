@@ -1,29 +1,33 @@
 :root {
-  --color-canvas-bg: #F5F0E8;
-  --color-canvas-surface: #FAFAF5;
-  --color-canvas-sunken: #E8DCC8;
-  --color-text-primary: #2C2C2C;
-  --color-text-secondary: #6E685F;
-  --color-text-muted: #9E978E;
-  --color-text-inverse: #FAFAF5;
-  --color-brand-primary: #2D5016;
-  --color-brand-secondary: #4A7C3F;
-  --color-brand-gold: #C8A96E;
-  --color-brand-clay: #B85C38;
-  --color-brand-water: #3B82A6;
-  --color-night-bg: #0D1B2A;
-  --color-night-surface: #162536;
-  --color-night-border: #24384E;
-  --color-night-text-primary: #EAE6DF;
-  --color-night-text-muted: #8C9BAE;
-  --color-night-amber: #E8A838;
-  --color-night-ultraviolet: #9D72FF;
-  --color-night-infrared: #E63946;
-  --font-serif-heading: "Playfair Display", "Cormorant Garamond", Georgia, serif;
-  --font-sans-body: "Source Sans 3", "Inter", -apple-system, sans-serif;
-  --font-mono-code: "JetBrains Mono", "Fira Code", monospace;
-  --font-arabic-heading: "Amiri", "Noto Naskh Arabic", serif;
-  --font-arabic-body: "Noto Sans Arabic", -apple-system, sans-serif;
+  /* WWF brand: black and white are the principal colours; secondary swatches are highlights
+     (see wwf-brand.css for the per-chapter --accent). */
+  --color-canvas-bg: #FFFFFF;
+  --color-canvas-surface: #FFFFFF;
+  --color-canvas-sunken: #E6E6E6;
+  --color-text-primary: #111111;
+  --color-text-secondary: #555555;
+  --color-text-muted: #8A8A8A;
+  --color-text-inverse: #FFFFFF;
+  --color-brand-primary: #000000;
+  --color-brand-secondary: var(--accent);
+  --color-brand-gold: var(--accent);
+  --color-brand-clay: #F07D00;
+  --color-brand-water: #00728F;
+  --color-night-bg: #000000;
+  --color-night-surface: #111111;
+  --color-night-border: #2E2E2E;
+  --color-night-text-primary: #FFFFFF;
+  --color-night-text-muted: #A3A3A3;
+  --color-night-amber: var(--accent-on-dark);
+  --color-night-ultraviolet: #812990;
+  --color-night-infrared: #DA1D52;
+  --font-display: "WWF", "Arial Narrow", Arial, sans-serif;
+  --font-serif-body: Georgia, "Gelasio", "Times New Roman", serif;
+  --font-serif-heading: var(--font-display);
+  --font-sans-body: "Open Sans", Arial, sans-serif;
+  --font-mono-code: "Open Sans", Arial, sans-serif;
+  --font-arabic-heading: "Noto Sans Arabic", Arial, sans-serif;
+  --font-arabic-body: "Noto Sans Arabic", Arial, sans-serif;
   --text-hero: clamp(2.75rem, 6vw, 5.25rem);
   --text-h1: clamp(2rem, 4vw, 3.25rem);
   --text-h2: clamp(1.5rem, 2.5vw, 2.25rem);
@@ -44,10 +48,10 @@
   --radius-md: 8px;
   --radius-lg: 16px;
   --radius-full: 9999px;
-  --shadow-subtle: 0 2px 8px rgba(44, 44, 44, .05);
-  --shadow-card: 0 8px 24px rgba(44, 44, 44, .08);
-  --shadow-floating: 0 16px 40px rgba(44, 44, 44, .12);
-  --shadow-night-glow: 0 0 20px rgba(232, 168, 56, .25);
+  --shadow-subtle: 0 1px 2px rgba(0, 0, 0, .06), 0 2px 8px rgba(0, 0, 0, .05);
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, .06), 0 10px 28px -6px rgba(0, 0, 0, .14);
+  --shadow-floating: 0 2px 4px rgba(0, 0, 0, .08), 0 18px 44px -8px rgba(0, 0, 0, .22);
+  --shadow-night-glow: 0 0 20px color-mix(in srgb, var(--accent-on-dark) 30%, transparent);
   --transition-fast: .15s cubic-bezier(.4, 0, .2, 1);
   --transition-smooth: .35s cubic-bezier(.25, 1, .5, 1);
   --transition-theme: 1.2s cubic-bezier(.16, 1, .3, 1);
@@ -124,109 +128,7 @@ button {
   }
 }
 
-@font-face {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 600;
-  src: url(/assets/playfair-display-latin-600-normal-CZLGqjJe.woff2) format("woff2"),url(/assets/playfair-display-latin-600-normal-CxxueQ0Z.woff) format("woff");
-}
-
-@font-face {
-  font-family: Playfair Display;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url(/assets/playfair-display-latin-700-normal-CuDiGg7c.woff2) format("woff2"),url(/assets/playfair-display-latin-700-normal-Bc_1Q1cG.woff) format("woff");
-}
-
-@font-face {
-  font-family: Playfair Display;
-  font-style: italic;
-  font-display: swap;
-  font-weight: 600;
-  src: url(/assets/playfair-display-latin-600-italic-Bvp5b4iR.woff2) format("woff2"),url(/assets/playfair-display-latin-600-italic-BFV_U8S6.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Sans 3";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url(/assets/source-sans-3-latin-400-normal-DQi5PRDE.woff2) format("woff2"),url(/assets/source-sans-3-latin-400-normal-RR2C27NP.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Sans 3";
-  font-style: italic;
-  font-display: swap;
-  font-weight: 400;
-  src: url(/assets/source-sans-3-latin-400-italic-bFKvakRX.woff2) format("woff2"),url(/assets/source-sans-3-latin-400-italic-V6AhVXnr.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Sans 3";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 600;
-  src: url(/assets/source-sans-3-latin-600-normal-DeckBYAU.woff2) format("woff2"),url(/assets/source-sans-3-latin-600-normal-Ck0n4g8U.woff) format("woff");
-}
-
-@font-face {
-  font-family: "Source Sans 3";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url(/assets/source-sans-3-latin-700-normal-CkzU-mV9.woff2) format("woff2"),url(/assets/source-sans-3-latin-700-normal-B-h9tW5h.woff) format("woff");
-}
-
-@font-face {
-  font-family: JetBrains Mono;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url(/assets/jetbrains-mono-latin-400-normal-V6pRDFza.woff2) format("woff2"),url(/assets/jetbrains-mono-latin-400-normal-6-qcROiO.woff) format("woff");
-}
-
-@font-face {
-  font-family: JetBrains Mono;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 500;
-  src: url(/assets/jetbrains-mono-latin-500-normal-BWZEU5yA.woff2) format("woff2"),url(/assets/jetbrains-mono-latin-500-normal-CJOVTJB7.woff) format("woff");
-}
-
-@font-face {
-  font-family: Amiri;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url(/assets/amiri-arabic-400-normal-D0NIBXga.woff2) format("woff2"),url(/assets/amiri-arabic-400-normal-C_1DQziU.woff) format("woff");
-}
-
-@font-face {
-  font-family: Amiri;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url(/assets/amiri-arabic-700-normal-D8FrblyB.woff2) format("woff2"),url(/assets/amiri-arabic-700-normal-dUd6sHq-.woff) format("woff");
-}
-
-@font-face {
-  font-family: Noto Sans Arabic;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url(/assets/noto-sans-arabic-arabic-400-normal-AAMxebZb.woff2) format("woff2"),url(/assets/noto-sans-arabic-arabic-400-normal-hsqIUL9Q.woff) format("woff");
-}
-
-@font-face {
-  font-family: Noto Sans Arabic;
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url(/assets/noto-sans-arabic-arabic-700-normal-3CqrwsiZ.woff2) format("woff2"),url(/assets/noto-sans-arabic-arabic-700-normal-DXnsSW3z.woff) format("woff");
-}
+/* Font files are self-hosted in Internal-data/fonts/fonts.css (linked from index.html). */
 
 body {
   font-family: var(--font-sans-body);
@@ -244,8 +146,10 @@ h2,
 h3,
 h4 {
   font-family: var(--font-serif-heading);
-  font-weight: 700;
-  line-height: 1.2;
+  font-weight: 600;
+  font-optical-sizing: auto;
+  line-height: 1.15;
+  letter-spacing: -.015em;
   color: var(--color-brand-primary);
   text-wrap: balance;
 }
@@ -264,6 +168,11 @@ h3 {
 
 p {
   max-inline-size: 68ch;
+  text-wrap: pretty;
+}
+
+em {
+  font-style: italic;
 }
 
 a {
@@ -325,6 +234,8 @@ html[data-theme=night] h4 {
 :root {
   --nav-height: 64px;
   --progress-height: 3px;
+  /* Faint paper fibre so the field-journal pages don't read as flat screen colour. */
+  --paper-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .27 0 0 0 0 .15 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   --split-narrative: 54%;
   --split-map: 46%;
   --touch-target: 48px;
@@ -604,7 +515,7 @@ html[lang=ar] .language-switcher__option {
   flex: 0 0 var(--split-narrative);
   inline-size: var(--split-narrative);
   min-inline-size: 0;
-  background: var(--color-canvas-bg);
+  background: var(--paper-grain), var(--color-canvas-bg);
   transition: background-color var(--transition-theme);
 }
 
@@ -780,15 +691,35 @@ html[data-theme=night] .partner-ribbon__name {
 }
 
 .nav-bar__breadcrumb select {
+  -webkit-appearance: none;
+  appearance: none;
   max-inline-size: min(28ch,100%);
-  min-block-size: 36px;
-  padding-inline: var(--space-xs);
-  background: transparent;
+  min-block-size: 40px;
+  padding-inline: var(--space-md) calc(var(--space-md) + 18px);
+  background: var(--color-canvas-surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5 6 6.5l5-5' fill='none' stroke='%236E685F' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right var(--space-md) center / 11px 8px;
   color: var(--color-text-primary);
-  border: 1px solid var(--color-canvas-sunken);
-  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-canvas-sunken);
+  border-radius: var(--radius-full);
   font: inherit;
   font-size: var(--text-caption);
+  font-weight: 600;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: border-color var(--transition-fast),background-color var(--transition-fast);
+}
+
+.nav-bar__breadcrumb select:hover {
+  border-color: var(--color-brand-gold);
+}
+
+html[dir=rtl] .nav-bar__breadcrumb select {
+  background-position: left var(--space-md) center;
+}
+
+html[data-theme=night] .nav-bar__breadcrumb select {
+  background-color: var(--color-night-surface);
+  color: var(--color-night-text-primary);
+  border-color: var(--color-night-border);
 }
 
 @media (min-width: 1024px) {
@@ -826,8 +757,15 @@ html[lang=ar] .btn {
 }
 
 .btn-primary:hover {
-  transform: translateY(-2px);
+  background: color-mix(in srgb,var(--color-brand-primary) 88%,var(--color-brand-secondary));
+  transform: translateY(-1px);
   box-shadow: var(--shadow-card);
+}
+
+.btn:active:not([disabled]) {
+  transform: translateY(1px) scale(.98);
+  box-shadow: none;
+  transition-duration: .06s;
 }
 
 .btn-secondary {
@@ -892,39 +830,40 @@ html[dir=rtl] .btn .btn__arrow {
   margin-inline: auto;
   padding: var(--space-xl);
   background: var(--color-canvas-surface);
-  border: 1px solid var(--color-canvas-sunken);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-card);
+  border: 1px solid transparent;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   gap: var(--space-md);
   box-shadow: var(--shadow-subtle);
+  opacity: .72;
   transform: translateY(20px);
-  transition: transform .4s cubic-bezier(.16,1,.3,1),background-color var(--transition-theme),border-color var(--transition-theme),box-shadow var(--transition-theme);
+  transition: transform .5s cubic-bezier(.16,1,.3,1),opacity .5s cubic-bezier(.16,1,.3,1),background-color var(--transition-theme),border-color var(--transition-theme),box-shadow var(--transition-theme);
 }
 
 .chapter-card--image-banner {
   position: relative;
 }
 
+/* Title sits above the illustration: overlaid text collided with the drawings
+   and became unreadable on light plates in night mode. */
 .chapter-card--image-banner .chapter-card__visual {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
 }
 
 .chapter-card--image-banner .chapter-card__header {
-  position: absolute;
-  inset-block-start: 50%;
-  inset-inline: 0;
-  z-index: 2;
-  align-items: center;
-  padding: var(--space-sm) var(--space-md);
-  border-radius: 0;
+  position: static;
+  align-items: flex-start;
+  padding: 0;
   background: transparent;
-  text-align: center;
-  transform: translateY(-50%);
+  text-align: start;
 }
 
 .chapter-card.is-active {
+  opacity: 1;
   transform: translateY(0);
   box-shadow: var(--shadow-card);
 }
@@ -1572,7 +1511,7 @@ html {
   min-block-size: calc(100svh + 5rem);
   padding-block-start: calc(var(--nav-height) + var(--progress-height));
   overflow: hidden;
-  background: var(--color-canvas-bg);
+  background: var(--paper-grain), var(--color-canvas-bg);
   text-align: center;
 }
 
@@ -1599,10 +1538,17 @@ html {
 
 .cover__title {
   margin: 0;
+  max-inline-size: 14ch;
   font-size: var(--text-hero);
-  line-height: 1.02;
-  letter-spacing: -.025em;
+  font-weight: 600;
+  line-height: .98;
+  letter-spacing: -.03em;
   color: var(--color-brand-primary);
+}
+
+.cover__title em {
+  font-weight: 400;
+  color: var(--color-brand-clay);
 }
 
 html[lang=ar] .cover__title {
@@ -1661,17 +1607,27 @@ html[lang=ar] .cover__subtitle {
   margin-block-start: clamp(-420px,-24vw,-180px);
   transform: translateY(-72px);
   pointer-events: none;
+  /* The transform isolates this layer, so the blend has to live here, not on the img. */
+  mix-blend-mode: multiply;
+}
+
+/* Mirror the plate in Arabic so the acacia sits opposite the right-aligned title.
+   The mask and wash animation mirror with it, so RTL needs no separate mask. */
+html[dir=rtl] .cover__plate {
+  transform: translateY(-72px) scaleX(-1);
 }
 
 .cover__plate img {
   display: block;
   inline-size: 100%;
-  block-size: clamp(300px,54vh,620px);
+  /* Box follows the drawing's own ratio, so the fade below lands on the paper, not on empty letterbox. */
+  block-size: auto;
+  max-block-size: 620px;
   object-fit: contain;
   object-position: 50% 100%;
   mix-blend-mode: multiply;
-  -webkit-mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 12%);
-  mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 12%);
+  -webkit-mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 45%);
+  mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 45%);
 }
 
 .cover__foot {
@@ -1726,8 +1682,8 @@ html[lang=ar] .cover__subtitle {
 
 @media (prefers-reduced-motion: no-preference) {
   .cover__plate img {
-    -webkit-mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 12%),linear-gradient(90deg,var(--color-text-primary) 58%,transparent 76%);
-    mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 12%),linear-gradient(90deg,var(--color-text-primary) 58%,transparent 76%);
+    -webkit-mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 45%),linear-gradient(90deg,var(--color-text-primary) 58%,transparent 76%);
+    mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 45%),linear-gradient(90deg,var(--color-text-primary) 58%,transparent 76%);
     -webkit-mask-size: 100% 100%,280% 100%;
     mask-size: 100% 100%,280% 100%;
     -webkit-mask-composite: source-in;
@@ -1735,11 +1691,6 @@ html[lang=ar] .cover__subtitle {
     -webkit-mask-position: 0 0,0 0;
     mask-position: 0 0,0 0;
     animation: cover-wash 2.2s cubic-bezier(.22,1,.36,1) .2s both;
-  }
-  html[dir=rtl] .cover__plate img {
-    -webkit-mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 12%),linear-gradient(270deg,var(--color-text-primary) 58%,transparent 76%);
-    mask-image: linear-gradient(to bottom,transparent 0,var(--color-text-primary) 12%),linear-gradient(270deg,var(--color-text-primary) 58%,transparent 76%);
-    animation-name: cover-wash-rtl;
   }
   .cover__title,
   .cover__subtitle,
@@ -1769,17 +1720,6 @@ html[lang=ar] .cover__subtitle {
   }
 }
 
-@keyframes cover-wash-rtl {
-  0% {
-    -webkit-mask-position: 0 0,0 0;
-    mask-position: 0 0,0 0;
-  }
-  to {
-    -webkit-mask-position: 0 0,100% 0;
-    mask-position: 0 0,100% 0;
-  }
-}
-
 @keyframes cover-focus {
   0% {
     opacity: 0;
@@ -1797,6 +1737,23 @@ html[lang=ar] .cover__subtitle {
   }
   .cover__actions {
     justify-content: center;
+  }
+  /* On phones the full-width drawing shrank to a thin strip; crop in on the acacia and oryx. */
+  .cover__plate {
+    margin-block-start: calc(-1 * var(--space-xl));
+    transform: none;
+  }
+  html[dir=rtl] .cover__plate {
+    transform: scaleX(-1);
+  }
+  .cover__plate img {
+    block-size: 220px;
+    object-fit: cover;
+    object-position: 94% 100%;
+  }
+  .cover__foot {
+    margin-block-start: 0;
+    transform: none;
   }
   .cover__partners img {
     block-size: 28px;
@@ -2497,6 +2454,20 @@ html[lang=ar] .map-popup .maplibregl-popup-content {
   color: var(--color-text-secondary);
 }
 
+/* Zoom and compass buttons were dark-on-dark in night chapters. */
+html[data-theme=night] .maplibregl-ctrl-group {
+  background: var(--color-night-surface);
+  box-shadow: 0 0 0 1px var(--color-night-border);
+}
+
+html[data-theme=night] .maplibregl-ctrl-group button + button {
+  border-block-start-color: var(--color-night-border);
+}
+
+html[data-theme=night] .maplibregl-ctrl-group .maplibregl-ctrl-icon {
+  filter: invert(1) brightness(.92);
+}
+
 html[data-theme=night] .maplibregl-ctrl-attrib,
 html[data-theme=night] .maplibregl-ctrl-attrib a {
   background: var(--color-night-surface);
@@ -2577,6 +2548,10 @@ html[data-theme=night] .chapter-card__fact {
 }
 
 html[data-theme=night] .chapter-card__day-chip {
+  color: var(--color-night-amber);
+}
+
+html[data-theme=night] .chapter-card__title {
   color: var(--color-night-amber);
 }
 
@@ -2850,7 +2825,8 @@ html[dir=rtl] .audio-player__play:not([aria-pressed]) svg {
 html[data-theme=night] .protocol-modal .reveal h1,
 html[data-theme=night] .protocol-modal .reveal h2,
 html[data-theme=night] .protocol-modal .reveal h3 {
-  color: var(--color-night-text-primary);
+  color: var(--color-night-amber);
+  text-shadow: 0 1px 6px rgba(13, 27, 42, .75);
 }
 
 .protocol-modal .reveal h2 {
@@ -4081,7 +4057,7 @@ html[lang=ar] .species-modal__title {
   align-self: start;
   gap: var(--space-xs);
   min-block-size: 40px;
-  margin-block-start: var(--space-xs);
+  margin-block-start: 0;
   padding-inline: var(--space-sm) var(--space-md);
   background: transparent;
   color: var(--color-text-primary);
@@ -4091,6 +4067,37 @@ html[lang=ar] .species-modal__title {
   font-size: var(--text-caption);
   cursor: pointer;
   transition: background-color var(--transition-fast),transform var(--transition-fast);
+}
+
+.species-card__audio-controls {
+  display: flex;
+  align-items: center;
+  align-self: flex-start;
+  gap: var(--space-xs);
+  margin-block-start: var(--space-xs);
+}
+
+.species-card__audio-credit {
+  display: grid;
+  place-items: center;
+  inline-size: 32px;
+  block-size: 32px;
+  color: var(--color-text-secondary);
+  border: 1px solid var(--color-brand-gold);
+  border-radius: var(--radius-full);
+  transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.species-card__audio-credit:hover,
+.species-card__audio-credit:focus-visible {
+  background: color-mix(in srgb,var(--color-brand-gold) 25%,transparent);
+  color: var(--color-text-primary);
+}
+
+.species-card__audio-credit-mark {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 .species-card__listen:hover {
@@ -4396,32 +4403,35 @@ img.is-pending {
     min-block-size: calc(100dvh - var(--nav-height) - var(--progress-height));
     padding-block: var(--space-md);
     padding-inline: var(--space-lg);
-    align-items: stretch;
+    align-items: center;
   }
 
   .narrative-step:first-child {
     padding-block-start: var(--space-md);
   }
 
+  /* The panel hugs its content and sits beside the map, instead of a full-height box. */
   .chapter-card {
     inline-size: 100%;
-    max-inline-size: 680px;
-    block-size: 100%;
+    max-inline-size: 640px;
+    block-size: auto;
     max-block-size: 100%;
     overflow-y: auto;
     scrollbar-width: thin;
-    padding: var(--space-md) var(--space-lg);
-    gap: var(--space-xs);
+    scrollbar-color: var(--color-canvas-sunken) transparent;
+    padding: var(--space-lg) var(--space-xl) var(--space-xl);
+    gap: var(--space-sm);
   }
 
   .chapter-card__actions {
-    margin-block-start: auto;
-    padding-block-start: var(--space-xs);
+    margin-block-start: var(--space-xs);
+    padding-block-start: var(--space-md);
+    border-block-start: 1px solid var(--color-canvas-sunken);
   }
 
   .chapter-card__title {
-    font-size: clamp(1.3rem, 2vw, 1.7rem);
-    line-height: 1.18;
+    font-size: clamp(1.6rem, 2.4vw, 2.1rem);
+    line-height: 1.08;
   }
 
   .chapter-card__dateline {
@@ -4443,12 +4453,16 @@ img.is-pending {
   }
 
   .chapter-card__narrative {
-    font-size: 0.9375rem;
-    line-height: 1.5;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+
+  .chapter-card__narrative p {
+    max-inline-size: 62ch;
   }
 
   .chapter-card__narrative p + p {
-    margin-block-start: var(--space-xs);
+    margin-block-start: var(--space-sm);
   }
 
   .chapter-card__fact {
@@ -4757,4 +4771,11 @@ html[dir="rtl"] .chapter-carousel__nav svg {
 .protocol-modal .reveal .slides > section > [lang] > .protocol-slide__text {
   align-self: center;
   max-block-size: 100%;
+}
+/* Hide section artwork; retain the Summary banner and summary image. */
+.narrative-step[data-chapter-id]:not([data-chapter-id="Summary"]) .chapter-card__coexistence-banner,
+.narrative-step[data-chapter-id]:not([data-chapter-id="Summary"]) .chapter-card__section-banner,
+.narrative-step[data-chapter-id]:not([data-chapter-id="Summary"]) .chapter-card__media,
+.narrative-step[data-chapter-id]:not([data-chapter-id="Summary"]) .chapter-card__zoom {
+  display: none !important;
 }

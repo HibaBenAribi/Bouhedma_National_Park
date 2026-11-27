@@ -1,0 +1,1065 @@
+/* =====================================================================
+   WWF brand layer for the Bouhedma story map
+   Source: WWF brand guidelines (colour palette, typography, publication
+   guidelines). Loaded after main-*.css; overrides look, not behaviour.
+
+   Rules applied:
+   - Black and white are the principal colours; secondary swatches are
+     highlights, navigation and key numbers only.
+   - One full-strength secondary colour per layout (here: per chapter),
+     chosen for the subject.
+   - WWF font: display only, upper case for headlines. Georgia for body
+     copy, Open Sans for UI, captions and data.
+   - Square content boxes; black title boxes (white at night).
+   ===================================================================== */
+
+/* ---------- Chapter colours ----------------------------------------
+   --accent          full-strength WWF swatch (fills, bars, map focus)
+   --accent-ink      text placed on the swatch
+   --accent-text     the swatch, darkened where needed for text on white
+   --accent-on-dark  the swatch, lightened where needed for text on black
+   ------------------------------------------------------------------- */
+:root {
+  --accent: #F07D00;          /* Orange: cover, complements the gazelle photo */
+  --accent-ink: #000000;
+  --accent-text: #A85700;
+  --accent-on-dark: #F07D00;
+  --paper-grain: none;
+  --radius-sm: 0;
+  --radius-md: 0;
+  --radius-lg: 0;
+  --display-weight: 400;
+  --card-px: 32px;
+}
+
+html[data-chapter="Human-Wildlife-Coexistance"], [data-chapter-id="Human-Wildlife-Coexistance"] {
+  --accent: #9A681C; --accent-ink: #FFFFFF; --accent-text: #9A681C; --accent-on-dark: #D9A65A;
+  --icon: url("../ui-assets/brand/icon-coexistence.png");
+}
+html[data-chapter="Reintroduction and Conservation"], [data-chapter-id="Reintroduction and Conservation"] {
+  --accent: #007932; --accent-ink: #FFFFFF; --accent-text: #007932; --accent-on-dark: #5FBF7F;
+  --icon: url("../ui-assets/brand/icon-reintroduction.png");
+}
+html[data-chapter="WWF NA Bootcamp"], [data-chapter-id="WWF NA Bootcamp"] {
+  --accent: #009191; --accent-ink: #000000; --accent-text: #007373; --accent-on-dark: #3CC3C3;
+  --icon: url("../ui-assets/brand/icon-bootcamp.png");
+}
+html[data-chapter="Flora"], [data-chapter-id="Flora"] {
+  --accent: #7B8427; --accent-ink: #000000; --accent-text: #5F661E; --accent-on-dark: #B7C24A;
+  --icon: url("../ui-assets/brand/icon-flora.png");
+}
+html[data-chapter="Avifaune"], [data-chapter-id="Avifaune"] {
+  --accent: #00728F; --accent-ink: #FFFFFF; --accent-text: #00728F; --accent-on-dark: #4FB3CC;
+  --icon: url("../ui-assets/brand/icon-birds.png");
+}
+html[data-chapter="Antelopes"], [data-chapter-id="Antelopes"] {
+  --accent: #F07D00; --accent-ink: #000000; --accent-text: #A85700; --accent-on-dark: #F07D00;
+  --icon: url("../ui-assets/brand/icon-antelopes.png");
+}
+html[data-chapter="Rodents"], [data-chapter-id="Rodents"] {
+  --accent: #552F25; --accent-ink: #FFFFFF; --accent-text: #552F25; --accent-on-dark: #C79A8C;
+  --icon: url("../ui-assets/brand/icon-rodents.png");
+}
+html[data-chapter="Bats"], [data-chapter-id="Bats"] {
+  --accent: #812990; --accent-ink: #FFFFFF; --accent-text: #812990; --accent-on-dark: #C98AD6;
+  --icon: url("../ui-assets/brand/icon-bats.png");
+}
+html[data-chapter="Insects"], [data-chapter-id="Insects"] {
+  --accent: #F5D200; --accent-ink: #000000; --accent-text: #7A6900; --accent-on-dark: #F5D200;
+  --icon: url("../ui-assets/brand/icon-insects.png");
+}
+html[data-chapter="Carnivores"], [data-chapter-id="Carnivores"] {
+  --accent: #DA1D52; --accent-ink: #FFFFFF; --accent-text: #DA1D52; --accent-on-dark: #F0607F;
+  --icon: url("../ui-assets/brand/icon-carnivores.png");
+}
+html[data-chapter="Summary"], [data-chapter-id="Summary"] {
+  --accent: #009191; --accent-ink: #000000; --accent-text: #007373; --accent-on-dark: #3CC3C3;
+  --icon: url("../ui-assets/brand/icon-summary.png");
+}
+
+/* ---------- Type ---------- */
+body {
+  font-family: var(--font-sans-body);
+  color: var(--color-text-primary);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  font-optical-sizing: none;
+  text-transform: uppercase;
+  letter-spacing: .005em;
+  line-height: .95;
+  color: #000;
+}
+
+html[lang=ar] {
+  --font-display: "Noto Sans Arabic", Arial, sans-serif;
+  --display-weight: 800;
+}
+
+html[lang=ar] h1,
+html[lang=ar] h2,
+html[lang=ar] h3,
+html[lang=ar] h4 {
+  line-height: 1.35;
+}
+
+em {
+  font-style: italic;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+:focus-visible {
+  outline: 3px solid #000;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px #fff;
+}
+
+html[data-theme=night] :focus-visible {
+  outline-color: #fff;
+  box-shadow: 0 0 0 5px #000;
+}
+
+/* ---------- Header ---------- */
+.nav-bar {
+  background: #fff;
+  border-block-end: 1px solid #000;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+html[data-theme=night] .nav-bar {
+  background: #000;
+  border-block-end-color: #2E2E2E;
+}
+
+.nav-bar__brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-inline-size: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* The WWF Box Logo always sits on white, in day and night. */
+.nav-bar__boxlogo {
+  display: grid;
+  place-items: center;
+  flex: none;
+  padding: 3px 5px;
+  background: #fff;
+}
+
+.nav-bar__logo {
+  inline-size: auto;
+  block-size: 46px;
+}
+
+.nav-bar__title {
+  padding-inline-start: 14px;
+  border-inline-start: 1px solid currentColor;
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  font-size: 1.375rem;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .01em;
+  color: #000;
+}
+
+html[lang=ar] .nav-bar__title {
+  font-size: 1.0625rem;
+}
+
+html[data-theme=night] .nav-bar__title {
+  color: #fff;
+}
+
+.language-switcher {
+  gap: 0;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 0;
+}
+
+.language-switcher__option {
+  min-block-size: 38px;
+  border-radius: 0;
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  font-size: 1.0625rem;
+  letter-spacing: .03em;
+}
+
+.language-switcher__option[lang=ar] {
+  font-family: "Noto Sans Arabic", Arial, sans-serif;
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.language-switcher__option:hover {
+  background: #EDEDED;
+}
+
+.language-switcher__option[aria-pressed=true] {
+  background: #000;
+  color: #fff;
+}
+
+html[data-theme=night] .language-switcher {
+  background: #000;
+  border-color: #fff;
+}
+
+html[data-theme=night] .language-switcher__option {
+  color: #fff;
+}
+
+html[data-theme=night] .language-switcher__option:hover {
+  background: #222;
+}
+
+html[data-theme=night] .language-switcher__option[aria-pressed=true] {
+  background: #fff;
+  color: #000;
+}
+
+.nav-bar__sound,
+.nav-bar__breadcrumb {
+  border: 1px solid #000;
+  border-radius: 0;
+  color: #000;
+}
+
+@media (min-width: 1024px) {
+  .nav-bar__breadcrumb {
+    border: 0;
+  }
+}
+
+.nav-bar__sound:hover {
+  background: #000;
+  color: #fff;
+}
+
+.nav-bar__sound[aria-pressed=true] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+html[data-theme=night] .nav-bar__sound,
+html[data-theme=night] .nav-bar__breadcrumb {
+  border-color: #fff;
+  color: #fff;
+}
+
+.nav-bar__breadcrumb select {
+  border: 1px solid #000;
+  border-radius: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: var(--font-sans-body);
+  font-weight: 600;
+}
+
+html[data-theme=night] .nav-bar__breadcrumb select {
+  background-color: #000;
+  border-color: #fff;
+  color: #fff;
+}
+
+.progress-bar {
+  background: #E6E6E6;
+}
+
+.progress-bar__fill {
+  background: var(--accent);
+}
+
+html[data-theme=night] .progress-bar {
+  background: #222;
+}
+
+/* ---------- Cover: WWF publication front cover ----------
+   Full-bleed photo inside a white border, black content box
+   bleeding off the end edge. */
+.cover {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  min-block-size: 100svh;
+  padding: calc(var(--nav-height) + var(--progress-height) + 12px) 12px 0;
+  background: #fff;
+  text-align: start;
+}
+
+.cover__photo {
+  position: relative;
+  grid-area: 1 / 1;
+  margin: 0;
+  min-block-size: 420px;
+  overflow: hidden;
+  background: #9A681C;
+}
+
+.cover__photo img {
+  position: absolute;
+  inset: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  max-inline-size: none;
+  object-fit: cover;
+  object-position: 56% 42%;
+}
+
+.cover__credit {
+  position: absolute;
+  inset-block-start: 10px;
+  inset-inline-end: 12px;
+  font-size: .6875rem;
+  color: #fff;
+  text-shadow: 0 0 6px rgba(0, 0, 0, .7);
+}
+
+.cover__inner {
+  z-index: 1;
+  grid-area: 1 / 1;
+  align-self: end;
+  justify-self: end;
+  align-items: flex-start;
+  gap: 18px;
+  inline-size: auto;
+  max-inline-size: min(620px, 88%);
+  margin-block-end: clamp(28px, 7vh, 72px);
+  margin-inline-end: -12px;
+  padding: clamp(28px, 3vw, 44px) clamp(28px, 3.4vw, 52px);
+  background: #000;
+  color: #fff;
+  text-align: start;
+}
+
+.cover__title {
+  max-inline-size: 11ch;
+  font-size: clamp(3rem, 6.4vw, 5.75rem);
+  font-weight: var(--display-weight);
+  line-height: .9;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.cover__title em {
+  font-style: normal;
+  font-weight: inherit;
+  color: var(--accent);
+}
+
+html[lang=ar] .cover__title {
+  max-inline-size: 14ch;
+  font-size: clamp(2.25rem, 4.6vw, 4rem);
+  line-height: 1.3;
+}
+
+.cover__event {
+  gap: 2px;
+  font-size: .9375rem;
+  color: rgba(255, 255, 255, .82);
+}
+
+.cover__event span:first-child {
+  color: #fff;
+}
+
+.cover__actions {
+  justify-content: flex-start;
+  margin-block-start: 6px;
+}
+
+.cover__foot {
+  grid-row: 2;
+  margin: 0;
+  padding-block: 18px 22px;
+  background: #fff;
+  transform: none;
+}
+
+.cover__hint {
+  color: #555;
+}
+
+@media (max-width: 639.98px) {
+  .cover {
+    padding-inline: 8px;
+    padding-block-start: calc(var(--nav-height) + var(--progress-height) + 8px);
+  }
+  .cover__photo {
+    min-block-size: 300px;
+  }
+  .cover__photo img {
+    object-position: 58% 40%;
+  }
+  .cover__inner {
+    justify-self: stretch;
+    align-items: flex-start;
+    max-inline-size: none;
+    margin-inline: -8px;
+    margin-block-end: 0;
+    padding: 24px 20px 26px;
+    text-align: start;
+  }
+  .cover__title {
+    font-size: clamp(2.6rem, 12vw, 3.5rem);
+  }
+}
+
+/* ---------- Story panes ---------- */
+.narrative-pane {
+  background: #fff;
+}
+
+html[data-theme=night] .narrative-pane {
+  background: #000;
+}
+
+/* ---------- Chapter cards ---------- */
+.chapter-card {
+  padding: 0 var(--card-px) var(--card-px);
+  gap: 18px;
+  background: #fff;
+  border: 1px solid #E6E6E6;
+  border-radius: 0;
+  box-shadow: none;
+  opacity: .5;
+}
+
+.chapter-card.is-active {
+  box-shadow: none;
+  border-color: #000;
+}
+
+html[data-theme=night] .chapter-card {
+  background: #000;
+  border-color: #2E2E2E;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+html[data-theme=night] .chapter-card.is-active {
+  border-color: #fff;
+  box-shadow: none;
+}
+
+@media (max-width: 639.98px) {
+  :root {
+    --card-px: 20px;
+  }
+}
+
+.chapter-card__visual {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Black content box carrying the chapter title; white at night. */
+.chapter-card__header,
+.chapter-card--image-banner .chapter-card__header {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  gap: 8px 18px;
+  margin-inline: calc(-1 * var(--card-px));
+  padding: 22px var(--card-px) 20px;
+  background: #000;
+  border-block-end: 6px solid var(--accent);
+  text-align: start;
+}
+
+.chapter-card__header::after {
+  content: "";
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: end;
+  inline-size: 72px;
+  block-size: 56px;
+  background: var(--accent-on-dark);
+  -webkit-mask: var(--icon) right bottom / contain no-repeat;
+  mask: var(--icon) right bottom / contain no-repeat;
+}
+
+html[dir=rtl] .chapter-card__header::after {
+  transform: scaleX(-1);
+}
+
+.chapter-card__header .chapter-card__title {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: clamp(2rem, 3vw, 2.875rem);
+  line-height: .92;
+  color: #fff;
+}
+
+html[lang=ar] .chapter-card__header .chapter-card__title {
+  font-size: clamp(1.5rem, 2.3vw, 2.125rem);
+  line-height: 1.3;
+}
+
+.chapter-card__header .chapter-card__dateline {
+  grid-column: 1;
+  grid-row: 1;
+  gap: 4px 10px;
+  font-family: var(--font-sans-body);
+  font-style: normal;
+  font-weight: 700;
+  font-size: .75rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--accent-on-dark);
+}
+
+.chapter-card__header .chapter-card__day-chip {
+  color: inherit;
+}
+
+.chapter-card__index + .chapter-card__day-chip:before {
+  background: currentColor;
+  border-radius: 0;
+}
+
+html[data-theme=night] .chapter-card__header {
+  background: #fff;
+}
+
+html[data-theme=night] .chapter-card__header .chapter-card__title {
+  color: #000;
+}
+
+html[data-theme=night] .chapter-card__header .chapter-card__dateline,
+html[data-theme=night] .chapter-card__header .chapter-card__day-chip {
+  color: var(--accent-text);
+}
+
+html[data-theme=night] .chapter-card__header::after {
+  background: var(--accent);
+}
+
+/* Illustrated chapter banners and photos: square, no blend tint. */
+.chapter-card__coexistence-banner,
+.chapter-card__section-banner,
+.chapter-card__zoom,
+.chapter-carousel {
+  border-radius: 0;
+}
+
+.chapter-card__narrative {
+  font-family: var(--font-serif-body);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: #1A1A1A;
+}
+
+html[lang=ar] .chapter-card__narrative {
+  font-family: var(--font-arabic-body);
+  line-height: 1.85;
+}
+
+html[data-theme=night] .chapter-card__narrative {
+  color: #EDEDED;
+}
+
+.chapter-card__media figcaption {
+  font-family: var(--font-sans-body);
+}
+
+/* Pull-out fact: a highlight bar in the chapter colour. */
+.chapter-card__fact,
+html[data-theme=night] .chapter-card__fact {
+  padding: 2px 0 2px 18px;
+  background: none;
+  border: 0;
+  border-inline-start: 6px solid var(--accent);
+  border-radius: 0;
+  font-family: var(--font-serif-body);
+  font-style: italic;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+html[lang=ar] .chapter-card__fact {
+  font-family: var(--font-arabic-body);
+  font-style: normal;
+}
+
+.chapter-card__fact-label {
+  font-family: var(--font-display);
+  font-style: normal;
+  font-weight: var(--display-weight);
+  font-size: 1.125rem;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+html[data-theme=night] .chapter-card__fact-label {
+  color: var(--accent-on-dark);
+}
+
+.chapter-card__actions {
+  border-block-start-color: #E6E6E6;
+}
+
+html[data-theme=night] .chapter-card__actions {
+  border-block-start-color: #2E2E2E;
+}
+
+/* ---------- Key numbers (summary) ---------- */
+.key-numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 4px 0 0;
+  border-block: 1px solid #000;
+}
+
+.key-numbers__item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px 12px 14px 0;
+}
+
+.key-numbers__item:nth-child(n+4) {
+  border-block-start: 1px solid #E6E6E6;
+}
+
+.key-numbers dt {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  line-height: .9;
+  color: var(--accent-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.key-numbers dd {
+  margin: 0;
+  font-size: .75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #555;
+}
+
+html[lang=ar] .key-numbers dd {
+  letter-spacing: 0;
+  font-size: .875rem;
+}
+
+@media (max-width: 479.98px) {
+  .key-numbers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .key-numbers__item:nth-child(n+3) {
+    border-block-start: 1px solid #E6E6E6;
+  }
+}
+
+/* ---------- Buttons ----------
+   WWF calls to action: square, WWF font upper case. --accent-ink is picked
+   per swatch so button text stays at 4.5:1 or better (black on Orange,
+   Yellow, Aqua and Olive; white on the darker swatches). */
+.btn,
+.chapter-card__actions .btn {
+  min-block-size: 44px;
+  padding: 11px 20px 10px;
+  border-radius: 0;
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  font-size: 1.1875rem;
+  line-height: 1;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+html[lang=ar] .btn,
+html[lang=ar] .chapter-card__actions .btn {
+  font-size: 1rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--accent-ink);
+  box-shadow: none;
+}
+
+.btn-primary:hover {
+  background: #000;
+  color: #fff;
+  transform: none;
+  box-shadow: none;
+}
+
+html[data-theme=night] .btn-primary:hover {
+  background: #fff;
+  color: #000;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1.5px solid #000;
+  color: #000;
+}
+
+.btn-secondary:hover {
+  background: #000;
+  color: #fff;
+}
+
+html[data-theme=night] .btn-secondary {
+  border-color: #fff;
+  color: #fff;
+}
+
+html[data-theme=night] .btn-secondary:hover {
+  background: #fff;
+  color: #000;
+}
+
+.btn-ghost {
+  padding-inline: 2px;
+  color: #000;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 6px;
+}
+
+.btn-ghost:after {
+  display: none;
+}
+
+.btn-ghost:hover {
+  text-decoration-color: currentColor;
+}
+
+html[data-theme=night] .btn-ghost {
+  color: #fff;
+  text-decoration-color: var(--accent-on-dark);
+}
+
+.filter-chip,
+.day-chip {
+  border-radius: 0;
+}
+
+.filter-chip[aria-pressed=true] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
+/* ---------- Map chrome ---------- */
+.map-pane {
+  background: #EDEDED;
+}
+
+.map-legend {
+  border: 1px solid #000;
+  border-radius: 0;
+  background: rgba(255, 255, 255, .94);
+  box-shadow: none;
+}
+
+html[data-theme=night] .map-legend {
+  background: rgba(0, 0, 0, .88);
+  border-color: #fff;
+}
+
+.map-legend__toggle {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  font-size: 1.0625rem;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+.map-legend__label,
+.map-legend__hint,
+.map-legend__tip,
+.map-legend__count {
+  font-family: var(--font-sans-body);
+}
+
+.basemap-toggle,
+.basemap-toggle button,
+.map-control,
+.map-control button,
+.maplibregl-ctrl-group,
+.maplibregl-popup-content,
+.field-clock {
+  border-radius: 0 !important;
+}
+
+.basemap-toggle {
+  border: 1px solid #000;
+  background: #fff;
+  padding: 0;
+  gap: 0;
+}
+
+.basemap-toggle button {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  font-size: 1.0625rem;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+.basemap-toggle button[aria-pressed=true] {
+  background: #000;
+  color: #fff;
+}
+
+html[data-theme=night] .basemap-toggle {
+  background: #000;
+  border-color: #fff;
+}
+
+html[data-theme=night] .basemap-toggle button {
+  color: #fff;
+}
+
+html[data-theme=night] .basemap-toggle button[aria-pressed=true] {
+  background: #fff;
+  color: #000;
+}
+
+.maplibregl-ctrl-group {
+  box-shadow: 0 0 0 1px #000;
+}
+
+.map-popup .map-popup__title {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  text-transform: uppercase;
+  letter-spacing: .01em;
+}
+
+/* ---------- Act dividers ---------- */
+.act-divider__number {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+
+.act-divider__intro {
+  font-family: var(--font-serif-body);
+}
+
+/* ---------- Dialogs: species list, protocols, lightbox ---------- */
+.species-modal,
+.protocol-modal,
+.lightbox {
+  border-radius: 0;
+}
+
+.species-card {
+  border-radius: 0;
+  border-color: #E6E6E6;
+}
+
+.species-card__name {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  font-size: 1.75rem;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: .005em;
+}
+
+html[lang=ar] .species-card__name {
+  font-size: 1.25rem;
+}
+
+.species-card__scientific {
+  font-family: var(--font-serif-body);
+}
+
+.iucn-pill,
+.meta-badge,
+.status-pill {
+  border-radius: 0;
+  font-family: var(--font-sans-body);
+}
+
+.protocol-modal .reveal h1,
+.protocol-modal .reveal h2,
+.protocol-modal .reveal h3,
+html[data-theme=night] .protocol-modal .reveal h1,
+html[data-theme=night] .protocol-modal .reveal h2,
+html[data-theme=night] .protocol-modal .reveal h3 {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+/* ---------- Footer: partners on white, then the WWF boilerplate badge ---------- */
+.site-footer {
+  padding: 0 0 40px;
+  background: #000;
+  color: #fff;
+  border: 0;
+}
+
+.site-footer .partner-ribbon {
+  padding: 28px 16px;
+  background: #fff;
+}
+
+.boilerplate {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  max-inline-size: 880px;
+  margin: 44px auto 0;
+  padding-inline: 20px;
+}
+
+.boilerplate__logo {
+  flex: none;
+  padding: 6px 8px;
+  background: #fff;
+}
+
+.boilerplate__logo img {
+  inline-size: auto;
+  block-size: 84px;
+}
+
+.boilerplate__text {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-inline-start: 24px;
+  border-inline-start: 1px solid #fff;
+}
+
+.boilerplate__mission {
+  max-inline-size: 30ch;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: #fff;
+}
+
+.boilerplate__marks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 28px;
+  margin: 0;
+}
+
+.boilerplate__together,
+.boilerplate__url {
+  font-family: "WWF", "Arial Narrow", Arial, sans-serif;
+  line-height: 1;
+  color: #fff;
+}
+
+.boilerplate__together {
+  font-size: 2rem;
+}
+
+.boilerplate__url {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.boilerplate__url:hover {
+  text-decoration: underline;
+}
+
+.site-footer__credits {
+  max-inline-size: 880px;
+  margin: 40px auto 0;
+  padding: 24px 20px 0;
+  border-block-start: 1px solid #2E2E2E;
+  text-align: start;
+  color: #BDBDBD;
+}
+
+.site-footer__lead {
+  margin-inline: 0;
+  font-family: var(--font-serif-body);
+  font-size: 1.0625rem;
+  color: #fff;
+}
+
+.site-footer__credits a {
+  color: #fff;
+}
+
+@media (max-width: 559.98px) {
+  .boilerplate {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .boilerplate__text {
+    padding-inline-start: 0;
+    padding-block-start: 16px;
+    border-inline-start: 0;
+    border-block-start: 1px solid #fff;
+  }
+}
+
+/* ---------- Panels grow with their content ----------
+   The original layout fixed each step to the viewport and scrolled the card
+   inside it, which hid buttons and the key numbers below an inner scroll. */
+@media (min-width: 1024px) {
+  .narrative-step {
+    block-size: auto;
+  }
+  .chapter-card {
+    max-block-size: none;
+    overflow: visible;
+  }
+}
+
+/* ---------- Field clock: caption in Open Sans, time of day in the WWF font ---------- */
+.field-clock {
+  border-radius: 0;
+}
+
+.field-clock__caption {
+  font-family: var(--font-sans-body);
+  font-style: normal;
+  font-weight: 700;
+  font-size: .6875rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+
+.field-clock__label {
+  font-family: var(--font-display);
+  font-weight: var(--display-weight);
+  font-size: 1.5rem;
+  line-height: 1;
+  letter-spacing: .01em;
+  text-transform: uppercase;
+}

@@ -9,6 +9,7 @@ const __vite__mapDeps = (i, m = __vite__mapDeps, d = (m.f || (m.f = [
 ]))) => i.map(i => d[i]);
 import { m as t } from "./vendor-maplibre-DUgWaH7r.js";
 import { s as e } from "./vendor-scroll-CPqyXdOc.js";
+import { h as audio } from "./vendor-audio-Da_AWI87.js";
 !function () {
     const t = document.createElement("link").relList;
     if (!(t && t.supports && t.supports("modulepreload"))) {
@@ -179,24 +180,23 @@ function F(t) {
 }
 async function j(t) {
     const e = B(t);
-    return !!e && (M !== e && (await async function (t) {
-        const e = $.get(t);
-        if (!e)
+    if (!e)
+        return !1;
+    if (M !== e) {
+        const t = $.get(e);
+        if (!t)
             return !1;
-        const { Howl: n } = await A(async () => {
-            const { Howl: t } = await import("./vendor-audio-Da_AWI87.js").then(t => t.h);
-            return { Howl: t };
-        }, __vite__mapDeps([0, 1, 2]));
-        return L?.unload(), M = t, L = new n({
-            src: [e.audio], html5: !0, preload: !0, autoplay: !1, volume: .85, onend: () => l({ soundOn: !1 }), onloaderror: () => l({
-                soundOn: !1, soundError: t
+        L?.unload(), M = e, L = new audio.Howl({
+            src: [t.audio], html5: !0, preload: !0, autoplay: !1, volume: .85, onend: () => l({ soundOn: !1 }), onloaderror: () => l({
+                soundOn: !1, soundError: e
             }), onplayerror: () => l({
-                soundOn: !1, soundError: t
+                soundOn: !1, soundError: e
             })
-        }), !0;
-    }(e), l({
-        trackKey: e, soundError: null
-    })), L.playing() ? (L.pause(), l({ soundOn: !1 }), !1) : (L.play(), l({ soundOn: !0 }), !0));
+        }), l({
+            trackKey: e, soundError: null
+        });
+    }
+    return L.playing() ? (L.pause(), l({ soundOn: !1 }), !1) : (L.play(), l({ soundOn: !0 }), !0);
 }
 function N(t) {
     return s().soundOn && s().trackKey === t;
@@ -206,6 +206,10 @@ function O(t, e = {}, ...n) {
     for (const [o, r] of Object.entries(e))
         null != r && !1 !== r && ("class" === o ? a.className = r : "text" === o ? a.textContent = r : o.startsWith("on") ? a.addEventListener(o.slice(2).toLowerCase(), r) : a.setAttribute(o, !0 === r ? "" : r));
     return a.append(...n.filter(Boolean)), a;
+}
+// Turns "*Acacia raddiana*" into <em> nodes; everything else stays plain text.
+function withEmphasis(t) {
+    return String(t ?? "").split(/\*([^*]+)\*/).map((s, i) => i % 2 ? O("em", { text: s }) : s).filter(Boolean);
 }
 const z = [
     null, 1, 2, 3, 4, 5
@@ -394,22 +398,50 @@ function bt() {
     return _t ??= fetch(d("Internal-data/json/species.json")).then(t => t.json()).then(t => t.species), _t;
 }
 let wt = null, vt = null, xt = null;
-const kt = t => (t ?? "").toLowerCase().split(/\s+/).slice(0, 2).join(" ");
+let birdAudioDataPromise = null;
+async function loadBirdAudioData() {
+    if (!birdAudioDataPromise) {
+        birdAudioDataPromise = Promise.all([
+            fetch(d("Internal-data/json/bird-audio.json")),
+            fetch(d("Public-data/downloads/audio_dataset.csv"))
+        ]).then(async ([audioResponse, attributionResponse]) => {
+            if (!audioResponse.ok)
+                throw new Error(`bird-audio.json: ${audioResponse.status}`);
+            if (!attributionResponse.ok)
+                throw new Error(`audio_dataset.csv: ${attributionResponse.status}`);
+            const files = await audioResponse.json(), csv = (await attributionResponse.text()).replace(/^\uFEFF/, "").trim();
+            const [header, ...rows] = csv.split(/\r?\n/), columns = header.split(",").map(t => t.trim().toLowerCase());
+            const nameIndex = columns.indexOf("specie"), sourceIndex = columns.indexOf("audio licence");
+            if (nameIndex < 0 || sourceIndex < 0)
+                throw new Error("audio_dataset.csv is missing the specie or audio licence column");
+            const sources = new Map(rows.map(t => t.split(",").map(t => t.trim())).filter(t => t[nameIndex] && t[sourceIndex]).map(t => [t[nameIndex], t[sourceIndex]]));
+            return { files, sources };
+        });
+    }
+    return birdAudioDataPromise;
+}
 async function Et(t) {
     const e = await bt();
+    let species;
     if (t.startsWith("group:")) {
-        const n = t.slice(6), a = "all" === n ? e : e.filter(t => t.group === n);
-        return "birds" === n ? function (t) {
-            const e = T().sounds ?? [], n = t.map(t => {
-                const n = e.find(e => kt(e.scientificName) === kt(t.scientificName));
-                return n ? {
-                    ...t, sound: n.id, subgroup: t.subgroup ?? n.subgroup
-                } : t;
-            });
-            return n;
-        }(a) : a;
-    }
-    return t.split(",").map(t => e.find(e => e.code === t)).filter(Boolean);
+        const n = t.slice(6);
+        species = "all" === n ? e : e.filter(t => t.group === n);
+    } else
+        species = t.split(",").map(t => e.find(e => e.code === t)).filter(Boolean);
+    if (!species.some(t => t.group === "birds"))
+        return species;
+    const { files, sources } = await loadBirdAudioData();
+    return species.map(t => {
+        if (t.group !== "birds")
+            return t;
+        const n = t.name.en, a = files[n], o = sources.get(n);
+        if (!a || !o)
+            throw new Error(`Missing audio file or attribution for ${n}`);
+        const r = `species-${t.code}`;
+        return $.set(r, { id: r, audio: a, name: t.name, scientificName: t.scientificName, group: t.group, subgroup: t.subgroup }), {
+            ...t, sound: r, audioSource: o
+        };
+    });
 }
 function St(t) {
     if (!t)
@@ -443,17 +475,18 @@ function Lt(t) {
         class: "species-card__scientific", lang: "la", dir: "ltr", text: t.scientificName
     }), n && O("p", {
         class: "species-card__description", text: n
-    }), t.sound && function (t) {
+    }), (t.sound || t.audioSource) && O("div", { class: "species-card__audio-controls" }, t.sound && function (t) {
         const e = O("span", {
             class: "species-card__listen-icon", "aria-hidden": "true"
         }), n = O("button", {
             type: "button", class: "species-card__listen", "data-sound": t.sound, onClick: () => j(t.sound)
         }, e, O("span", { text: _("species.listen") }));
         return Ct(n), n;
-    }(t), O("div", { class: "species-card__meta" }, O("span", {
+    }(t), t.audioSource && O("a", {
+        class: "species-card__audio-credit", href: t.audioSource, target: "_blank", rel: "noopener noreferrer",
+        title: _("species.audio_credit", { name: t.name.en }), "aria-label": _("species.audio_credit", { name: t.name.en })
+    }, O("span", { class: "species-card__audio-credit-mark", "aria-hidden": "true", text: "CC" }))), O("div", { class: "species-card__meta" }, O("span", {
         class: "iucn-pill", "data-status": e ?? "NE", text: e ? `${e} · ${_(`iucn.${e}`)}` : _("species.not_assessed")
-    }), t.code && O("span", {
-        class: "meta-badge meta-badge--code", dir: "ltr", text: t.code
     }), t.reintroduced && O("span", {
         class: "meta-badge", text: `${_("species.reintroduced")} ${t.reintroduced}`
     })), a && O("p", { class: "species-card__habitat" }, O("strong", { text: `${_("species.habitat")} ` }), a)));
@@ -770,7 +803,7 @@ function ee(t) {
         return e ? [e, ...n] : n;
     }(t), n = O("div", { class: "chapter-card__narrative" });
     for (const a of b(t.narrative).split(/\n{2,}/))
-        n.append(O("p", { text: a }));
+        n.append(O("p", {}, ...withEmphasis(a)));
     const o = b(t.strikingFact), r = b(t.dayChip).replace(/\s·\s/g, ", "), i = t.buttons.find(t => "audio-play" === t.type);
     return O("div", { class: "chapter-card" + ((e.length || "Human-Wildlife-Coexistance" === t.id || "WWF NA Bootcamp" === t.id || "Reintroduction and Conservation" === t.id) ? " chapter-card--image-banner" : "") }, O("div", { class: "chapter-card__visual" }, O("header", { class: "chapter-card__header" }, O("h2", {
         class: "chapter-card__title", text: b(t.title)
@@ -780,9 +813,11 @@ function ee(t) {
         })
     }), r && O("span", {
         class: "chapter-card__day-chip", text: r
-    }))), "Human-Wildlife-Coexistance" === t.id && O("img", { class: "chapter-card__coexistence-banner", src: "Internal-data/ui-assets/banner-coexistance-page.webp", alt: "Illustration of human-wildlife coexistence", loading: "lazy", decoding: "async" }), "WWF NA Bootcamp" === t.id && O("img", { class: "chapter-card__section-banner", src: "Internal-data/ui-assets/banner-camp.webp", alt: "Savanna camp landscape", loading: "lazy", decoding: "async" }), "Reintroduction and Conservation" === t.id && O("img", { class: "chapter-card__section-banner", src: "Internal-data/ui-assets/banner-camp.webp", alt: "Reintroduction and conservation at Bouhedma", loading: "lazy", decoding: "async" }), ("WWF NA Bootcamp" === t.id || "Reintroduction and Conservation" === t.id) ? null : Jt(t, e)), n, o && O("aside", { class: "chapter-card__fact" }, O("p", {
+    }))), "Human-Wildlife-Coexistance" === t.id && O("img", { class: "chapter-card__coexistence-banner", src: "Internal-data/ui-assets/banner-coexistance-page.webp", alt: "Illustration of human-wildlife coexistence", loading: "lazy", decoding: "async" }), "WWF NA Bootcamp" === t.id && O("img", { class: "chapter-card__section-banner", src: "Internal-data/ui-assets/banner-camp.webp", alt: "Savanna camp landscape", loading: "lazy", decoding: "async" }), "Reintroduction and Conservation" === t.id && O("img", { class: "chapter-card__section-banner", src: "Internal-data/ui-assets/conserve.png", alt: "Reintroduction and conservation at Bouhedma", loading: "lazy", decoding: "async" }), ("WWF NA Bootcamp" === t.id || "Reintroduction and Conservation" === t.id) ? null : Jt(t, e)), n, o && O("aside", { class: "chapter-card__fact" }, O("p", {
         class: "chapter-card__fact-label", text: _("chapter.striking_fact")
-    }), O("p", { text: o })), te(t), O("div", { class: "chapter-card__actions" }, ...t.buttons.map(e => function (t, e) {
+    }), O("p", { text: o })), "Summary" === t.id && O("dl", { class: "key-numbers" }, ...[
+        ["6", "numbers.days"], ["10", "numbers.water"], ["7", "numbers.protocols"], ["163", "numbers.species"], ["20", "numbers.stations"], ["29", "numbers.layers"]
+    ].map(([v, k]) => O("div", { class: "key-numbers__item" }, O("dt", { text: v }), O("dd", { text: _(k) })))), te(t), O("div", { class: "chapter-card__actions" }, ...t.buttons.map(e => function (t, e) {
         const n = b(t.label), o = `btn ${Gt[t.type] ?? "btn-secondary"}`;
         if ("download" === t.type)
             return O("a", {
@@ -861,9 +896,10 @@ function re(t, e) {
         });
         
     }(d), d.append(r), 
-    t.append(O("a", { class: "nav-bar__brand", href: "#", style: "text-decoration: none; display: flex; align-items: center; gap: 12px; cursor: pointer;" }, O("img", {
-    class: "nav-bar__logo", src: tt("ui/logo")?.sm ?? "Internal-data/ui-assets/partners/bouhedma-logo.png", alt: "", width: 40, height: 40
-   }), l), O("div", { class: "nav-bar__breadcrumb" }, function () {
+    // WWF box logo, divider, then the place as the "country identifier" (WWF publication guidelines).
+    t.append(O("a", { class: "nav-bar__brand", href: "#" }, O("span", { class: "nav-bar__boxlogo" }, O("img", {
+    class: "nav-bar__logo", src: "Internal-data/ui-assets/brand/wwf-logo.png", alt: "WWF", width: 40, height: 45
+   })), l), O("div", { class: "nav-bar__breadcrumb" }, function () {
         const t = O("span", {
             class: "nav-bar__chapters-icon", "aria-hidden": "true"
         });
@@ -910,18 +946,17 @@ function ce(t, e) {
     const [n, o] = function (t) {
         const e = t.match(/^(.+?)\s*[:：]\s*(.+)$/);
         return e ? [e[1], e[2]] : [t, ""];
-    }(b(e.metadata.title)), r = tt("ui/banner-biodiversity-page");
-    t.replaceChildren(O("div", { class: "cover__inner" }, O("h1", {
-        class: "cover__title", id: "cover-title", text: n
-    }), o && O("p", {
+    }(b(e.metadata.title));
+    // WWF publication cover: full-bleed field photo inside a white border, black content box for the title.
+    t.replaceChildren(O("figure", { class: "cover__photo" }, O("img", {
+        src: "Internal-data/ui-assets/brand/cover-gazelle.webp", srcset: "Internal-data/ui-assets/brand/cover-gazelle-sm.webp 900w, Internal-data/ui-assets/brand/cover-gazelle.webp 2000w", sizes: "100vw", width: 2000, height: 1084, alt: _("cover.photo_alt"), decoding: "async", fetchpriority: "high"
+    }), O("figcaption", { class: "cover__credit", text: "© Wael Ben Aba" })), O("div", { class: "cover__inner" }, O("h1", {
+        class: "cover__title", id: "cover-title"
+    }, ...withEmphasis(n)), o && O("p", {
         class: "cover__subtitle", text: o
     }), O("p", { class: "cover__event" }, O("span", { text: _("cover.event") }), O("span", { text: _("cover.dates") })), O("div", { class: "cover__actions" }, O("button", {
         type: "button", class: "btn btn-primary", text: _("cover.begin"), onClick: () => a.emit("chapter:jump", { chapterId: e.chapters[0].id })
-    }))), r && O("div", {
-        class: "cover__plate", "aria-hidden": "true"
-    }, O("img", {
-        src: r.src, srcset: `${r.sm} 1100w, ${r.src} ${r.w}w`, sizes: "100vw", width: r.w, height: r.h, alt: "", decoding: "async", fetchpriority: "high"
-    })), O("div", { class: "cover__foot" }, O("ul", {
+    }))), O("div", { class: "cover__foot" }, O("ul", {
         class: "cover__partners", "aria-label": _("footer.partners")
     }, ...le.map(({ name: t, logo: e, dgf: n }) => O("li", {}, O("img", {
         src: e, alt: n ? _("footer.dgf") : t, loading: "eager", height: 36
@@ -1020,10 +1055,11 @@ function fe(t) {
             })(de[e]));
         } };
 }
-const ye = "#2D5016", _e = "#4A7C3F", be = "#C8A96E", we = "#B85C38", ve = "#3B82A6", xe = "#6E685F", ke = "#FAFAF5", Ee = "#E8A838", Se = "#9D72FF", Ae = "#E63946", Ce = "#0D1B2A", $e = {
+// Field layers use full-strength WWF secondary swatches (Green, Olive, Brown, Orange, Aqua, Yellow, Berry, Red).
+const ye = "#007932", _e = "#7B8427", be = "#9A681C", we = "#F07D00", ve = "#009191", xe = "#6F6F6F", ke = "#FFFFFF", Ee = "#F5D200", Se = "#812990", Ae = "#DA1D52", Ce = "#000000", $e = {
     bat_net: ["diamond", Se], camera_traps: ["triangle", Ae], insect_station: ["circle", Ee], rodent_cage: ["square", we], bio_index_points: ["triangle", we], gps1_species: ["triangle", be], gps5_species: ["circle", be], pam_sites: ["diamond", ye], pam_trees: ["circle", _e], water_sources: ["circle", ve], ain_charchara: ["diamond", ve], group1_plants: ["circle", _e], group2_stakes: ["square", _e], transect_plant: ["triangle", _e], eco_parc: ["square", ye], chateau_francais: ["square", xe], powerlines: ["circle", xe]
 }, Le = {
-    park_boundary: ye, aoi_2km: be, camp: we, enclos_autriche: we, enclos_mouflon: we, roads: xe, road_exclusion: we, gps4_trail: be, gps6_trail: Ae, itinerary_camera_trap: Ae, bio_index_transect: we, itinerary_ain_charchara: ve, plan_transect: _e, group3_track: _e, zone_integral: "#0a7a3a", zone_buffer: "#5fb38a", zone_exploit: "#c9d63a"
+    park_boundary: ye, aoi_2km: be, camp: we, enclos_autriche: we, enclos_mouflon: we, roads: xe, road_exclusion: we, gps4_trail: be, gps6_trail: Ae, itinerary_camera_trap: Ae, bio_index_transect: we, itinerary_ain_charchara: ve, plan_transect: _e, group3_track: _e, zone_integral: "#007932", zone_buffer: "#8CC63F", zone_exploit: "#C4BC8E"
 }, Me = new Set([
     "park_boundary", "aoi_2km", "camp", "enclos_autriche", "enclos_mouflon", "road_exclusion", "zone_integral", "zone_buffer", "zone_exploit"
 ]), Ie = new Set(["park_boundary", "aoi_2km", "road_exclusion", "zone_integral", "zone_buffer", "zone_exploit"]), Te = [
@@ -1157,7 +1193,7 @@ function Ve(t) {
                 const e = Be(t), n = qe("svg", {
                     viewBox: "0 0 24 24", width: 22, height: 22, "aria-hidden": "true", class: "map-legend__swatch"
                 }), a = {
-                    fill: e.color, stroke: "#FAFAF5", "stroke-width": 2
+                    fill: e.color, stroke: "#FFFFFF", "stroke-width": 2
                 };
                 return "point" === e.kind ? ("circle" === e.shape && n.append(qe("circle", {
                     cx: 12, cy: 12, r: 7, ...a
@@ -1191,22 +1227,22 @@ const We = {
             type: "vector", url: "https://tiles.openfreemap.org/planet"
         } }, glyphs: "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf", layers: [
         {
-            id: "background", type: "background", paint: { "background-color": "#F5F0E8" }
+            id: "background", type: "background", paint: { "background-color": "#F4F4F2" }
         }, {
             id: "landcover", type: "fill", source: "openmaptiles", "source-layer": "landcover", paint: {
-                "fill-color": "#4A7C3F", "fill-opacity": .14
+                "fill-color": "#000000", "fill-opacity": .045
             }
         }, {
             id: "park", type: "fill", source: "openmaptiles", "source-layer": "park", paint: {
-                "fill-color": "#4A7C3F", "fill-opacity": .1
+                "fill-color": "#007932", "fill-opacity": .06
             }
         }, {
             id: "water", type: "fill", source: "openmaptiles", "source-layer": "water", paint: {
-                "fill-color": "#3B82A6", "fill-opacity": .55
+                "fill-color": "#00728F", "fill-opacity": .55
             }
         }, {
             id: "waterway", type: "line", source: "openmaptiles", "source-layer": "waterway", paint: {
-                "line-color": "#3B82A6", "line-opacity": .55, "line-width": [
+                "line-color": "#00728F", "line-opacity": .55, "line-width": [
                     "interpolate", ["linear"], ["zoom"], 8, .5, 14, 1.6
                 ]
             }
@@ -1216,13 +1252,13 @@ const We = {
                     ]]], layout: {
                 "line-cap": "round", "line-join": "round"
             }, paint: {
-                "line-color": "#6E685F", "line-opacity": .7, "line-width": [
+                "line-color": "#8A8A8A", "line-opacity": .7, "line-width": [
                     "interpolate", ["linear"], ["zoom"], 7, .4, 12, 1, 16, 3
                 ]
             }
         }, {
             id: "boundaries", type: "line", source: "openmaptiles", "source-layer": "boundary", filter: ["<=", ["get", "admin_level"], 4], layout: { "line-join": "round" }, paint: {
-                "line-color": "#C8A96E", "line-dasharray": [3, 2], "line-width": [
+                "line-color": "#9A9A9A", "line-dasharray": [3, 2], "line-width": [
                     "interpolate", ["linear"], ["zoom"], 3, .6, 10, 1.6
                 ]
             }
@@ -1230,13 +1266,13 @@ const We = {
             id: "water-labels", type: "symbol", source: "openmaptiles", "source-layer": "water_name", layout: {
                 "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]], "text-font": ["Noto Sans Italic"], "text-size": 12
             }, paint: {
-                "text-color": "#2D5016", "text-halo-color": "#F5F0E8", "text-halo-width": 1.2
+                "text-color": "#00728F", "text-halo-color": "#F4F4F2", "text-halo-width": 1.2
             }
         }, {
             id: "road-labels", type: "symbol", source: "openmaptiles", "source-layer": "transportation_name", minzoom: 11, layout: {
                 "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]], "text-font": ["Noto Sans Regular"], "text-size": 11, "symbol-placement": "line"
             }, paint: {
-                "text-color": "#6E685F", "text-halo-color": "#F5F0E8", "text-halo-width": 1.2
+                "text-color": "#8A8A8A", "text-halo-color": "#F4F4F2", "text-halo-width": 1.2
             }
         }, {
             id: "place-labels", type: "symbol", source: "openmaptiles", "source-layer": "place", filter: ["in", ["get", "class"], ["literal", [
@@ -1246,28 +1282,28 @@ const We = {
                     "interpolate", ["linear"], ["zoom"], 4, 11, 12, 15
                 ], "text-max-width": 8
             }, paint: {
-                "text-color": "#2C2C2C", "text-halo-color": "#F5F0E8", "text-halo-width": 1.4
+                "text-color": "#111111", "text-halo-color": "#F4F4F2", "text-halo-width": 1.4
             }
         }
     ]
 }, He = { layers: [
         {
-            id: "background", type: "background", paint: { "background-color": "#0D1B2A" }
+            id: "background", type: "background", paint: { "background-color": "#0A0A0A" }
         }, {
             id: "landcover", type: "fill", source: "openmaptiles", "source-layer": "landcover", paint: {
-                "fill-color": "#24384E", "fill-opacity": .35
+                "fill-color": "#262626", "fill-opacity": .35
             }
         }, {
             id: "park", type: "fill", source: "openmaptiles", "source-layer": "park", paint: {
-                "fill-color": "#24384E", "fill-opacity": .3
+                "fill-color": "#262626", "fill-opacity": .3
             }
         }, {
             id: "water", type: "fill", source: "openmaptiles", "source-layer": "water", paint: {
-                "fill-color": "#162536", "fill-opacity": 1
+                "fill-color": "#0E2A31", "fill-opacity": 1
             }
         }, {
             id: "waterway", type: "line", source: "openmaptiles", "source-layer": "waterway", paint: {
-                "line-color": "#24384E", "line-opacity": 1, "line-width": [
+                "line-color": "#262626", "line-opacity": 1, "line-width": [
                     "interpolate", ["linear"], ["zoom"], 8, .5, 14, 1.6
                 ]
             }
@@ -1277,13 +1313,13 @@ const We = {
                     ]]], layout: {
                 "line-cap": "round", "line-join": "round"
             }, paint: {
-                "line-color": "#24384E", "line-opacity": 1, "line-width": [
+                "line-color": "#262626", "line-opacity": 1, "line-width": [
                     "interpolate", ["linear"], ["zoom"], 7, .4, 12, 1, 16, 3
                 ]
             }
         }, {
             id: "boundaries", type: "line", source: "openmaptiles", "source-layer": "boundary", filter: ["<=", ["get", "admin_level"], 4], layout: { "line-join": "round" }, paint: {
-                "line-color": "#8C9BAE", "line-dasharray": [3, 2], "line-width": [
+                "line-color": "#9A9A9A", "line-dasharray": [3, 2], "line-width": [
                     "interpolate", ["linear"], ["zoom"], 3, .6, 10, 1.6
                 ]
             }
@@ -1291,13 +1327,13 @@ const We = {
             id: "water-labels", type: "symbol", source: "openmaptiles", "source-layer": "water_name", layout: {
                 "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]], "text-font": ["Noto Sans Italic"], "text-size": 12
             }, paint: {
-                "text-color": "#8C9BAE", "text-halo-color": "#0D1B2A", "text-halo-width": 1.2
+                "text-color": "#9A9A9A", "text-halo-color": "#0A0A0A", "text-halo-width": 1.2
             }
         }, {
             id: "road-labels", type: "symbol", source: "openmaptiles", "source-layer": "transportation_name", minzoom: 11, layout: {
                 "text-field": ["coalesce", ["get", "name:en"], ["get", "name"]], "text-font": ["Noto Sans Regular"], "text-size": 11, "symbol-placement": "line"
             }, paint: {
-                "text-color": "#8C9BAE", "text-halo-color": "#0D1B2A", "text-halo-width": 1.2
+                "text-color": "#9A9A9A", "text-halo-color": "#0A0A0A", "text-halo-width": 1.2
             }
         }, {
             id: "place-labels", type: "symbol", source: "openmaptiles", "source-layer": "place", filter: ["in", ["get", "class"], ["literal", [
@@ -1307,7 +1343,7 @@ const We = {
                     "interpolate", ["linear"], ["zoom"], 4, 11, 12, 15
                 ], "text-max-width": 8
             }, paint: {
-                "text-color": "#EAE6DF", "text-halo-color": "#0D1B2A", "text-halo-width": 1.4
+                "text-color": "#E6E6E6", "text-halo-color": "#0A0A0A", "text-halo-width": 1.4
             }
         }
     ] }, Ke = "sentinel2-cloudless", Ue = "satellite-imagery", Ze = ["https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2025_3857/default/GoogleMapsCompatible/{z}/{y}/{x}.jpg"], Ge = {
@@ -1319,9 +1355,9 @@ const We = {
 };
 const Ye = "terrain-dem", Xe = "terrain-hillshade", Je = ["https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png"], Qe = {
     day: {
-        "hillshade-shadow-color": "#6E685F", "hillshade-highlight-color": "#FAFAF5", "hillshade-accent-color": "#E8DCC8"
+        "hillshade-shadow-color": "#5A5A5A", "hillshade-highlight-color": "#FFFFFF", "hillshade-accent-color": "#E2E2E2"
     }, night: {
-        "hillshade-shadow-color": "#0D1B2A", "hillshade-highlight-color": "#8C9BAE", "hillshade-accent-color": "#24384E"
+        "hillshade-shadow-color": "#000000", "hillshade-highlight-color": "#4A4A4A", "hillshade-accent-color": "#1C1C1C"
     }
 };
 const tn = "ov-", en = [
@@ -1497,7 +1533,7 @@ function Bn(t, e) {
     const n = e => en.map(t => fn(t, e)).filter(e => t.getLayer(e)), a = [[e.x - 8, e.y - 8], [e.x + 8, e.y + 8]];
     return t.queryRenderedFeatures(e, { layers: n("point") })[0] ?? t.queryRenderedFeatures(a, { layers: n("line") })[0] ?? t.queryRenderedFeatures(e, { layers: n("fill") }).find(t => !Ie.has(t.properties.layer));
 }
-const Pn = "#0D1B2A", Fn = "#162536", jn = "#24384E", Nn = "#24384E", On = "#8C9BAE", zn = "#0D1B2A";
+const Pn = "#0A0A0A", Fn = "#141414", jn = "#0E2A31", Nn = "#262626", On = "#9A9A9A", zn = "#0A0A0A";
 let Dn = null, Rn = 0, qn = !1, Vn = !1, Wn = new Map;
 function Hn() {
     return Dn;
@@ -1513,7 +1549,7 @@ function Un(t) {
                 id: Ue, type: "raster", source: Ke, paint: Ge.day
             }, ...We.layers.filter(t => "symbol" === t.type && "openmaptiles" === t.source).map(t => ({
                 ...t, paint: {
-                    ...t.paint, "text-color": "#FAFAF5", "text-halo-color": "#0D1B2A", "text-halo-width": 1.4
+                    ...t.paint, "text-color": "#FFFFFF", "text-halo-color": "#000000", "text-halo-width": 1.4
                 }
             }))]
     } : We;
@@ -1624,7 +1660,7 @@ function na([t, e, n, a]) {
 }
 function aa(e, { mapView: n, bbox: o }) {
     const r = new URLSearchParams(window.location.search).get("basemap"), i = Kn.includes(r) ? r : "saharan";
-    l({ basemap: i }), t.setRTLTextPlugin("/data/vendor/mapbox-gl-rtl-text-0.2.3.js", !0).catch(() => {
+    l({ basemap: i }), t.setRTLTextPlugin(new URL("Internal-data/js/mapbox-gl-rtl-text-0.2.3.js", document.baseURI).href, !0).catch(() => {
     });
     try {
         Dn = new t.Map({
@@ -1808,7 +1844,7 @@ function Ba(t, e) {
     const n = "nocturnal-night" === t.theme ? "night" : "day", a = n !== s().theme;
     l({
         chapterId: t.id, chapterIndex: t.index, theme: n
-    }), document.documentElement.dataset.theme = n, a && function (t) {
+    }), document.documentElement.dataset.theme = n, document.documentElement.dataset.chapter = t.id, a && function (t) {
         Vn && Yn(t, s().reducedMotion ? 0 : 1200);
     }(n);
     for (const i of document.querySelectorAll(".chapter-card.is-active"))
@@ -1862,7 +1898,7 @@ function ja(t, e, n) {
     const { chapterId: a } = s();
     !function (t, e, n) {
         for (const a of e.chapters) {
-            const e = t.querySelector(`#${a.id}`), o = ee(a);
+            const e = document.getElementById(a.id), o = ee(a);
             o.classList.toggle("is-active", a.id === n), e.replaceChildren(o);
         }
         for (const a of t.querySelectorAll(".act-divider"))
@@ -1893,12 +1929,11 @@ function ja(t, e, n) {
             e.append(ee(a)), t.append(e);
         }
     }(n, t), function (t) {
-        const e = () => {
-            const t = tt("");
-            return t && O("img", {
-                class: "site-footer__plate", src: t.sm, srcset: et(t), sizes: "(min-width: 900px) 860px, 100vw", width: t.w, height: t.h, alt: "", loading: "lazy", decoding: "async"
-            });
-        }, n = () => t.replaceChildren(...[e(), se(), O("div", { class: "site-footer__credits" }, O("p", {
+        // WWF boilerplate badge: box logo | mission statement, "together possible" and panda.org.
+        const e = () => O("div", { class: "boilerplate" }, O("span", { class: "boilerplate__logo" }, O("img", {
+                src: "Internal-data/ui-assets/brand/wwf-logo.png", alt: "WWF", width: 80, height: 90, loading: "lazy"
+            })), O("div", { class: "boilerplate__text" }, O("p", { class: "boilerplate__mission", text: _("footer.mission") }), O("p", { class: "boilerplate__marks" }, O("span", { class: "boilerplate__together", lang: "en", text: "together possible" }), O("a", { class: "boilerplate__url", href: "https://www.wwfna.org", rel: "noopener", text: "wwfna.org" }))));
+        const n = () => t.replaceChildren(...[se(), e(), O("div", { class: "site-footer__credits" }, O("p", {
                 class: "site-footer__lead", text: _("footer.credits")
             }), O("p", { text: _("footer.media_credits") }), O("p", {}, O("a", {
                 href: "https://creativecommons.org/licenses/by-nc-sa/4.0/", rel: "license noopener", text: _("footer.license")
